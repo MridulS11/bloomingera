@@ -18,11 +18,12 @@ Repository containing the design concepts, structure prototypes, and commercial 
 
 ## 🖥️ Interactive Previews (`index.html`)
 
-The interactive `index.html` file includes a top switcher allowing one-click comparison between three design directions:
+The interactive `index.html` file includes a top switcher allowing one-click comparison between four design directions:
 
-1. **Preview 1: "Vibrant & Joyful"** — Warm rounded cards, child-friendly friendly typography, playful badge tags, 4 age programme cards (*Playgroup, Nursery, Jr KG, Sr KG*), side-by-side No-Book comparison, and 2-step tour booking form.
+1. **Preview 1: "Vibrant & Joyful"** — Soft light blue background (`#EBF6FC`), child-friendly typography, playful badge tags, 4 age programme cards (*Playgroup, Nursery, Jr KG, Sr KG*), side-by-side No-Book comparison, and 2-step tour booking form.
 2. **Preview 2: "Modern & Futuristic"** — Deep Royal Navy dominant theme, clean cyber-cyan accents, structured grids, highlighting *Kindermagic PrimeX* (6 Connected Learning Worlds), and multi-stream enquiry router.
 3. **Preview 3: "Editorial & Trust-Led"** — Magazine-style spacious layout, prominent founder quote (*Dr. Masuda Yasmin*), dual gateway split (*Parents vs. Franchise*), and direct contact actions.
+4. **Preview 4: "Vibrant Glassmorphism"** — Translucent frosted glass cards (`backdrop-blur-xl`), soft glowing ambient mesh background, glowing neon/pastel orb accents, and modern depth effects combined with the joyful early-years layout.
 
 ---
 
