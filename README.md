@@ -4,14 +4,14 @@ Repository containing the design concepts, structure prototypes, and commercial 
 
 ---
 
-## 🎨 Color Palette (Extracted from Brand Logo & Figma Prototype)
+## 🎨 Color Palette (Extracted from Brand Logo)
 
-* **Deep Midnight Navy:** `#0A2540` / `#0A3F8E` (Brand authority, headers, footers)
+* **Deep Midnight Royal Navy:** `#0A2540` / `#0A3F8E` (Brand authority, headers, footers)
 * **Bright Sky Blue / Cyan:** `#00A3E8` (Interactive links, active badges, highlights)
 * **Sunshine Warm Yellow:** `#FFC20E` (High-energy accents, key CTAs)
 * **Coral Orange:** `#FA6400` (Tagline highlights, micro-badges)
 * **Fresh Leaf Green:** `#76BC21` (Positive progress indicators)
-* **Clean Ice-Blue / Cloud White:** `#F8FCFE` / `#FFFFFF` (Base surface)
+* **Clean Ice-Blue / Cloud White:** `#F4FAFE` / `#FFFFFF` (Base surface)
 
 ---
 
@@ -23,14 +23,15 @@ The interactive `index.html` file includes a top switcher allowing one-click com
 2. **Preview 2: "Modern & Futuristic"** — Deep Royal Navy dominant theme, clean cyber-cyan accents, structured grids, highlighting *Kindermagic PrimeX* (6 Connected Learning Worlds), and multi-stream enquiry router.
 3. **Preview 3: "Editorial & Trust-Led"** — Magazine-style spacious layout, prominent founder quote (*Dr. Masuda Yasmin*), dual gateway split (*Parents vs. Franchise*), and direct contact actions.
 4. **Preview 4: "ThemeLab Glassmorphism"** — Translucent frosted acrylic cards (`backdrop-blur-xl`), soft glowing ambient mesh background, specular highlight borders, and 3D visual stage.
-5. **Preview 5: "Figma Design Concept (Recommended ⭐)"** — Direct modern adaptation of the *Max Blooming Website* Figma prototype:
-   * Curved cloud-sky hero with organic circular mascot badge
-   * 4-stat trust & proof ribbon
-   * 4-tier age programme cards with smooth micro-interactions
+5. **Preview 5: "Signature Creative (Recommended ⭐)"** — Enhanced creative early-childhood design:
+   * Curved cloud-sky hero with organic circular mascot badge and floating playful stickers
+   * 4-tier age programme cards with smooth micro-interactions and gradient headers
+   * Interactive **"Daily Wonder"** timeline schedule (Circle Time, WonderLab, Snack, Story Nook)
    * Two-column No-Book comparison framework
+   * Prototype **Holistic Progress Tracker** preview
    * Prominent **Leadership & Founder Directory** (Dr. Masuda Yasmin, Dr. Shelly Bisht, Ayaan Hossain, Mohd. Neyaz Alam)
    * High-conversion 2-step campus tour booking card
-   * Rich midnight navy footer (`#0A2540`)
+   * Rich midnight navy footer (`#062961`)
 
 ---
 
