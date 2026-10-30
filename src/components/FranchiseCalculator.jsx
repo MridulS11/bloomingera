@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
+import { motion } from 'framer-motion';
 import { 
   Building2, TrendingUp, Calculator, ShieldCheck, CheckCircle2, 
   ArrowRight, Sparkles, Layers, DollarSign 
 } from 'lucide-react';
+import ScrollReveal from './ScrollReveal';
 
 export default function FranchiseCalculator({ onOpenTourModal }) {
   const [students, setStudents] = useState(50);
@@ -35,7 +37,7 @@ export default function FranchiseCalculator({ onOpenTourModal }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
         
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-14">
+        <ScrollReveal variant="fadeUp" className="text-center max-w-3xl mx-auto mb-14">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-brand-lime/30 border border-brand-lime/50 text-brand-navy font-bold text-xs mb-3 shadow-sm">
             <Building2 className="w-3.5 h-3.5 text-brand-navy" />
             <span>High-Impact Education Partnership</span>
@@ -47,14 +49,14 @@ export default function FranchiseCalculator({ onOpenTourModal }) {
             Partner with India’s most ethical early childhood movement. Low entry threshold, 
             flat ₹7,500/mo royalty (never a penalizing revenue percentage), and 360° academic backing.
           </p>
-        </div>
+        </ScrollReveal>
 
-        {/* Calculator Grid */}
+        {/* Calculator Grid with Left/Right Entrance */}
         <div className="glass-panel p-6 sm:p-10 rounded-3xl border-white/95 shadow-2xl bg-white/90 max-w-5xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
             
             {/* Left Interactive Sliders */}
-            <div className="lg:col-span-6 space-y-6">
+            <ScrollReveal variant="slideLeft" delay={0.1} className="lg:col-span-6 space-y-6">
               <div>
                 <span className="text-[10px] font-bold uppercase tracking-wider text-brand-turquoise-dark bg-brand-turquoise/20 px-2 py-0.5 rounded">
                   Live Unit Projections
@@ -129,10 +131,10 @@ export default function FranchiseCalculator({ onOpenTourModal }) {
                   ))}
                 </div>
               </div>
-            </div>
+            </ScrollReveal>
 
             {/* Right Financial Summary Card */}
-            <div className="lg:col-span-6">
+            <ScrollReveal variant="slideRight" delay={0.15} className="lg:col-span-6">
               <div className="p-6 sm:p-7 rounded-3xl bg-brand-navy text-white shadow-2xl space-y-5 relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-48 h-48 bg-brand-turquoise/20 rounded-full blur-3xl pointer-events-none" />
 
@@ -175,9 +177,14 @@ export default function FranchiseCalculator({ onOpenTourModal }) {
                       <div className="text-[11px] font-bold text-brand-lime uppercase">
                         Projected Net Annual Operating Surplus:
                       </div>
-                      <div className="text-2xl sm:text-3xl font-extrabold text-white font-mono">
+                      <motion.div 
+                        key={estimatedNetSurplus}
+                        initial={{ scale: 0.9, opacity: 0 }}
+                        animate={{ scale: 1, opacity: 1 }}
+                        className="text-2xl sm:text-3xl font-extrabold text-white font-mono"
+                      >
                         ₹{Math.round(estimatedNetSurplus).toLocaleString('en-IN')}
-                      </div>
+                      </motion.div>
                     </div>
                     <div className="text-[10px] text-white/50 text-right">
                       ~{Math.round((estimatedNetSurplus / grossAnnualRevenue) * 100)}% Margin
@@ -195,15 +202,17 @@ export default function FranchiseCalculator({ onOpenTourModal }) {
                   </p>
                 </div>
 
-                <button
+                <motion.button
+                  whileHover={{ scale: 1.03 }}
+                  whileTap={{ scale: 0.97 }}
                   onClick={onOpenTourModal}
                   className="btn-lime w-full py-3 rounded-xl text-xs font-extrabold flex items-center justify-center gap-2 shadow-lg"
                 >
                   <span>Request Confidential Franchise Kit</span>
                   <ArrowRight className="w-4 h-4 text-brand-navy" />
-                </button>
+                </motion.button>
               </div>
-            </div>
+            </ScrollReveal>
 
           </div>
         </div>

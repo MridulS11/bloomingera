@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { 
   Sparkles, Play, RotateCcw, ArrowRight, ArrowUp, ArrowDown, ArrowLeft, 
   Sun, Droplets, Compass, CheckCircle2, AlertCircle, HelpCircle, Lightbulb 
 } from 'lucide-react';
+import ScrollReveal from './ScrollReveal';
 
 export default function ClassroomSimulator() {
   const [activeTab, setActiveTab] = useState('botany'); // 'botany' | 'kiddycodey' | 'phonics'
@@ -110,7 +112,7 @@ export default function ClassroomSimulator() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
         
         {/* Section Title */}
-        <div className="text-center max-w-3xl mx-auto mb-12">
+        <ScrollReveal variant="fadeUp" className="text-center max-w-3xl mx-auto mb-12">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-turquoise/20 border border-brand-turquoise/40 text-brand-navy font-bold text-xs mb-3 shadow-sm">
             <Sparkles className="w-3.5 h-3.5 text-brand-turquoise-dark" />
             <span>Interactive Pedagogical Proof</span>
@@ -155,7 +157,7 @@ export default function ClassroomSimulator() {
               ✨ Sensory Sand Phonics
             </button>
           </div>
-        </div>
+        </ScrollReveal>
 
         {/* --- SIMULATOR TAB 1: BOTANY CYCLE --- */}
         {activeTab === 'botany' && (
