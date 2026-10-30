@@ -4,34 +4,33 @@ Repository containing the design concepts, structure prototypes, and commercial 
 
 ---
 
-## 🎨 Color Palette (Extracted from Brand Logo)
+## 🎨 Original Brand Color Palette
 
-* **Deep Midnight Royal Navy:** `#0A2540` / `#0A3F8E` (Brand authority, headers, footers)
-* **Bright Sky Blue / Cyan:** `#00A3E8` (Interactive links, active badges, highlights)
-* **Sunshine Warm Yellow:** `#FFC20E` (High-energy accents, key CTAs)
-* **Coral Orange:** `#FA6400` (Tagline highlights, micro-badges)
-* **Fresh Leaf Green:** `#76BC21` (Positive progress indicators)
-* **Clean Ice-Blue / Cloud White:** `#F4FAFE` / `#FFFFFF` (Base surface)
+* **Lime Yellow:** `#DCE747` (Vibrant accent, high-energy glow, primary action buttons)
+* **Turquoise Blue:** `#60C8D4` (Interactive elements, category badges, soft ambient glows)
+* **Base White & Frosted Acrylic:** `#FFFFFF` / `rgba(255, 255, 255, 0.75)` (Base surface, translucent cards)
+* **Contrasting Midnight Navy:** `#091E3A` / `#0A2540` (Authority headers, crisp typography, and footer base)
 
 ---
 
 ## 🖥️ Interactive Previews (`index.html`)
 
-The interactive `index.html` file includes a top switcher allowing one-click comparison between five design directions:
+The interactive `index.html` file includes a top switcher allowing one-click comparison between six design directions:
 
 1. **Preview 1: "Vibrant & Joyful"** — Soft light blue background (`#EBF6FC`), child-friendly typography, playful badge tags, 4 age programme cards (*Playgroup, Nursery, Jr KG, Sr KG*), side-by-side No-Book comparison, and 2-step tour booking form.
 2. **Preview 2: "Modern & Futuristic"** — Deep Royal Navy dominant theme, clean cyber-cyan accents, structured grids, highlighting *Kindermagic PrimeX* (6 Connected Learning Worlds), and multi-stream enquiry router.
 3. **Preview 3: "Editorial & Trust-Led"** — Magazine-style spacious layout, prominent founder quote (*Dr. Masuda Yasmin*), dual gateway split (*Parents vs. Franchise*), and direct contact actions.
 4. **Preview 4: "ThemeLab Glassmorphism"** — Translucent frosted acrylic cards (`backdrop-blur-xl`), soft glowing ambient mesh background, specular highlight borders, and 3D visual stage.
-5. **Preview 5: "Signature Creative (Recommended ⭐)"** — Enhanced creative early-childhood design:
-   * Curved cloud-sky hero with organic circular mascot badge and floating playful stickers
-   * 4-tier age programme cards with smooth micro-interactions and gradient headers
-   * Interactive **"Daily Wonder"** timeline schedule (Circle Time, WonderLab, Snack, Story Nook)
-   * Two-column No-Book comparison framework
-   * Prototype **Holistic Progress Tracker** preview
-   * Prominent **Leadership & Founder Directory** (Dr. Masuda Yasmin, Dr. Shelly Bisht, Ayaan Hossain, Mohd. Neyaz Alam)
-   * High-conversion 2-step campus tour booking card
-   * Rich midnight navy footer (`#062961`)
+5. **Preview 5: "Signature Creative"** — Whimsical cloud-sky hero with organic circular mascot badge, floating stickers, and daily wonder timeline.
+6. **Preview 6: "Original Glass • Elite 💎 (Recommended Client Showcase)"** — Specially engineered high-end design using the **original color palette** (`#DCE747` Lime Yellow & `#60C8D4` Turquoise Blue) and **advanced glassmorphism**:
+   * Multi-point ambient mesh glow backdrop with specular highlight glass borders (`border: 1px solid rgba(255, 255, 255, 0.9)`).
+   * **Interactive 6 Learning Worlds Console:** Live tabs allowing clients to click between *Language Lab, Number Universe, Self & Society, Movement & Making, Nature & Discovery, and Tomorrow Thinking* to see concrete classroom activities and observable progress evidence dynamically.
+   * **Specular Side-by-Side No-Book Pedagogy Comparison:** Traditional mechanical worksheets vs. Blooming Era's 5-step experiential cycle (*Experience ➔ Explore ➔ Express ➔ Extend ➔ Observe*).
+   * **4-Tier Age Programmes:** Translucent acrylic cards for *Playgroup, Nursery, Junior KG, Senior KG*, plus Daycare extension.
+   * **Developmental Tracker Dashboard Preview:** Real-world parent view inspired by NCF-FS 2022 / PARAKH progress principles.
+   * **Interactive 2-Step Admissions Tour Booking Card:** Functional Step 1 (Parent & Child Info) to Step 2 (Centre & Schedule) flow with DPDP compliance.
+   * **Franchise Economics Transparency Card:** Indicative ₹1.5L–2.5L brand entry, ₹7.5k royalty, and 16-pillar 360° support breakdown.
+   * **Founder & Leadership Spotlight:** Highlighting Dr. Masuda Yasmin's educational vision and the director team.
 
 ---
 
