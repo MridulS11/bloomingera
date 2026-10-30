@@ -7,7 +7,7 @@ export const BRAND = {
   admissionsEmail: "admissions@bloomingera.com",
   franchiseEmail: "franchise@bloomingera.com",
   address: "Corporate HQ: New Delhi | Operational Hub: Ranchi, Jharkhand",
-  hours: "Monday – Friday: 8:30 AM – 6:30 PM | Saturday: 9:00 AM – 2:00 PM",
+  hours: "Mon – Fri: 8:30 AM – 6:30 PM | Sat: 9:00 AM – 2:00 PM",
   colors: {
     lime: "#DCE747",
     turquoise: "#60C8D4",
@@ -19,80 +19,80 @@ export const KINDERMAGIC_WORLDS = [
   {
     id: "language",
     name: "Language Lab",
-    subtitle: "Phonemic Immersion & Expressive Storytelling",
+    subtitle: "Story Circles & Sand Phonics",
     color: "#60C8D4",
-    accentBg: "from-cyan-50 to-blue-50",
-    badge: "Linguistic Fluency",
+    badge: "Linguistic Joy",
     icon: "BookOpenCheck",
-    description: "Children acquire languages naturally through sensory sand-tracing, rhythm puppetry, interactive storytelling circles, and multilingual conversation prompts.",
-    materials: ["Sensory Sand Trays", "Puppet Theatres", "Phonics Sound Mats", "Illustrated Story Cards"],
-    outcomes: ["Rich expressive vocabulary", "Phonological awareness", "Confidence in self-expression", "Multi-dialect appreciation"],
-    cycleFocus: "Express — Articulating discoveries through narrative language."
+    image: "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=700&q=80",
+    description: "Children trace letters in scented beach sand and sing phonemic rhymes instead of writing boring worksheets.",
+    materials: ["Sand Trays", "Puppet Theatre", "Phonics Mats", "Story Cards"],
+    outcomes: ["Expressive speech", "Sound recognition", "Story confidence", "Active vocabulary"],
+    cycleFocus: "Express through narrative play"
   },
   {
     id: "numbers",
     name: "Number Universe",
-    subtitle: "Tactile Numeracy & Geometric Space",
+    subtitle: "Tactile Beads & Balance Scales",
     color: "#DCE747",
-    accentBg: "from-lime-50 to-amber-50",
-    badge: "Mathematical Mind",
+    badge: "Math Intuition",
     icon: "Compass",
-    description: "Math is never memorized from rote workbooks. Children touch quantities, balance weights, assemble geometric solids, and solve spatial balance puzzles.",
-    materials: ["Montessori Bead Chains", "Cuisenaire Rods", "Balance Scales", "Geometric Sorting Trays"],
-    outcomes: ["Subitizing intuition (1-100)", "Spatial balance awareness", "Pattern prediction", "Practical measurement"],
-    cycleFocus: "Explore — Testing quantities and relationships with tangible objects."
+    image: "https://images.unsplash.com/photo-1596495578065-6e0763fa1178?auto=format&fit=crop&w=700&q=80",
+    description: "Preschoolers touch physical beads, balance weights, and assemble 3D wooden blocks to discover numbers naturally.",
+    materials: ["Bead Chains", "Balance Scales", "Wooden Rods", "Shape Puzzles"],
+    outcomes: ["Counting 1-100", "Spatial balance", "Pattern finding", "Size estimation"],
+    cycleFocus: "Explore with real quantities"
   },
   {
     id: "society",
     name: "Self & Society",
-    subtitle: "Emotional Literacy & Civic Habits",
+    subtitle: "Friendship & Emotional Heart",
     color: "#E91E63",
-    accentBg: "from-pink-50 to-rose-50",
-    badge: "Social Intelligence",
+    badge: "Social Smiles",
     icon: "HeartHandshake",
-    description: "Cultivating heart-centered intelligence through conflict-resolution peace tables, cooperative role-play, emotion reflection mirrors, and community care routines.",
-    materials: ["Peace Table Artifacts", "Emotion Mirror Cards", "Community Helper Costumes", "Turn-Taking Timers"],
-    outcomes: ["Self-regulation & empathy", "Conflict de-escalation skills", "Active listening habits", "Joy of collaborative play"],
-    cycleFocus: "Experience — Living community values in daily classroom life."
+    image: "https://images.unsplash.com/photo-1485546246426-74dc88dec4d9?auto=format&fit=crop&w=700&q=80",
+    description: "Peace tables, cooperative games, emotion mirrors, and community dress-up cultivate empathy and sharing.",
+    materials: ["Peace Table", "Emotion Mirrors", "Community Outfits", "Sharing Timers"],
+    outcomes: ["Empathy & sharing", "Conflict resolution", "Confident smiles", "Team spirit"],
+    cycleFocus: "Experience daily friendship"
   },
   {
     id: "movement",
     name: "Movement & Making",
-    subtitle: "Sensory Sculpting & Gross-Motor Precision",
+    subtitle: "Organic Clay & Motor Agility",
     color: "#FA6400",
-    accentBg: "from-orange-50 to-amber-50",
-    badge: "Kinesthetic Mastery",
+    badge: "Creative Hands",
     icon: "Sparkles",
-    description: "Developing fine motor pincers through clay kneading, woodwork pegs, and sensory weaves, alongside gross motor agility obstacle courses and rhythmic gymnastics.",
-    materials: ["Organic Sculpting Clay", "Wooden Agility Beams", "Silk Weaving Looms", "Pincer Tongs & Pipettes"],
-    outcomes: ["Pincer-grip handwriting readiness", "Bilateral coordination", "Spatial-body awareness", "Dexterity & patience"],
-    cycleFocus: "Extend — Channeling physical energy into inventive physical craft."
+    image: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=700&q=80",
+    description: "Kids mold organic clay, thread wooden beads, and climb soft obstacle courses to build hand agility and strong posture.",
+    materials: ["Organic Clay", "Wooden Beams", "Weaving Looms", "Pincer Pipettes"],
+    outcomes: ["Pincer handwriting grip", "Body agility", "Dexterity & focus", "Creative expression"],
+    cycleFocus: "Extend through physical craft"
   },
   {
     id: "nature",
     name: "Nature & Discovery",
-    subtitle: "Botany Labs & Eco-System Stewardship",
+    subtitle: "Living Plants & Weather Labs",
     color: "#76BC21",
-    accentBg: "from-emerald-50 to-teal-50",
-    badge: "Scientific Inquiry",
+    badge: "Little Scientists",
     icon: "Leaf",
-    description: "Real earth, live seeds, magnifying prisms, and outdoor weather tracking stations transform every child into a passionate, observant young scientist.",
-    materials: ["Living Planter Beds", "Child-Safe Magnifiers", "Water Filtration Columns", "Insect Observation Domes"],
-    outcomes: ["Living system comprehension", "Respect for biodiversity", "Hypothesis testing intuition", "Sensory botany recall"],
-    cycleFocus: "Observe — Chronicling nature's changes through personal sketchlogs."
+    image: "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=700&q=80",
+    description: "Preschoolers plant seeds, touch real soil, and observe magnifying prisms in our sunshine garden.",
+    materials: ["Planter Beds", "Magnifiers", "Water Funnels", "Eco Stations"],
+    outcomes: ["Plant life cycles", "Love for nature", "Curious observation", "Outdoor wonder"],
+    cycleFocus: "Observe living ecosystems"
   },
   {
     id: "tomorrow",
     name: "Tomorrow Thinking",
-    subtitle: "Algorithmic Logic & Tactile Coding",
+    subtitle: "Screen-Free Wooden Coding",
     color: "#8E24AA",
-    accentBg: "from-purple-50 to-indigo-50",
-    badge: "Algorithmic Mindset",
+    badge: "Smart Thinkers",
     icon: "Cpu",
-    description: "Screen-free algorithmic thinking using directional command blocks, mechanical maze logic, gear train physics, and collaborative debugging games.",
-    materials: ["Directional Coding Tiles", "Wooden Gear Systems", "Circuit Maze Puzzles", "Pattern Sequence Ribbons"],
-    outcomes: ["Algorithmic sequencing", "Cause-and-effect reasoning", "Iterative debugging patience", "Systemic problem-solving"],
-    cycleFocus: "Extend — Solving complex sequential challenges step by step."
+    image: "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&w=700&q=80",
+    description: "Zero screens. Toddlers solve wooden directional tile mazes, gear puzzles, and sequence games.",
+    materials: ["Coding Wooden Tiles", "Gear Sets", "Circuit Mazes", "Sequence Blocks"],
+    outcomes: ["Step-by-step logic", "Debugging patience", "Spatial reasoning", "Problem-solving"],
+    cycleFocus: "Extend logical sequencing"
   }
 ];
 
@@ -103,17 +103,13 @@ export const PROGRAMMES = [
     age: "2.0 – 3.0 Years",
     minAge: 2.0,
     maxAge: 3.0,
-    ratio: "1:6 Educator Ratio",
-    hours: "9:00 AM – 11:30 AM (2.5 hrs)",
-    badge: "Gentle Transition",
-    description: "A nurturing sensory haven fostering separation ease, language blooming, toilet confidence, and joyful social exploration.",
-    highlights: [
-      "Sensory tactile bins (water, sand, lentils)",
-      "Daily circle-time finger plays & rhymes",
-      "Gentle separation anxiety coaching",
-      "Toddler motor obstacle courses"
-    ],
-    ncfAlignment: "NCF-FS Step 1: Bodily-kinesthetic & sensory grounding"
+    ratio: "1:6 Ratio",
+    hours: "9:00 AM – 11:30 AM",
+    badge: "Gentle Start (2-3 Yrs)",
+    // Actual 2-year-old toddler playing with soft sensory blocks
+    image: "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=700&q=80",
+    description: "Gentle sensory exploration, joyful circle rhymes, toilet confidence, and warm separation ease for 2-year-olds.",
+    highlights: ["Sensory water & sand bins", "Morning circle finger plays", "Separation ease coaching", "Toddler soft obstacle courses"]
   },
   {
     id: "nursery",
@@ -121,17 +117,13 @@ export const PROGRAMMES = [
     age: "3.0 – 4.0 Years",
     minAge: 3.0,
     maxAge: 4.0,
-    ratio: "1:8 Educator Ratio",
-    hours: "9:00 AM – 12:30 PM (3.5 hrs)",
-    badge: "Curiosity Explosion",
-    description: "Children channel explosive language questions, learn phonemic rhythms, build geometric structures, and practice active sharing.",
-    highlights: [
-      "Kindermagic phonics immersion",
-      "Practical life exercises (pouring, buttoning)",
-      "Collaborative block architecture",
-      "Living botany germination garden"
-    ],
-    ncfAlignment: "NCF-FS Step 2: Emergent literacy & intuitive numeracy"
+    ratio: "1:8 Ratio",
+    hours: "9:00 AM – 12:30 PM",
+    badge: "Curious Minds (3-4 Yrs)",
+    // Actual 3-year-old smiling preschooler
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=700&q=80",
+    description: "Phonics rhythms, building 3D towers, practical pouring exercises, and cooperative sharing for 3-year-olds.",
+    highlights: ["Sand phonics immersion", "Block architecture", "Living garden seedling care", "Emotional peace table"]
   },
   {
     id: "junior-kg",
@@ -139,17 +131,13 @@ export const PROGRAMMES = [
     age: "4.0 – 5.0 Years",
     minAge: 4.0,
     maxAge: 5.0,
-    ratio: "1:10 Educator Ratio",
-    hours: "8:45 AM – 1:00 PM (4.25 hrs)",
-    badge: "Conceptual Mastery",
-    description: "Structured self-directed inquiry where children grasp number bonds, multi-word expression, scientific observation, and screen-free coding.",
-    highlights: [
-      "Physical number bonds to 50",
-      "Screen-free algorithmic coding tiles",
-      "Conflict resolution at the Peace Table",
-      "Early expressive journal sketches"
-    ],
-    ncfAlignment: "NCF-FS Step 3: Formalized inquiry & mathematical thinking"
+    ratio: "1:10 Ratio",
+    hours: "8:45 AM – 1:00 PM",
+    badge: "Active Thinkers (4-5 Yrs)",
+    // 4-year-old children building architectural shapes together
+    image: "https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=700&q=80",
+    description: "Tactile number bonds, screen-free wooden maze coding, nature sketchbooks, and expressive drama for 4-year-olds.",
+    highlights: ["Physical numbers to 50", "Screen-free coding tiles", "Nature mini-investigations", "Story journal sketches"]
   },
   {
     id: "senior-kg",
@@ -157,17 +145,13 @@ export const PROGRAMMES = [
     age: "5.0 – 6.0 Years",
     minAge: 5.0,
     maxAge: 6.0,
-    ratio: "1:12 Educator Ratio",
-    hours: "8:30 AM – 1:30 PM (5.0 hrs)",
-    badge: "Grade 1 Readiness",
-    description: "Peak kindergarten readiness ensuring seamless entry to premier ICSE, CBSE, and IB schools with zero cramming or test anxiety.",
-    highlights: [
-      "Advanced phonics blending & reading",
-      "Problem-solving math laboratories",
-      "Independent science capstone investigations",
-      "Grade 1 executive function & posture mastery"
-    ],
-    ncfAlignment: "NCF-FS Step 4: Full transition readiness for primary school"
+    ratio: "1:12 Ratio",
+    hours: "8:30 AM – 1:30 PM",
+    badge: "Grade 1 Ready (5-6 Yrs)",
+    // 5-6 year old kindergarten child reading with confidence
+    image: "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=700&q=80",
+    description: "Confident reading, hands-on math labs, scientific capstones, and primary school posture readiness for 5-6 year olds.",
+    highlights: ["Phonics reading fluency", "Problem-solving math labs", "Executive function skills", "Zero test stress"]
   },
   {
     id: "daycare",
@@ -175,126 +159,141 @@ export const PROGRAMMES = [
     age: "2.0 – 10.0 Years",
     minAge: 2.0,
     maxAge: 10.0,
-    ratio: "1:6 Caregiver Ratio",
-    hours: "8:30 AM – 6:30 PM (Full Day / Flexible)",
-    badge: "Home Away From Home",
-    description: "Warm, CCTV-monitored holistic after-school care featuring nutritious organic meals, supervised homework time, and creative hobby clubs.",
-    highlights: [
-      "Pediatrician-guided nutritious warm meals",
-      "Spacious resting cots & sanitized linen",
-      "Enrichment clubs: Taekwondo, Clay, Music",
-      "Real-time mobile updates & live camera check-in"
-    ],
-    ncfAlignment: "Integrated holistic wellness & emotional safety"
+    ratio: "1:6 Ratio",
+    hours: "8:30 AM – 6:30 PM",
+    badge: "Cozy After-School Care",
+    // Comfortable, warm after-school environment
+    image: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=700&q=80",
+    description: "Warm, CCTV-monitored after-school home with organic warm meals, resting cots, and creative hobby clubs.",
+    highlights: ["Nutritious warm meals", "Sanitized sleep cots", "Music & taekwondo clubs", "Live mobile check-ins"]
+  }
+];
+
+export const GALLERY_PHOTOS = [
+  {
+    url: "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=700&q=80",
+    title: "Toddler Sensory Exploration",
+    tag: "Playgroup (2-3 Yrs)"
+  },
+  {
+    url: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=700&q=80",
+    title: "Curious Smiles & Sharing",
+    tag: "Nursery (3-4 Yrs)"
+  },
+  {
+    url: "https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=700&q=80",
+    title: "Hands-On Block Building",
+    tag: "Junior KG (4-5 Yrs)"
+  },
+  {
+    url: "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=700&q=80",
+    title: "Independent Phonics Reader",
+    tag: "Senior KG (5-6 Yrs)"
+  },
+  {
+    url: "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=700&q=80",
+    title: "Botany Garden Wonders",
+    tag: "Nature & Discovery"
+  },
+  {
+    url: "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&w=700&q=80",
+    title: "Screen-Free Maze Puzzles",
+    tag: "Tomorrow Thinking"
   }
 ];
 
 export const NO_BOOK_COMPARISON = [
   {
-    category: "Learning Vehicle",
-    traditional: "Workbooks, pre-printed photocopied sheets, and repetitive fill-in blanks.",
-    bloomingEra: "Manipulatives, sensory sand-trays, 3D building blocks, and living laboratory experiments.",
-    advantage: "Cognitive retention jumps by 3.8x when concepts are experienced physically rather than flat on paper."
+    category: "Learning Method",
+    traditional: "Heavy workbooks and repetitive paper worksheets.",
+    bloomingEra: "Sensory sand trays, 3D blocks, and living plant labs.",
+    advantage: "Children remember 3.8x more through physical touch."
   },
   {
-    category: "Child's Backpack",
-    traditional: "Heavy 3-5 kg bag loaded with textbooks, notebooks, and stationary pouches.",
-    bloomingEra: "Zero heavy books. A lightweight snack-and-change bag with complete spine freedom.",
-    advantage: "Protects pediatric posture, cervical spine development, and removes morning school anxiety."
+    category: "School Backpack",
+    traditional: "Heavy 3-5 kg bag loaded with textbooks and stationary.",
+    bloomingEra: "Zero heavy books. Just a light snack bag with total spine freedom.",
+    advantage: "Guards child cervical posture and stops morning school fear."
   },
   {
-    category: "Assessment Method",
-    traditional: "High-stress red-pen tests, letter grades (A/B/C), and comparative rank lists.",
-    bloomingEra: "Continuous Non-Diagnostic Developmental Tracker aligned with NCF-FS 2022 & PARAKH HPC.",
-    advantage: "Documents milestone growth without labeling or shaming children, celebrating each individual pace."
+    category: "Milestone Tracking",
+    traditional: "Stressful tests, comparative ranks, and letter grades.",
+    bloomingEra: "Continuous non-diagnostic milestone tracking (PARAKH HPC).",
+    advantage: "Celebrates individual organic growth with zero shaming."
   },
   {
-    category: "Classroom Role",
-    traditional: "Teacher lectures from the blackboard; children sit silently in rigid parallel desks.",
-    bloomingEra: "Educator is an observant co-explorer guiding self-directed stations across 6 Learning Worlds.",
-    advantage: "Nurtures intrinsic curiosity, peer leadership, and spontaneous inquiry."
-  },
-  {
-    category: "Screen & Tech Exposure",
-    traditional: "Smart TV screens showing YouTube cartoons passively to keep children stationary.",
-    bloomingEra: "Zero passive screen time. Algorithmic thinking taught via tactile wooden directional coding blocks.",
-    advantage: "Guards delicate eyesight and attention spans while building foundational computer science logic."
+    category: "Screen Exposure",
+    traditional: "Passive TV cartoons to keep kids quiet.",
+    bloomingEra: "Zero passive screens. Algorithmic logic taught via wooden tiles.",
+    advantage: "Protects young eyesight and attention span."
   }
-];
-
-export const EXPERIENTIAL_CYCLE = [
-  { step: "01", name: "Experience", desc: "First-hand physical sensory touch, sound, or natural phenomenon.", color: "#60C8D4" },
-  { step: "02", name: "Explore", desc: "Manipulating materials, testing hypotheses, asking spontaneous questions.", color: "#DCE747" },
-  { step: "03", name: "Express", desc: "Verbalizing, painting, sculpting, or dramatic reenactment of findings.", color: "#FA6400" },
-  { step: "04", name: "Extend", desc: "Connecting new concept to broader world problems and daily routines.", color: "#8E24AA" },
-  { step: "05", name: "Observe", desc: "Educators document milestones without testing or grading anxiety.", color: "#76BC21" }
 ];
 
 export const LEADERSHIP = [
   {
     name: "Dr. Masuda Yasmin",
     role: "Founder & Chief Academic Officer",
-    qualifications: "Ph.D. in Early Childhood Education, NCF-FS Advisory Specialist",
-    bio: "Visionary educator with over two decades transforming early childhood pedagogy across India. Pioneer of the No-Book Experiential Framework that replaces rote drills with curiosity-driven learning worlds.",
-    quote: "Children are not empty vessels to be filled with textbook print; they are blazing fires of natural curiosity waiting to explore."
+    qualifications: "Ph.D. in Early Childhood Education, NCF-FS Specialist",
+    bio: "Pioneer of the No-Book Experiential Framework that replaces rote copybooks with hands-on learning worlds.",
+    quote: "Children are not empty vessels to be filled with textbook print; they are blazing fires of natural curiosity."
   },
   {
     name: "Dr. Shelly Bisht",
     role: "Director of Curriculum & Pedagogy",
-    qualifications: "M.Ed, Child Psychology Researcher, Former NCERT Contributor",
-    bio: "Architect behind the Kindermagic PrimeX 6-World framework, bridging international developmental neuroscience with India's National Curriculum Framework (NCF-FS 2022).",
-    quote: "True learning occurs through the hands. When hands touch reality, the brain builds permanent synaptic connections."
+    qualifications: "M.Ed, Child Psychology Researcher",
+    bio: "Architect behind the Kindermagic PrimeX 6-World framework, connecting neuroscience with hands-on play.",
+    quote: "True learning occurs through the hands. Touching reality builds permanent brain connections."
   },
   {
     name: "Ayaan Hossain",
     role: "Director of Strategy & Brand Growth",
-    qualifications: "B.Tech, MBA (Operations), EdTech Entrepreneur",
-    bio: "Steers franchise architecture, smart campus layouts, and 360-degree partner support systems across expanding city networks.",
-    quote: "Our franchise partners aren't just business owners; they are academic stewards transforming the early years in their community."
+    qualifications: "B.Tech, MBA (Operations)",
+    bio: "Steers franchise architecture and 360-degree support across expanding city networks.",
+    quote: "Our partners are academic stewards transforming early years across India."
   },
   {
     name: "Mohd. Neyaz Alam",
     role: "Director of Operations & Compliance",
-    qualifications: "Operational Excellence & School Infrastructure Lead",
-    bio: "Oversees child-safe infrastructure standards, educator certification bootcamps, and emergency health-hygiene protocols nationwide.",
-    quote: "Child safety, non-toxic environments, and world-class educator mentorship are our non-negotiables."
+    qualifications: "School Infrastructure Lead",
+    bio: "Oversees child-safe infrastructure and educator bootcamps nationwide.",
+    quote: "Child safety, non-toxic spaces, and world-class mentors are non-negotiable."
   }
 ];
 
 export const TRACKER_SAMPLES = {
   cognitive: {
-    domain: "Cognitive & Algorithmic",
+    domain: "Cognitive & Logic",
     color: "#60C8D4",
     status: "Mastered",
     milestone: "Solves 4-step sequence maze using directional wooden tiles without adult cues.",
-    observation: "Aarav independently identified the dead-end in the gear maze and re-routed the marble path in 42 seconds with great concentration.",
+    observation: "Aarav re-routed the marble path in 42 seconds with joyful concentration.",
     date: "Observed Oct 24, 2026",
     educator: "Lead Educator Priya S."
   },
   linguistic: {
-    domain: "Linguistic & Story Expression",
+    domain: "Language & Stories",
     color: "#DCE747",
     status: "Emerging Joyfully",
-    milestone: "Narrates 3-part event sequence during morning circle using rich descriptive adjectives.",
-    observation: "Used descriptive words 'glistening' and 'pebbled' when sharing her sensory mud-kitchen experience with peers.",
+    milestone: "Narrates 3-part event sequence during circle time using rich descriptive words.",
+    observation: "Used descriptive words 'glistening' and 'pebbled' when sharing sensory mud discoveries.",
     date: "Observed Oct 25, 2026",
     educator: "Lead Educator Anita M."
   },
   socioEmotional: {
-    domain: "Socio-Emotional & Empathy",
+    domain: "Friendship & Empathy",
     color: "#E91E63",
     status: "Consistently Observed",
-    milestone: "Utilizes the Peace Table to resolve turn-taking disputes independently.",
-    observation: "When Kabir reached for the balance beam, Ananya offered a 2-minute sand timer so both could take fair turns smoothly.",
+    milestone: "Uses the Peace Table to resolve sharing turns independently.",
+    observation: "Offered a 2-minute sand timer so both peers could share the balance beam smoothly.",
     date: "Observed Oct 26, 2026",
     educator: "Lead Educator Sunita R."
   },
   motor: {
-    domain: "Fine & Gross Motor",
+    domain: "Motor Agility",
     color: "#FA6400",
     status: "Advanced Coordination",
-    milestone: "Tri-finger pincer grip firmly established with wooden tweezers and clay pipettes.",
-    observation: "Effortlessly transferred 20 water beads using delicate pipettes without popping or spilling, demonstrating high hand stability.",
+    milestone: "Tri-finger pincer grip established with wooden tweezers and clay pipettes.",
+    observation: "Transferred 20 water beads using pipettes without spilling, demonstrating steady hand balance.",
     date: "Observed Oct 27, 2026",
     educator: "Lead Educator Priya S."
   }

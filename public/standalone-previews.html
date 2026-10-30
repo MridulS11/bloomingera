@@ -89,6 +89,69 @@
       color: #ffffff !important;
       box-shadow: 0 4px 14px rgba(10, 63, 142, 0.25);
     }
+  
+    /* Stick Figure Child Waving Animation */
+    @keyframes slideInRightChild {
+      0% { transform: translateX(120px); opacity: 0; }
+      100% { transform: translateX(0); opacity: 1; }
+    }
+    @keyframes waveArmMotion {
+      0% { transform: rotate(0deg); }
+      25% { transform: rotate(26deg); }
+      50% { transform: rotate(-8deg); }
+      75% { transform: rotate(28deg); }
+      100% { transform: rotate(0deg); }
+    }
+    .p6-stick-child-container {
+      animation: slideInRightChild 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+    .p6-waving-arm {
+      animation: waveArmMotion 1.5s ease-in-out infinite;
+      transform-origin: 48px 68px;
+    }
+    .p6-speech-bubble {
+      position: absolute;
+      top: -42px;
+      left: -70px;
+      background: #ffffff;
+      padding: 4px 10px;
+      border-radius: 14px;
+      font-size: 11px;
+      font-weight: 900;
+      color: #091E3A;
+      border: 2px solid #091E3A;
+      box-shadow: 0 8px 20px rgba(9, 30, 58, 0.15);
+      white-space: nowrap;
+      animation: floatBubble 2.5s ease-in-out infinite;
+      z-index: 50;
+    }
+    .p6-speech-bubble::after {
+      content: "";
+      position: absolute;
+      bottom: -6px;
+      right: 20px;
+      width: 10px;
+      height: 10px;
+      background: #ffffff;
+      border-right: 2px solid #091E3A;
+      border-bottom: 2px solid #091E3A;
+      transform: rotate(45deg);
+    }
+    @keyframes floatBubble {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+
+  
+    /* Strictly Hide Stick Figure on Mobile */
+    @media (max-width: 768px) {
+      #p6-waving-child, .p6-stick-child-container {
+        display: none !important;
+        visibility: hidden !important;
+        pointer-events: none !important;
+      }
+    }
+
   </style>
 
   <style>
@@ -2583,6 +2646,38 @@
 
     <!-- ================= 3. NO-BOOK PHILOSOPHY SPECULAR COMPARISON ================= -->
     <section id="p6-philosophy" class="relative z-10 py-20">
+      <!-- Waving Stick Figure Child Sliding in from Right Edge -->
+      <div id="p6-waving-child" class="hidden md:block absolute -right-2 sm:right-6 lg:right-10 top-12 z-50 pointer-events-auto cursor-pointer p6-stick-child-container" title="Click me to wave!">
+        <div class="p6-speech-bubble">Yay, No Books! 👋</div>
+        <svg width="110" height="170" viewBox="0 0 110 170" fill="none" class="filter drop-shadow-xl overflow-visible">
+          <circle cx="48" cy="36" r="22" stroke="#091E3A" stroke-width="3.8" fill="#FFFDE7"/>
+          <path d="M38 16 C42 8, 48 8, 52 14 C56 8, 62 10, 60 18" stroke="#091E3A" stroke-width="3" stroke-linecap="round" fill="none"/>
+          <path d="M38 33 Q42 27 46 33" stroke="#091E3A" stroke-width="2.8" stroke-linecap="round" fill="none"/>
+          <path d="M50 33 Q54 27 58 33" stroke="#091E3A" stroke-width="2.8" stroke-linecap="round" fill="none"/>
+          <circle cx="34" cy="38" r="3.5" fill="#FF8A80" opacity="0.75"/>
+          <circle cx="62" cy="38" r="3.5" fill="#FF8A80" opacity="0.75"/>
+          <path d="M41 42 Q48 51 55 42" stroke="#091E3A" stroke-width="3" stroke-linecap="round" fill="none"/>
+          <line x1="48" y1="58" x2="48" y2="114" stroke="#091E3A" stroke-width="3.8" stroke-linecap="round"/>
+          <path d="M36 64 L60 64 L56 94 L40 94 Z" fill="#DCE747" stroke="#091E3A" stroke-width="2.8" stroke-linejoin="round"/>
+          <rect x="42" y="72" width="7" height="8" rx="2" fill="#60C8D4" stroke="#091E3A" stroke-width="1.5"/>
+          <path d="M48 68 L28 84 L22 102" stroke="#091E3A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          <circle cx="21" cy="104" r="4" fill="#FFFDE7" stroke="#091E3A" stroke-width="2.5"/>
+          <g class="p6-waving-arm" style="transform-origin: 48px 68px;">
+            <path d="M48 68 L70 54 L86 28" stroke="#091E3A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            <circle cx="88" cy="25" r="5" fill="#FFFDE7" stroke="#091E3A" stroke-width="2.5"/>
+            <line x1="88" y1="20" x2="88" y2="14" stroke="#091E3A" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="92" y1="22" x2="97" y2="17" stroke="#091E3A" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="84" y1="22" x2="79" y2="17" stroke="#091E3A" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="93" y1="26" x2="99" y2="25" stroke="#091E3A" stroke-width="2.5" stroke-linecap="round"/>
+            <text x="96" y="18" font-size="16">✨</text>
+          </g>
+          <path d="M48 114 L34 146 L28 166" stroke="#091E3A" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          <path d="M28 166 C24 166, 18 169, 18 172 L32 172 Z" fill="#60C8D4" stroke="#091E3A" stroke-width="2.2"/>
+          <path d="M48 114 L60 146 L68 166" stroke="#091E3A" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          <path d="M68 166 C72 166, 78 169, 80 172 L66 172 Z" fill="#DCE747" stroke="#091E3A" stroke-width="2.2"/>
+        </svg>
+      </div>
+
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div class="text-center max-w-3xl mx-auto mb-14">

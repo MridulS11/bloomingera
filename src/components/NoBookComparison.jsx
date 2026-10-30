@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ShieldCheck, XCircle, CheckCircle, ArrowRight, Sparkles, BookOpen, Heart, Eye, Filter } from 'lucide-react';
 import { NO_BOOK_COMPARISON } from '../data/websiteContent';
 import ScrollReveal, { StaggerContainer, StaggerItem } from './ScrollReveal';
+import WavingChildStickFigure from './WavingChildStickFigure';
 
 export default function NoBookComparison() {
   const [filter, setFilter] = useState('all'); // 'all' | 'spine' | 'touch' | 'screen'
@@ -15,9 +16,15 @@ export default function NoBookComparison() {
   });
 
   return (
-    <section id="no-book" className="py-20 relative overflow-hidden bg-gradient-to-b from-[#F4F9FB] to-white">
+    <section id="no-book" className="py-20 relative bg-gradient-to-b from-[#F4F9FB] to-white">
+      
       <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
         
+        {/* Waving Stick Figure Child (STRICTLY HIDDEN ON MOBILE: hidden md:block) */}
+        <div className="hidden md:block absolute right-2 lg:right-6 top-4 z-40 pointer-events-auto">
+          <WavingChildStickFigure />
+        </div>
+
         {/* Section Heading */}
         <ScrollReveal variant="fadeUp" className="text-center max-w-3xl mx-auto mb-10">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-turquoise/20 border border-brand-turquoise/40 text-brand-navy font-bold text-xs mb-3 shadow-sm">

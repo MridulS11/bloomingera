@@ -5,6 +5,7 @@ import NoBookComparison from './components/NoBookComparison';
 import KindermagicExplorer from './components/KindermagicExplorer';
 import ClassroomSimulator from './components/ClassroomSimulator';
 import ProgrammesSection from './components/ProgrammesSection';
+import PreschoolGallery from './components/PreschoolGallery';
 import DevelopmentTracker from './components/DevelopmentTracker';
 import FranchiseCalculator from './components/FranchiseCalculator';
 import LeadershipSection from './components/LeadershipSection';
@@ -33,42 +34,47 @@ export default function App() {
 
       {/* Main Content Area */}
       <main>
-        {/* 1. Hero Section */}
+        {/* 1. Hero Section (Visual Preschool Photos + Badges) */}
         <HeroSection onOpenTourModal={() => setIsTourModalOpen(true)} />
         
         <AnimatedDivider />
 
-        {/* 2. Interactive Classroom Simulator (WonderLab & Kiddy Codey) */}
+        {/* 2. Interactive Classroom Simulator (WonderLab is 3rd / Last) */}
         <ClassroomSimulator />
 
         <AnimatedDivider />
 
-        {/* 3. The No-Book Comparative Shift */}
+        {/* 3. The No-Book Comparative Shift (Stick Figure Child hidden on mobile) */}
         <NoBookComparison />
 
         <AnimatedDivider />
 
-        {/* 4. Kindermagic PrimeX 6 Learning Worlds */}
+        {/* 4. Kindermagic PrimeX 6 Learning Worlds (High-Res World Imagery) */}
         <KindermagicExplorer />
 
         <AnimatedDivider />
 
-        {/* 5. Age-Matched Programmes with Interactive Age Matcher Slider */}
+        {/* 5. Joyful Campus Moments Gallery */}
+        <PreschoolGallery />
+
+        <AnimatedDivider />
+
+        {/* 6. Age-Matched Programmes with Photos */}
         <ProgrammesSection onOpenTourModal={() => setIsTourModalOpen(true)} />
 
         <AnimatedDivider />
 
-        {/* 6. Non-Diagnostic Milestone Tracker (PARAKH HPC Aligned) */}
+        {/* 7. Non-Diagnostic Milestone Tracker (PARAKH HPC Aligned) */}
         <DevelopmentTracker />
 
         <AnimatedDivider />
 
-        {/* 7. Franchise Unit Economics Calculator */}
+        {/* 8. Franchise Unit Economics Calculator */}
         <FranchiseCalculator onOpenTourModal={() => setIsTourModalOpen(true)} />
 
         <AnimatedDivider />
 
-        {/* 8. Visionary Academic Leadership */}
+        {/* 9. Visionary Academic Leadership */}
         <LeadershipSection />
       </main>
 
@@ -81,7 +87,7 @@ export default function App() {
         onClose={() => setIsTourModalOpen(false)} 
       />
 
-      {/* Floating Action Button for Instant Tour Reservation */}
+      {/* Floating Action Button */}
       <div className="fixed bottom-6 right-6 z-40 flex items-center gap-2">
         <motion.button
           whileHover={{ scale: 1.05, y: -2 }}
