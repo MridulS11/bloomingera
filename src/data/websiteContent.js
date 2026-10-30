@@ -23,7 +23,8 @@ export const KINDERMAGIC_WORLDS = [
     color: "#60C8D4",
     badge: "Linguistic Joy",
     icon: "BookOpenCheck",
-    image: "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=700&q=80",
+    // Joyful toddler child laughing with open storybook outdoors (zero adults)
+    image: "https://images.unsplash.com/photo-1472162072942-cd5147eb3902?auto=format&fit=crop&w=700&q=80",
     description: "Children trace letters in scented beach sand and sing phonemic rhymes instead of writing boring worksheets.",
     materials: ["Sand Trays", "Puppet Theatre", "Phonics Mats", "Story Cards"],
     outcomes: ["Expressive speech", "Sound recognition", "Story confidence", "Active vocabulary"],
@@ -36,7 +37,8 @@ export const KINDERMAGIC_WORLDS = [
     color: "#DCE747",
     badge: "Math Intuition",
     icon: "Compass",
-    image: "https://images.unsplash.com/photo-1596495578065-6e0763fa1178?auto=format&fit=crop&w=700&q=80",
+    // Toddler hands moving tactile colorful wooden beads on wire maze (zero adults)
+    image: "https://images.unsplash.com/photo-1485460535564-844461f37f77?auto=format&fit=crop&w=700&q=80",
     description: "Preschoolers touch physical beads, balance weights, and assemble 3D wooden blocks to discover numbers naturally.",
     materials: ["Bead Chains", "Balance Scales", "Wooden Rods", "Shape Puzzles"],
     outcomes: ["Counting 1-100", "Spatial balance", "Pattern finding", "Size estimation"],
@@ -49,6 +51,7 @@ export const KINDERMAGIC_WORLDS = [
     color: "#E91E63",
     badge: "Social Smiles",
     icon: "HeartHandshake",
+    // Toddler boy with open storybook smiling joyfully (zero adults)
     image: "https://images.unsplash.com/photo-1485546246426-74dc88dec4d9?auto=format&fit=crop&w=700&q=80",
     description: "Peace tables, cooperative games, emotion mirrors, and community dress-up cultivate empathy and sharing.",
     materials: ["Peace Table", "Emotion Mirrors", "Community Outfits", "Sharing Timers"],
@@ -62,7 +65,8 @@ export const KINDERMAGIC_WORLDS = [
     color: "#FA6400",
     badge: "Creative Hands",
     icon: "Sparkles",
-    image: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=700&q=80",
+    // 3-year-old preschooler joyfully finger-painting with bright colors (zero adults)
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=700&q=80",
     description: "Kids mold organic clay, thread wooden beads, and climb soft obstacle courses to build hand agility and strong posture.",
     materials: ["Organic Clay", "Wooden Beams", "Weaving Looms", "Pincer Pipettes"],
     outcomes: ["Pincer handwriting grip", "Body agility", "Dexterity & focus", "Creative expression"],
@@ -75,7 +79,8 @@ export const KINDERMAGIC_WORLDS = [
     color: "#76BC21",
     badge: "Little Scientists",
     icon: "Leaf",
-    image: "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=700&q=80",
+    // Toddler exploring nature and living plants in warm sunlight (zero adults)
+    image: "https://images.unsplash.com/photo-1471342051519-9621d25323fc?auto=format&fit=crop&w=700&q=80",
     description: "Preschoolers plant seeds, touch real soil, and observe magnifying prisms in our sunshine garden.",
     materials: ["Planter Beds", "Magnifiers", "Water Funnels", "Eco Stations"],
     outcomes: ["Plant life cycles", "Love for nature", "Curious observation", "Outdoor wonder"],
@@ -88,7 +93,8 @@ export const KINDERMAGIC_WORLDS = [
     color: "#8E24AA",
     badge: "Smart Thinkers",
     icon: "Cpu",
-    image: "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&w=700&q=80",
+    // Preschool child focused on wooden puzzle blocks and spatial reasoning (zero adults)
+    image: "https://images.unsplash.com/photo-1489850846882-35ef10a4b480?auto=format&fit=crop&w=700&q=80",
     description: "Zero screens. Toddlers solve wooden directional tile mazes, gear puzzles, and sequence games.",
     materials: ["Coding Wooden Tiles", "Gear Sets", "Circuit Mazes", "Sequence Blocks"],
     outcomes: ["Step-by-step logic", "Debugging patience", "Spatial reasoning", "Problem-solving"],
@@ -106,8 +112,8 @@ export const PROGRAMMES = [
     ratio: "1:6 Ratio",
     hours: "9:00 AM – 11:30 AM",
     badge: "Gentle Start (2-3 Yrs)",
-    // Actual 2-year-old toddler playing with soft sensory blocks
-    image: "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=700&q=80",
+    // Actual 2-year-old toddler playing with wooden shape sorter & blocks on play mat (zero adults)
+    image: "https://images.unsplash.com/photo-1477511614005-61bd8b91d218?auto=format&fit=crop&w=700&q=80",
     description: "Gentle sensory exploration, joyful circle rhymes, toilet confidence, and warm separation ease for 2-year-olds.",
     highlights: ["Sensory water & sand bins", "Morning circle finger plays", "Separation ease coaching", "Toddler soft obstacle courses"]
   },
@@ -120,7 +126,7 @@ export const PROGRAMMES = [
     ratio: "1:8 Ratio",
     hours: "9:00 AM – 12:30 PM",
     badge: "Curious Minds (3-4 Yrs)",
-    // Actual 3-year-old smiling preschooler
+    // Actual 3-year-old smiling preschooler finger-painting (zero adults)
     image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=700&q=80",
     description: "Phonics rhythms, building 3D towers, practical pouring exercises, and cooperative sharing for 3-year-olds.",
     highlights: ["Sand phonics immersion", "Block architecture", "Living garden seedling care", "Emotional peace table"]
@@ -134,8 +140,8 @@ export const PROGRAMMES = [
     ratio: "1:10 Ratio",
     hours: "8:45 AM – 1:00 PM",
     badge: "Active Thinkers (4-5 Yrs)",
-    // 4-year-old children building architectural shapes together
-    image: "https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=700&q=80",
+    // 4-5 year old preschool child building architectural wooden shapes (zero adults)
+    image: "https://images.unsplash.com/photo-1489850846882-35ef10a4b480?auto=format&fit=crop&w=700&q=80",
     description: "Tactile number bonds, screen-free wooden maze coding, nature sketchbooks, and expressive drama for 4-year-olds.",
     highlights: ["Physical numbers to 50", "Screen-free coding tiles", "Nature mini-investigations", "Story journal sketches"]
   },
@@ -148,8 +154,8 @@ export const PROGRAMMES = [
     ratio: "1:12 Ratio",
     hours: "8:30 AM – 1:30 PM",
     badge: "Grade 1 Ready (5-6 Yrs)",
-    // 5-6 year old kindergarten child reading with confidence
-    image: "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=700&q=80",
+    // 5-6 year old kindergarten child focused with pencil in classroom (zero adults)
+    image: "https://images.unsplash.com/photo-1488254491307-10ca8fa174c8?auto=format&fit=crop&w=700&q=80",
     description: "Confident reading, hands-on math labs, scientific capstones, and primary school posture readiness for 5-6 year olds.",
     highlights: ["Phonics reading fluency", "Problem-solving math labs", "Executive function skills", "Zero test stress"]
   },
@@ -162,7 +168,7 @@ export const PROGRAMMES = [
     ratio: "1:6 Ratio",
     hours: "8:30 AM – 6:30 PM",
     badge: "Cozy After-School Care",
-    // Comfortable, warm after-school environment
+    // Toddler playing happily with wooden camera in playroom (zero adults)
     image: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=700&q=80",
     description: "Warm, CCTV-monitored after-school home with organic warm meals, resting cots, and creative hobby clubs.",
     highlights: ["Nutritious warm meals", "Sanitized sleep cots", "Music & taekwondo clubs", "Live mobile check-ins"]
@@ -171,7 +177,7 @@ export const PROGRAMMES = [
 
 export const GALLERY_PHOTOS = [
   {
-    url: "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=700&q=80",
+    url: "https://images.unsplash.com/photo-1477511614005-61bd8b91d218?auto=format&fit=crop&w=700&q=80",
     title: "Toddler Sensory Exploration",
     tag: "Playgroup (2-3 Yrs)"
   },
@@ -181,24 +187,24 @@ export const GALLERY_PHOTOS = [
     tag: "Nursery (3-4 Yrs)"
   },
   {
-    url: "https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=700&q=80",
+    url: "https://images.unsplash.com/photo-1489850846882-35ef10a4b480?auto=format&fit=crop&w=700&q=80",
     title: "Hands-On Block Building",
     tag: "Junior KG (4-5 Yrs)"
   },
   {
-    url: "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=700&q=80",
-    title: "Independent Phonics Reader",
+    url: "https://images.unsplash.com/photo-1488254491307-10ca8fa174c8?auto=format&fit=crop&w=700&q=80",
+    title: "Focused Classroom Drawing",
     tag: "Senior KG (5-6 Yrs)"
   },
   {
-    url: "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=700&q=80",
+    url: "https://images.unsplash.com/photo-1471342051519-9621d25323fc?auto=format&fit=crop&w=700&q=80",
     title: "Botany Garden Wonders",
     tag: "Nature & Discovery"
   },
   {
-    url: "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&w=700&q=80",
-    title: "Screen-Free Maze Puzzles",
-    tag: "Tomorrow Thinking"
+    url: "https://images.unsplash.com/photo-1472162072942-cd5147eb3902?auto=format&fit=crop&w=700&q=80",
+    title: "Story Circles & Laughter",
+    tag: "Language Lab"
   }
 ];
 

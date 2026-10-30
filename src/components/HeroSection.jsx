@@ -117,10 +117,10 @@ export default function HeroSection({ onOpenTourModal }) {
             <ScrollReveal variant="scaleUp" delay={0.15}>
               <div className="relative rounded-[36px] overflow-hidden shadow-2xl border-4 border-white bg-white">
                 
-                {/* Main Hero Preschool Children Photo (Appropriate 3-4 Year Old Preschoolers) */}
+                {/* Main Hero Preschool Children Photo (Genuine Preschool Children In Classroom Drawing, Zero Adults) */}
                 <img 
-                  src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=800&q=80" 
-                  alt="Happy preschool children playing with sensory wooden blocks" 
+                  src="https://images.unsplash.com/photo-1727473704274-3fbad0dbbd60?auto=format&fit=crop&w=800&q=80" 
+                  alt="Joyful preschool children drawing with colored pencils in preschool classroom" 
                   className="w-full h-[420px] sm:h-[480px] lg:h-[530px] object-cover hover:scale-105 transition-transform duration-700"
                 />
 
