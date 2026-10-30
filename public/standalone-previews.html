@@ -402,9 +402,13 @@
           <span class="w-2 h-2 rounded-full bg-[#60C8D4] animate-ping"></span>
           Preview 6 <span class="text-xs font-black text-[#091E3A]">(Original Glass • Elite 💎)</span>
         </button>
-        <button onclick="switchPreview(7)" id="tab-7" class="tab-btn px-3.5 py-1.5 rounded-lg text-xs sm:text-sm font-black transition-all flex items-center gap-1.5 bg-[#DCE747] text-[#091E3A] border-2 border-[#091E3A] shadow-md hover:scale-105">
-          <span class="w-2.5 h-2.5 rounded-full bg-[#60C8D4] animate-pulse"></span>
-          Preview 7 <span class="text-xs font-black text-[#091E3A]">(Flagship React 🚀)</span>
+        <button onclick="switchPreview(7)" id="tab-7" class="tab-btn px-3 py-1.5 rounded-lg text-xs sm:text-sm font-bold transition-all flex items-center gap-1.5 bg-white text-[#091E3A] border border-[#091E3A]/30 shadow-sm hover:scale-105">
+          <span class="w-2 h-2 rounded-full bg-[#60C8D4]"></span>
+          Preview 7 <span class="text-xs font-bold text-[#091E3A]">(Simulators 🚀)</span>
+        </button>
+        <button onclick="switchPreview(8)" id="tab-8" class="tab-btn px-3.5 py-1.5 rounded-lg text-xs sm:text-sm font-black transition-all flex items-center gap-1.5 bg-[#DCE747] text-[#091E3A] border-2 border-[#091E3A] shadow-md hover:scale-105">
+          <span class="w-2.5 h-2.5 rounded-full bg-[#091E3A] animate-pulse"></span>
+          Preview 8 <span class="text-xs font-black text-[#091E3A]">(Indian Preschool 🌸)</span>
         </button>
       </nav>
 
@@ -3308,17 +3312,50 @@
     <div class="w-full rounded-3xl overflow-hidden border-2 border-white shadow-2xl bg-white/70 backdrop-blur-xl relative">
       <iframe 
         id="react-app-frame"
-        src="http://localhost:5173" 
+        src="http://localhost:5173/?preview=7" 
         class="w-full h-[1150px] border-0"
-        title="Blooming Era Flagship React Application"
+        title="Blooming Era Interactive Simulators React Application"
       ></iframe>
       <div id="frame-fallback" class="p-8 text-center hidden bg-white/90">
-        <h3 class="text-lg font-bold text-[#091E3A]">Previewing Flagship React Application</h3>
+        <h3 class="text-lg font-bold text-[#091E3A]">Previewing Interactive Simulators React Application</h3>
         <p class="text-xs text-slate-600 mt-1 mb-4">If the embedded live view does not load automatically, click below to open it in a new window:</p>
-        <a href="http://localhost:5173" target="_blank" class="inline-flex px-6 py-3 rounded-xl bg-[#DCE747] text-[#091E3A] font-bold text-xs shadow-md">
-          Launch React Application (http://localhost:5173)
+        <a href="http://localhost:5173/?preview=7" target="_blank" class="inline-flex px-6 py-3 rounded-xl bg-[#DCE747] text-[#091E3A] font-bold text-xs shadow-md">
+          Launch React Application (http://localhost:5173/?preview=7)
         </a>
       </div>
+    </div>
+  </section>
+</main>
+
+<!-- ========================================================================= -->
+<!-- ======== PREVIEW 8: INDIAN PRESCHOOL FLAGSHIP (19-SECTION FLOWY GLASS) == -->
+<!-- ========================================================================= -->
+<main id="preview-8" class="preview-container hidden p6-mesh-bg text-[#091E3A] font-jakarta relative overflow-hidden">
+  <!-- Top Notice Banner -->
+  <section class="bg-[#091E3A] text-white py-3.5 px-4 border-b border-[#60C8D4]/30">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
+      <div class="flex items-center gap-2.5 text-xs">
+        <span class="px-2.5 py-1 rounded-full bg-[#DCE747] text-[#091E3A] font-black uppercase tracking-wider text-[10px]">NEW • PREVIEW 8 (INDIAN PRESCHOOL HOMEPAGE)</span>
+        <span class="text-slate-200">Complete <b>19-Section Indian Preschool Website</b> • Flowy Glassmorphism • Original Palette (<code class="text-[#DCE747]">#DCE747</code>, <code class="text-[#60C8D4]">#60C8D4</code>, <code class="text-white">#091E3A</code>) • 100% Preschool Children Imagery</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <a href="http://localhost:5173/?preview=8" target="_blank" class="px-4 py-1.5 rounded-xl bg-[#DCE747] text-[#091E3A] font-black text-xs shadow-md hover:scale-105 transition-transform flex items-center gap-1.5">
+          <span>Open Fullscreen Preview 8</span>
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Embedded Live React App Container (Preview 8) -->
+  <section class="p-3 sm:p-6 max-w-7xl mx-auto">
+    <div class="w-full rounded-3xl overflow-hidden border-2 border-white shadow-2xl bg-white/70 backdrop-blur-xl relative">
+      <iframe 
+        id="react-app-frame-8"
+        src="http://localhost:5173/?preview=8" 
+        class="w-full h-[1250px] border-0"
+        title="Blooming Era Indian Preschool Flagship Homepage (Preview 8)"
+      ></iframe>
     </div>
   </section>
 </main>
@@ -3327,7 +3364,7 @@
   <script>
     function switchPreview(num) {
       // Hide all preview sections
-      for (let i = 1; i <= 7; i++) {
+      for (let i = 1; i <= 8; i++) {
         const sec = document.getElementById('preview-' + i);
         if (sec) sec.classList.add('hidden');
         const btn = document.getElementById('tab-' + i);
