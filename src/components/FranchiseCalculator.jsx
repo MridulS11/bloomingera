@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { 
   Building2, TrendingUp, Calculator, ShieldCheck, CheckCircle2, 
-  ArrowRight, Sparkles, Layers, DollarSign 
+  ArrowRight, Sparkles, Layers, DollarSign, Percent 
 } from 'lucide-react';
 import ScrollReveal from './ScrollReveal';
 
@@ -17,11 +17,12 @@ export default function FranchiseCalculator({ onOpenTourModal }) {
   // Fixed transparent royalty: ₹7,500/month flat
   const annualRoyalty = 7500 * 12;
 
-  // Estimated OpEx (Teacher salaries, utilities, consumables ~ 50%)
+  // Estimated OpEx (Teacher salaries, utilities, consumables ~ 48%)
   const estimatedAnnualOpex = grossAnnualRevenue * 0.48;
 
   // Net Operating Surplus
   const estimatedNetSurplus = Math.max(0, grossAnnualRevenue - annualRoyalty - estimatedAnnualOpex);
+  const marginPercent = Math.round((estimatedNetSurplus / grossAnnualRevenue) * 100);
 
   const pillars = [
     "Complete Kindermagic PrimeX™ Syllabus & Daily Lesson Plans",
@@ -38,8 +39,8 @@ export default function FranchiseCalculator({ onOpenTourModal }) {
         
         {/* Section Header */}
         <ScrollReveal variant="fadeUp" className="text-center max-w-3xl mx-auto mb-14">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-brand-lime/30 border border-brand-lime/50 text-brand-navy font-bold text-xs mb-3 shadow-sm">
-            <Building2 className="w-3.5 h-3.5 text-brand-navy" />
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-lime/30 border border-brand-lime/50 text-brand-navy font-bold text-xs mb-3 shadow-sm">
+            <Building2 className="w-4 h-4 text-brand-navy animate-bounce" style={{ animationDuration: '3s' }} />
             <span>High-Impact Education Partnership</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-brand-navy tracking-tight font-display mb-4">
@@ -73,9 +74,14 @@ export default function FranchiseCalculator({ onOpenTourModal }) {
               <div className="p-4 rounded-2xl bg-white/80 border border-brand-navy/10 shadow-xs">
                 <div className="flex justify-between items-center mb-2">
                   <span className="text-xs font-bold text-brand-navy">Enrolled Toddlers:</span>
-                  <span className="text-base font-extrabold text-brand-navy font-mono">
+                  <motion.span 
+                    key={students}
+                    initial={{ scale: 0.8 }}
+                    animate={{ scale: 1 }}
+                    className="text-base font-extrabold text-brand-navy font-mono"
+                  >
                     {students} Students
-                  </span>
+                  </motion.span>
                 </div>
                 <input
                   type="range"
@@ -97,9 +103,14 @@ export default function FranchiseCalculator({ onOpenTourModal }) {
               <div className="p-4 rounded-2xl bg-white/80 border border-brand-navy/10 shadow-xs">
                 <div className="flex justify-between items-center mb-2">
                   <span className="text-xs font-bold text-brand-navy">Average Monthly Fee per Child:</span>
-                  <span className="text-base font-extrabold text-brand-navy font-mono">
+                  <motion.span 
+                    key={feePerMonth}
+                    initial={{ scale: 0.8 }}
+                    animate={{ scale: 1 }}
+                    className="text-base font-extrabold text-brand-navy font-mono"
+                  >
                     ₹{feePerMonth.toLocaleString('en-IN')}/mo
-                  </span>
+                  </motion.span>
                 </div>
                 <input
                   type="range"
@@ -133,7 +144,7 @@ export default function FranchiseCalculator({ onOpenTourModal }) {
               </div>
             </ScrollReveal>
 
-            {/* Right Financial Summary Card */}
+            {/* Right Financial Summary Card with Shimmer & Live Progress Bar */}
             <ScrollReveal variant="slideRight" delay={0.15} className="lg:col-span-6">
               <div className="p-6 sm:p-7 rounded-3xl bg-brand-navy text-white shadow-2xl space-y-5 relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-48 h-48 bg-brand-turquoise/20 rounded-full blur-3xl pointer-events-none" />
@@ -172,22 +183,39 @@ export default function FranchiseCalculator({ onOpenTourModal }) {
                     </span>
                   </div>
 
+                  {/* Dynamic Visual Margin Bar */}
+                  <div className="pt-2">
+                    <div className="flex justify-between text-[11px] font-bold text-brand-lime mb-1">
+                      <span>Operating Surplus Efficiency:</span>
+                      <span>{marginPercent}% Surplus Margin</span>
+                    </div>
+                    <div className="w-full h-2 rounded-full bg-white/20 overflow-hidden">
+                      <motion.div 
+                        initial={{ width: 0 }}
+                        animate={{ width: `${marginPercent}%` }}
+                        transition={{ duration: 0.5 }}
+                        className="h-full bg-gradient-to-r from-brand-turquoise to-brand-lime rounded-full"
+                      />
+                    </div>
+                  </div>
+
                   <div className="pt-3 border-t border-white/15 flex justify-between items-end">
                     <div>
                       <div className="text-[11px] font-bold text-brand-lime uppercase">
-                        Projected Net Annual Operating Surplus:
+                        Projected Net Annual Surplus:
                       </div>
                       <motion.div 
                         key={estimatedNetSurplus}
                         initial={{ scale: 0.9, opacity: 0 }}
                         animate={{ scale: 1, opacity: 1 }}
+                        transition={{ type: 'spring', stiffness: 280, damping: 20 }}
                         className="text-2xl sm:text-3xl font-extrabold text-white font-mono"
                       >
                         ₹{Math.round(estimatedNetSurplus).toLocaleString('en-IN')}
                       </motion.div>
                     </div>
                     <div className="text-[10px] text-white/50 text-right">
-                      ~{Math.round((estimatedNetSurplus / grossAnnualRevenue) * 100)}% Margin
+                      ~{marginPercent}% Margin
                     </div>
                   </div>
                 </div>

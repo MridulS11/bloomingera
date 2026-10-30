@@ -7,8 +7,8 @@
   --color-turquoise: #60C8D4;
   --color-navy: #091E3A;
   --color-navy-dark: #051326;
-  --color-glass-card: rgba(255, 255, 255, 0.75);
-  --color-glass-elevated: rgba(255, 255, 255, 0.90);
+  --color-glass-card: rgba(255, 255, 255, 0.78);
+  --color-glass-elevated: rgba(255, 255, 255, 0.92);
   --color-border-specular: rgba(255, 255, 255, 0.9);
 }
 
@@ -25,7 +25,7 @@ body {
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   box-shadow: 0 20px 48px rgba(9, 30, 58, 0.07), inset 0 1px 2px rgba(255, 255, 255, 0.95);
-  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .glass-panel-elevated {
@@ -68,19 +68,40 @@ body {
   box-shadow: 0 12px 30px rgba(96, 200, 212, 0.55);
 }
 
-/* Shimmer Border Divider */
+/* Shimmer Border Divider with Traveling Light Bead */
 .specular-divider {
-  height: 1.5px;
+  position: relative;
+  height: 2px;
   width: 100%;
   background: linear-gradient(
     90deg,
     transparent,
     rgba(255, 255, 255, 0.95) 20%,
-    rgba(96, 200, 212, 0.55) 50%,
-    rgba(220, 231, 71, 0.55) 75%,
+    rgba(96, 200, 212, 0.6) 50%,
+    rgba(220, 231, 71, 0.6) 75%,
     transparent
   );
-  box-shadow: 0 1px 3px rgba(255, 255, 255, 0.85);
+  box-shadow: 0 1px 4px rgba(255, 255, 255, 0.9);
+  overflow: hidden;
+}
+
+.specular-divider::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -20%;
+  width: 25%;
+  height: 6px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(220, 231, 71, 0.8) 50%, transparent 100%);
+  filter: blur(1px);
+  animation: shimmerLight 5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes shimmerLight {
+  0% { left: -25%; opacity: 0; }
+  20% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { left: 110%; opacity: 0; }
 }
 
 /* Ambient Floating Orbs */
@@ -97,4 +118,24 @@ body {
   0% { transform: translate(0px, 0px) scale(1); }
   50% { transform: translate(30px, -20px) scale(1.06); }
   100% { transform: translate(-20px, 30px) scale(0.96); }
+}
+
+/* Extra High-End Animation Helpers */
+@keyframes floatGentle {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+.animate-float-gentle {
+  animation: floatGentle 4s ease-in-out infinite;
+}
+
+@keyframes pulseGlowRing {
+  0% { box-shadow: 0 0 0 0 rgba(220, 231, 71, 0.7); }
+  70% { box-shadow: 0 0 0 14px rgba(220, 231, 71, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(220, 231, 71, 0); }
+}
+
+.glow-ring {
+  animation: pulseGlowRing 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
   Sparkles, CheckCircle2, Award, Heart, MessageSquare, 
-  Calendar, UserCheck, ShieldCheck, FileText, ChevronRight 
+  Calendar, UserCheck, ShieldCheck, FileText, ChevronRight, CheckCheck 
 } from 'lucide-react';
 import { TRACKER_SAMPLES } from '../data/websiteContent';
 import ScrollReveal from './ScrollReveal';
@@ -17,8 +17,8 @@ export default function DevelopmentTracker() {
         
         {/* Section Header */}
         <ScrollReveal variant="fadeUp" className="text-center max-w-3xl mx-auto mb-14">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-brand-turquoise/20 border border-brand-turquoise/40 text-brand-navy font-bold text-xs mb-3 shadow-sm">
-            <ShieldCheck className="w-3.5 h-3.5 text-brand-turquoise-dark" />
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-turquoise/20 border border-brand-turquoise/40 text-brand-navy font-bold text-xs mb-3 shadow-sm">
+            <ShieldCheck className="w-4 h-4 text-brand-turquoise-dark animate-pulse" />
             <span>PARAKH Holistic Progress Card Aligned</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-brand-navy tracking-tight font-display mb-4">
@@ -32,12 +32,12 @@ export default function DevelopmentTracker() {
 
         {/* Portal Simulation Container with Scroll Scale In */}
         <ScrollReveal variant="scaleUp" delay={0.15}>
-          <div className="glass-panel p-6 sm:p-10 rounded-3xl border-white/95 shadow-2xl bg-white/90 max-w-5xl mx-auto">
+          <div className="glass-panel p-6 sm:p-10 rounded-3xl border-white/95 shadow-2xl bg-white/90 max-w-5xl mx-auto relative overflow-hidden">
             
             {/* Top Simulated App Bar */}
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between pb-6 mb-6 border-b border-brand-navy/10 gap-4">
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-2xl bg-brand-lime flex items-center justify-center font-black text-brand-navy text-lg shadow-sm">
+                <div className="w-12 h-12 rounded-2xl bg-brand-lime flex items-center justify-center font-black text-brand-navy text-lg shadow-sm border border-brand-navy/10">
                   A
                 </div>
                 <div>
@@ -53,26 +53,30 @@ export default function DevelopmentTracker() {
                 </div>
               </div>
 
-              <div className="flex items-center gap-2 text-xs font-bold text-emerald-800 bg-emerald-50 px-3 py-1.5 rounded-xl border border-emerald-200">
-                <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-                <span>Zero Deficit Framing</span>
-              </div>
+              {/* Rotating Stamp Badge */}
+              <motion.div 
+                whileHover={{ rotate: 5, scale: 1.05 }}
+                className="flex items-center gap-2 text-xs font-bold text-emerald-800 bg-emerald-50 px-3.5 py-2 rounded-xl border border-emerald-300 shadow-xs"
+              >
+                <CheckCheck className="w-4 h-4 text-emerald-600" />
+                <span>Verified NCF-FS Holistic Progress Card</span>
+              </motion.div>
             </div>
 
-            {/* Domain Tabs */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-8">
+            {/* Domain Tabs with Interactive Selection Animation */}
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 mb-8">
               {Object.keys(TRACKER_SAMPLES).map((key) => {
                 const item = TRACKER_SAMPLES[key];
                 const isActive = activeDomainKey === key;
                 return (
                   <motion.button
-                    whileHover={{ scale: 1.02 }}
+                    whileHover={{ scale: 1.03, y: -2 }}
                     whileTap={{ scale: 0.98 }}
                     key={key}
                     onClick={() => setActiveDomainKey(key)}
-                    className={`p-3.5 rounded-2xl border text-left transition-all ${
+                    className={`p-3.5 rounded-2xl border text-left transition-all relative overflow-hidden ${
                       isActive
-                        ? 'glass-panel-elevated bg-white border-brand-navy/30 shadow-lg scale-[1.02]'
+                        ? 'glass-panel-elevated bg-white border-brand-navy/30 shadow-lg ring-2 ring-brand-navy/10 scale-[1.02]'
                         : 'bg-white/60 hover:bg-white border-white/80 text-brand-navy/70'
                     }`}
                   >
@@ -80,9 +84,16 @@ export default function DevelopmentTracker() {
                     <div className="text-xs font-extrabold text-brand-navy truncate mt-0.5">
                       {item.domain}
                     </div>
-                    <div className="mt-2 text-[10px] font-bold text-brand-turquoise-dark">
+                    <div className="mt-2 text-[10px] font-bold text-brand-turquoise-dark flex items-center gap-1">
+                      <span className="w-1.5 h-1.5 rounded-full bg-brand-turquoise-dark" />
                       {item.status}
                     </div>
+                    {isActive && (
+                      <motion.div 
+                        layoutId="activeTrackerIndicator"
+                        className="absolute bottom-0 left-0 right-0 h-1 bg-brand-navy"
+                      />
+                    )}
                   </motion.button>
                 );
               })}
@@ -101,7 +112,7 @@ export default function DevelopmentTracker() {
                 <div className="flex flex-wrap items-center justify-between gap-3">
                   <div className="flex items-center gap-2.5">
                     <span 
-                      className="w-3.5 h-3.5 rounded-full"
+                      className="w-3.5 h-3.5 rounded-full shadow-xs"
                       style={{ backgroundColor: activeRecord.color }}
                     />
                     <span className="font-extrabold text-sm sm:text-base text-brand-navy">
