@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import WavingChildStickFigure from './WavingChildStickFigure';
 import {
   Sparkles, Phone, ArrowRight, ArrowUpRight, CheckCircle2, Heart, Star,
   BookOpen, Compass, Palette, Music, Leaf, Globe2, Users, Brain,
@@ -1295,6 +1296,11 @@ export default function IndianPreschoolHome({ onOpenTourModal, onSwitchToSimulat
       <section id="programmes-india" className="py-16 sm:py-24 px-4 sm:px-6 bg-[#091E3A] text-white relative overflow-hidden">
         <div className="ambient-orb w-96 h-96 top-10 left-10 opacity-20" style={{ background: '#60C8D4' }} />
         <div className="ambient-orb w-96 h-96 bottom-10 right-10 opacity-20" style={{ background: '#DCE747' }} />
+
+        {/* Waving Stick Figure Child (STRICTLY HIDDEN ON MOBILE: hidden md:block) */}
+        <div className="hidden md:block absolute right-4 sm:right-8 lg:right-16 top-10 z-30 pointer-events-auto">
+          <WavingChildStickFigure darkMode={true} />
+        </div>
 
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center max-w-3xl mx-auto mb-14">

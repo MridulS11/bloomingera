@@ -19,11 +19,6 @@ export default function NoBookComparison() {
     <section id="no-book" className="py-20 relative bg-gradient-to-b from-[#F4F9FB] to-white">
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
-        
-        {/* Waving Stick Figure Child (STRICTLY HIDDEN ON MOBILE: hidden md:block) */}
-        <div className="hidden md:block absolute right-2 lg:right-6 top-4 z-40 pointer-events-auto">
-          <WavingChildStickFigure />
-        </div>
 
         {/* Section Heading */}
         <ScrollReveal variant="fadeUp" className="text-center max-w-3xl mx-auto mb-10">
