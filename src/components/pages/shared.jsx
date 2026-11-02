@@ -1,0 +1,65 @@
+import React from 'react';
+
+// Visually verified: strictly preschool children / learning materials — zero adults
+export const CHILD_PHOTOS = {
+  classroomDrawing: "https://images.unsplash.com/photo-1727473704274-3fbad0dbbd60?auto=format&fit=crop&w=1000&q=85",
+  toddlerLaughingBook: "https://images.unsplash.com/photo-1472162072942-cd5147eb3902?auto=format&fit=crop&w=900&q=85",
+  fingerPaintingGirl: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=900&q=85",
+  toddlerBeadMaze: "https://images.unsplash.com/photo-1485460535564-844461f37f77?auto=format&fit=crop&w=900&q=85",
+  toddlerAmazedBook: "https://images.unsplash.com/photo-1485546246426-74dc88dec4d9?auto=format&fit=crop&w=900&q=85",
+  natureExplorerChild: "https://images.unsplash.com/photo-1471342051519-9621d25323fc?auto=format&fit=crop&w=900&q=85",
+  woodenBlocksChild: "https://images.unsplash.com/photo-1489850846882-35ef10a4b480?auto=format&fit=crop&w=900&q=85",
+  playgroupFloorToddler: "https://images.unsplash.com/photo-1477511614005-61bd8b91d218?auto=format&fit=crop&w=900&q=85",
+  seniorKgFocusedChild: "https://images.unsplash.com/photo-1488254491307-10ca8fa174c8?auto=format&fit=crop&w=900&q=85",
+  woodenCameraToddler: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=900&q=85",
+  outdoorBallPlayKids: "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=900&q=85",
+  woodenTrainSet: "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=900&q=85",
+  coloredPencilsCraft: "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&w=900&q=85",
+};
+
+export function FlowyWaveDivider({ flip = false, fill = "#FFFFFF", accentColor = "#60C8D4" }) {
+  return (
+    <div className={`w-full overflow-hidden leading-none select-none pointer-events-none ${flip ? 'rotate-180' : ''}`}>
+      <svg
+        className="relative block w-full h-12 sm:h-20 lg:h-24"
+        viewBox="0 0 1440 120"
+        preserveAspectRatio="none"
+      >
+        <path
+          d="M0,40 C240,115 480,-20 720,45 C960,110 1200,5 1440,55 L1440,120 L0,120 Z"
+          fill={accentColor}
+          fillOpacity="0.18"
+        />
+        <path
+          d="M0,60 C320,-10 640,110 960,35 C1280,-40 1360,75 1440,50 L1440,120 L0,120 Z"
+          fill={fill}
+        />
+      </svg>
+    </div>
+  );
+}
+
+export function PageHeader({ badge, title, subtitle }) {
+  return (
+    <section className="relative pt-24 pb-16 sm:pt-28 sm:pb-20 px-4 sm:px-6 bg-gradient-to-b from-[#091E3A] to-[#122B4E] text-white overflow-hidden">
+      <div className="ambient-orb w-96 h-96 top-0 left-10 opacity-25" style={{ background: '#60C8D4' }} />
+      <div className="ambient-orb w-96 h-96 bottom-0 right-10 opacity-25" style={{ background: '#DCE747' }} />
+      
+      <div className="max-w-5xl mx-auto text-center relative z-10">
+        {badge && (
+          <span className="inline-block px-4 py-1.5 rounded-full bg-[#DCE747] text-[#091E3A] text-xs font-black uppercase tracking-widest mb-4 shadow-md">
+            {badge}
+          </span>
+        )}
+        <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight mb-5 font-jakarta">
+          {title}
+        </h1>
+        {subtitle && (
+          <p className="text-base sm:text-xl text-white/85 max-w-3xl mx-auto font-medium leading-relaxed">
+            {subtitle}
+          </p>
+        )}
+      </div>
+    </section>
+  );
+}

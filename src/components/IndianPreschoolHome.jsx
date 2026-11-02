@@ -559,7 +559,13 @@ const VIDEO_BYTES = [
   }
 ];
 
-export default function IndianPreschoolHome({ onOpenTourModal, onSwitchToSimulatorView }) {
+export default function IndianPreschoolHome({
+  onOpenTourModal,
+  onSwitchToSimulatorView,
+  showHeader = true,
+  showFooter = true,
+  onNavigate
+}) {
   const [activeSlide, setActiveSlide] = useState(0);
   const [activePrimexStep, setActivePrimexStep] = useState(0);
   const [activeDimension, setActiveDimension] = useState(0);
@@ -586,116 +592,120 @@ export default function IndianPreschoolHome({ onOpenTourModal, onSwitchToSimulat
       {/* ===================================================================== */}
       {/* TOP ANNOUNCEMENT BAR & GLASSMORPHIC FLOATING INDIAN PRESCHOOL NAVBAR  */}
       {/* ===================================================================== */}
-      <div className="bg-[#091E3A] text-white text-xs py-2.5 px-4 border-b border-white/10 relative z-50">
-        <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
-          <div className="flex items-center gap-2.5 flex-wrap">
-            <span className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-[#DCE747] text-[#091E3A] font-extrabold text-[11px] shadow-sm">
-              <Flower2 className="w-3.5 h-3.5 text-[#091E3A] animate-spin" style={{ animationDuration: '10s' }} />
-              THE FUTURE BLOOMS HERE
-            </span>
-            <span className="text-white/90 font-semibold">
-              Proudly Indian, Powerfully Global Preschool
-            </span>
-            <span className="hidden lg:inline text-[#60C8D4] font-medium">
-              • Futuristic by Design. Childhood First.
-            </span>
-          </div>
-
-          <div className="flex items-center gap-3">
-            <a
-              href="tel:+919647974093"
-              className="inline-flex items-center gap-1.5 text-white hover:text-[#DCE747] font-bold transition-colors"
-            >
-              <Phone className="w-3.5 h-3.5 text-[#60C8D4]" />
-              <span>+91 96479 74093</span>
-            </a>
-            <span className="text-white/25 hidden sm:inline">|</span>
-            {onSwitchToSimulatorView && (
-              <button
-                onClick={onSwitchToSimulatorView}
-                className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-[#60C8D4]/20 hover:bg-[#60C8D4]/35 text-[#DCE747] font-bold text-[11px] border border-[#60C8D4]/40 transition-all"
-              >
-                <span>Switch to Interactive Lab View (Preview 7)</span>
-                <ArrowUpRight className="w-3 h-3" />
-              </button>
-            )}
-            <a
-              href="standalone-previews.html"
-              className="hidden md:inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-white/10 hover:bg-white/20 text-white font-semibold text-[11px] border border-white/20 transition-all"
-            >
-              <span>All Design Previews (1–8)</span>
-              <ArrowUpRight className="w-3 h-3 text-[#DCE747]" />
-            </a>
-          </div>
-        </div>
-      </div>
-
-      {/* Main Sticky Glass Navigation */}
-      <header className="sticky top-3 z-40 px-3 sm:px-6">
-        <div className="max-w-7xl mx-auto glass-panel-elevated rounded-full py-2.5 px-4 sm:px-7 border-2 border-white shadow-[0_20px_50px_rgba(9,30,58,0.1)] bg-white/85 backdrop-blur-2xl">
-          <div className="flex items-center justify-between gap-4">
-            <a href="#" className="flex items-center gap-3 group">
-              <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-full overflow-hidden border-2 border-[#DCE747] shadow-md bg-white p-0.5 group-hover:scale-105 transition-transform">
-                <img
-                  src="/logo.jpeg"
-                  alt="Blooming Era Preschools"
-                  className="w-full h-full object-contain rounded-full"
-                />
+      {showHeader && (
+        <>
+          <div className="bg-[#091E3A] text-white text-xs py-2.5 px-4 border-b border-white/10 relative z-50">
+            <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+              <div className="flex items-center gap-2.5 flex-wrap">
+                <span className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-[#DCE747] text-[#091E3A] font-extrabold text-[11px] shadow-sm">
+                  <Flower2 className="w-3.5 h-3.5 text-[#091E3A] animate-spin" style={{ animationDuration: '10s' }} />
+                  THE FUTURE BLOOMS HERE
+                </span>
+                <span className="text-white/90 font-semibold">
+                  Proudly Indian, Powerfully Global Preschool
+                </span>
+                <span className="hidden lg:inline text-[#60C8D4] font-medium">
+                  • Futuristic by Design. Childhood First.
+                </span>
               </div>
-              <div>
-                <div className="flex items-center gap-1.5">
-                  <span className="font-extrabold text-lg sm:text-xl text-[#091E3A] tracking-tight">
-                    Blooming Era
-                  </span>
-                  <span className="px-2 py-0.5 text-[10px] font-extrabold uppercase tracking-wider bg-[#DCE747] text-[#091E3A] rounded-full">
-                    Preschools
-                  </span>
-                </div>
-                <p className="text-[11px] font-semibold text-[#091E3A]/65 -mt-0.5">
-                  Proudly Indian • Powerfully Global
-                </p>
-              </div>
-            </a>
 
-            <nav className="hidden xl:flex items-center gap-1">
-              {[
-                { label: "Why Parents Love Us", href: "#why-parents" },
-                { label: "Welcome", href: "#welcome" },
-                { label: "Activities", href: "#activities" },
-                { label: "Programmes", href: "#programmes-india" },
-                { label: "Kindermagic PrimeX", href: "#philosophy" },
-                { label: "Holistic Growth", href: "#holistic" },
-                { label: "Franchise", href: "#franchise-opportunity" },
-                { label: "Gallery", href: "#gallery" },
-              ].map((item) => (
+              <div className="flex items-center gap-3">
                 <a
-                  key={item.label}
-                  href={item.href}
-                  className="px-3 py-1.5 rounded-full text-xs font-bold text-[#091E3A]/80 hover:text-[#091E3A] hover:bg-[#60C8D4]/20 transition-all"
+                  href="tel:+919647974093"
+                  className="inline-flex items-center gap-1.5 text-white hover:text-[#DCE747] font-bold transition-colors"
                 >
-                  {item.label}
+                  <Phone className="w-3.5 h-3.5 text-[#60C8D4]" />
+                  <span>+91 96479 74093</span>
                 </a>
-              ))}
-            </nav>
-
-            <div className="flex items-center gap-2.5">
-              <a
-                href="#franchise-opportunity"
-                className="hidden sm:inline-flex px-4 py-2 rounded-full text-xs font-extrabold text-[#091E3A] bg-[#60C8D4]/20 hover:bg-[#60C8D4]/35 border border-[#60C8D4]/50 transition-all"
-              >
-                Franchise @ ₹2.5L
-              </a>
-              <button
-                onClick={onOpenTourModal}
-                className="btn-lime px-4 sm:px-5 py-2.5 rounded-full text-xs font-black flex items-center gap-1.5 border-2 border-white shadow-lg"
-              >
-                <span>Book a School Tour</span>
-                <Sparkles className="w-3.5 h-3.5 text-[#091E3A]" />
-              </button>
+                <span className="text-white/25 hidden sm:inline">|</span>
+                {onSwitchToSimulatorView && (
+                  <button
+                    onClick={onSwitchToSimulatorView}
+                    className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-[#60C8D4]/20 hover:bg-[#60C8D4]/35 text-[#DCE747] font-bold text-[11px] border border-[#60C8D4]/40 transition-all"
+                  >
+                    <span>Switch to Interactive Lab View (Preview 7)</span>
+                    <ArrowUpRight className="w-3 h-3" />
+                  </button>
+                )}
+                <a
+                  href="standalone-previews.html"
+                  className="hidden md:inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-white/10 hover:bg-white/20 text-white font-semibold text-[11px] border border-white/20 transition-all"
+                >
+                  <span>All Design Previews (1–8)</span>
+                  <ArrowUpRight className="w-3 h-3 text-[#DCE747]" />
+                </a>
+              </div>
             </div>
           </div>
-        </div>
-      </header>
+
+          {/* Main Sticky Glass Navigation */}
+          <header className="sticky top-3 z-40 px-3 sm:px-6">
+            <div className="max-w-7xl mx-auto glass-panel-elevated rounded-full py-2.5 px-4 sm:px-7 border-2 border-white shadow-[0_20px_50px_rgba(9,30,58,0.1)] bg-white/85 backdrop-blur-2xl">
+              <div className="flex items-center justify-between gap-4">
+                <a href="#" className="flex items-center gap-3 group">
+                  <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-full overflow-hidden border-2 border-[#DCE747] shadow-md bg-white p-0.5 group-hover:scale-105 transition-transform">
+                    <img
+                      src="/logo.jpeg"
+                      alt="Blooming Era Preschools"
+                      className="w-full h-full object-contain rounded-full"
+                    />
+                  </div>
+                  <div>
+                    <div className="flex items-center gap-1.5">
+                      <span className="font-extrabold text-lg sm:text-xl text-[#091E3A] tracking-tight">
+                        Blooming Era
+                      </span>
+                      <span className="px-2 py-0.5 text-[10px] font-extrabold uppercase tracking-wider bg-[#DCE747] text-[#091E3A] rounded-full">
+                        Preschools
+                      </span>
+                    </div>
+                    <p className="text-[11px] font-semibold text-[#091E3A]/65 -mt-0.5">
+                      Proudly Indian • Powerfully Global
+                    </p>
+                  </div>
+                </a>
+
+                <nav className="hidden xl:flex items-center gap-1">
+                  {[
+                    { label: "Why Parents Love Us", href: "#why-parents" },
+                    { label: "Welcome", href: "#welcome" },
+                    { label: "Activities", href: "#activities" },
+                    { label: "Programmes", href: "#programmes-india" },
+                    { label: "Kindermagic PrimeX", href: "#philosophy" },
+                    { label: "Holistic Growth", href: "#holistic" },
+                    { label: "Franchise", href: "#franchise-opportunity" },
+                    { label: "Gallery", href: "#gallery" },
+                  ].map((item) => (
+                    <a
+                      key={item.label}
+                      href={item.href}
+                      className="px-3 py-1.5 rounded-full text-xs font-bold text-[#091E3A]/80 hover:text-[#091E3A] hover:bg-[#60C8D4]/20 transition-all"
+                    >
+                      {item.label}
+                    </a>
+                  ))}
+                </nav>
+
+                <div className="flex items-center gap-2.5">
+                  <a
+                    href="#franchise-opportunity"
+                    className="hidden sm:inline-flex px-4 py-2 rounded-full text-xs font-extrabold text-[#091E3A] bg-[#60C8D4]/20 hover:bg-[#60C8D4]/35 border border-[#60C8D4]/50 transition-all"
+                  >
+                    Franchise @ ₹2.5L
+                  </a>
+                  <button
+                    onClick={onOpenTourModal}
+                    className="btn-lime px-4 sm:px-5 py-2.5 rounded-full text-xs font-black flex items-center gap-1.5 border-2 border-white shadow-lg"
+                  >
+                    <span>Book a School Tour</span>
+                    <Sparkles className="w-3.5 h-3.5 text-[#091E3A]" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </header>
+        </>
+      )}
 
       {/* ===================================================================== */}
       {/* SECTION 01 — HOMEPAGE HERO SLIDER (FLOWY GLASSMORPHIC 3-SLIDE HERO)   */}
@@ -1298,7 +1308,7 @@ export default function IndianPreschoolHome({ onOpenTourModal, onSwitchToSimulat
         <div className="ambient-orb w-96 h-96 bottom-10 right-10 opacity-20" style={{ background: '#DCE747' }} />
 
         {/* Waving Stick Figure Child (STRICTLY HIDDEN ON MOBILE: hidden md:block) */}
-        <div className="hidden md:block absolute right-4 sm:right-8 lg:right-16 top-10 z-30 pointer-events-auto">
+        <div className="hidden md:block absolute right-4 sm:right-8 lg:right-16 top-28 sm:top-32 lg:top-36 z-30 pointer-events-auto">
           <WavingChildStickFigure darkMode={true} />
         </div>
 
@@ -2084,64 +2094,66 @@ export default function IndianPreschoolHome({ onOpenTourModal, onSwitchToSimulat
       {/* ===================================================================== */}
       {/* SECTION 19 — WEBSITE FOOTER                                           */}
       {/* ===================================================================== */}
-      <footer className="bg-[#091E3A] text-white pt-16 pb-12 px-4 sm:px-6 border-t-4 border-[#DCE747]">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-white/15">
-            <div className="lg:col-span-5 space-y-4">
-              <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-2xl bg-white p-1">
-                  <img src="/logo.jpeg" alt="Blooming Era Preschools" className="w-full h-full object-contain" />
+      {showFooter && (
+        <footer className="bg-[#091E3A] text-white pt-16 pb-12 px-4 sm:px-6 border-t-4 border-[#DCE747]">
+          <div className="max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-white/15">
+              <div className="lg:col-span-5 space-y-4">
+                <div className="flex items-center gap-3">
+                  <div className="w-12 h-12 rounded-2xl bg-white p-1">
+                    <img src="/logo.jpeg" alt="Blooming Era Preschools" className="w-full h-full object-contain" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-extrabold text-white">Blooming Era Preschools</h3>
+                    <p className="text-xs font-bold text-[#DCE747]">Proudly Indian, Powerfully Global Preschool.</p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="text-xl font-extrabold text-white">Blooming Era Preschools</h3>
-                  <p className="text-xs font-bold text-[#DCE747]">Proudly Indian, Powerfully Global Preschool.</p>
+                <p className="text-sm text-white/75 leading-relaxed max-w-md">
+                  Where joyful childhood experiences meet meaningful learning, strong foundations and possibilities for the future.
+                </p>
+                <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 text-[#DCE747] text-xs font-black tracking-wider">
+                  <span>🌸 The Future Blooms Here.</span>
                 </div>
               </div>
-              <p className="text-sm text-white/75 leading-relaxed max-w-md">
-                Where joyful childhood experiences meet meaningful learning, strong foundations and possibilities for the future.
-              </p>
-              <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 text-[#DCE747] text-xs font-black tracking-wider">
-                <span>🌸 The Future Blooms Here.</span>
+
+              <div className="lg:col-span-4">
+                <h4 className="text-xs font-black uppercase tracking-widest text-[#60C8D4] mb-4">
+                  Quick Links
+                </h4>
+                <div className="grid grid-cols-2 gap-2.5 text-sm text-white/80 font-medium">
+                  {["Home", "About Us", "Our Programmes", "Curriculum", "Admissions", "Gallery", "Franchise", "Blog", "Careers", "Contact"].map((link) => (
+                    <a key={link} href="#welcome" className="hover:text-[#DCE747] transition-colors">
+                      {link}
+                    </a>
+                  ))}
+                </div>
+              </div>
+
+              <div className="lg:col-span-3 space-y-3">
+                <h4 className="text-xs font-black uppercase tracking-widest text-[#60C8D4] mb-4">
+                  Connect With Us
+                </h4>
+                <a href="tel:+919647974093" className="flex items-center gap-2.5 text-sm text-white hover:text-[#DCE747] font-bold">
+                  <Phone className="w-4 h-4 text-[#DCE747]" />
+                  <span>+91 96479 74093</span>
+                </a>
+                <a href="mailto:info@bloomingera.com" className="flex items-center gap-2.5 text-sm text-white/80 hover:text-[#DCE747]">
+                  <Mail className="w-4 h-4 text-[#60C8D4]" />
+                  <span>info@bloomingera.com</span>
+                </a>
+                <p className="text-xs text-white/65 pt-2">
+                  Dr. Masuda Yasmin — Founder &amp; Chairperson
+                </p>
               </div>
             </div>
 
-            <div className="lg:col-span-4">
-              <h4 className="text-xs font-black uppercase tracking-widest text-[#60C8D4] mb-4">
-                Quick Links
-              </h4>
-              <div className="grid grid-cols-2 gap-2.5 text-sm text-white/80 font-medium">
-                {["Home", "About Us", "Our Programmes", "Curriculum", "Admissions", "Gallery", "Franchise", "Blog", "Careers", "Contact"].map((link) => (
-                  <a key={link} href="#welcome" className="hover:text-[#DCE747] transition-colors">
-                    {link}
-                  </a>
-                ))}
-              </div>
-            </div>
-
-            <div className="lg:col-span-3 space-y-3">
-              <h4 className="text-xs font-black uppercase tracking-widest text-[#60C8D4] mb-4">
-                Connect With Us
-              </h4>
-              <a href="tel:+919647974093" className="flex items-center gap-2.5 text-sm text-white hover:text-[#DCE747] font-bold">
-                <Phone className="w-4 h-4 text-[#DCE747]" />
-                <span>+91 96479 74093</span>
-              </a>
-              <a href="mailto:info@bloomingera.com" className="flex items-center gap-2.5 text-sm text-white/80 hover:text-[#DCE747]">
-                <Mail className="w-4 h-4 text-[#60C8D4]" />
-                <span>info@bloomingera.com</span>
-              </a>
-              <p className="text-xs text-white/65 pt-2">
-                Dr. Masuda Yasmin — Founder &amp; Chairperson
-              </p>
+            <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/60">
+              <p>© 2026 Blooming Era Preschools. All rights reserved. • Proudly Indian, Powerfully Global.</p>
+              <p className="text-[#DCE747] font-bold">The Future Blooms Here.</p>
             </div>
           </div>
-
-          <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/60">
-            <p>© 2026 Blooming Era Preschools. All rights reserved. • Proudly Indian, Powerfully Global.</p>
-            <p className="text-[#DCE747] font-bold">The Future Blooms Here.</p>
-          </div>
-        </div>
-      </footer>
+        </footer>
+      )}
 
       {/* Lightbox Modal for Gallery */}
       <AnimatePresence>

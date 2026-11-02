@@ -192,7 +192,7 @@ export default function WavingChildStickFigure({ className = "", darkMode = fals
             {/* Spread Waving Fingers */}
             <line x1="96" y1="19" x2="96" y2="13" stroke={strokeColor} strokeWidth="2.2" strokeLinecap="round" />
             <line x1="100" y1="21" x2="105" y2="16" stroke={strokeColor} strokeWidth="2.2" strokeLinecap="round" />
-            <line x1="92" y1="21" x2="77" y2="16" stroke={strokeColor} strokeWidth="2.2" strokeLinecap="round" />
+            <line x1="92" y1="21" x2="87" y2="17" stroke={strokeColor} strokeWidth="2.2" strokeLinecap="round" />
             <line x1="101" y1="25" x2="107" y2="24" stroke={strokeColor} strokeWidth="2.2" strokeLinecap="round" />
 
             {/* Sparkle near Waving Hand */}
