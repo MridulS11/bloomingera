@@ -46,7 +46,7 @@ export default function AboutPage({ onOpenTourModal, onNavigate }) {
               </div>
 
               {/* Callout Quote Box */}
-              <div className="p-6 rounded-3xl bg-gradient-to-r from-[#DCE747]/20 via-[#60C8D4]/15 to-white border-2 border-[#DCE747] shadow-lg">
+              <div className="p-6 rounded-3xl bg-gradient-to-r from-[#8ed727]/20 via-[#60C8D4]/15 to-white border-2 border-[#8ed727] shadow-lg">
                 <p className="text-lg sm:text-xl font-black text-[#091E3A] italic">
                   “We don't want children to learn more things sooner. We want them to understand, experience and love what they learn.”
                 </p>
@@ -68,7 +68,7 @@ export default function AboutPage({ onOpenTourModal, onNavigate }) {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#091E3A]/80 via-transparent to-transparent flex items-end p-6">
                   <div className="text-white">
-                    <span className="px-3 py-1 rounded-full bg-[#DCE747] text-[#091E3A] text-xs font-black uppercase">
+                    <span className="px-3 py-1 rounded-full bg-[#8ed727] text-[#091E3A] text-xs font-black uppercase">
                       Pure Wonder
                     </span>
                     <h3 className="text-xl font-bold mt-2">Active Discovery Over Rote Worksheets</h3>
@@ -79,7 +79,7 @@ export default function AboutPage({ onOpenTourModal, onNavigate }) {
               {/* Orbiting Badge */}
               <div className="absolute -bottom-6 -left-6 p-4 rounded-3xl bg-white/95 backdrop-blur-xl border-2 border-[#60C8D4] shadow-xl max-w-xs">
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-2xl bg-[#091E3A] flex items-center justify-center text-[#DCE747]">
+                  <div className="w-10 h-10 rounded-2xl bg-[#091E3A] flex items-center justify-center text-[#8ed727]">
                     <Sparkles className="w-5 h-5" />
                   </div>
                   <div>
@@ -123,10 +123,10 @@ export default function AboutPage({ onOpenTourModal, onNavigate }) {
               whileHover={{ y: -6 }}
               className="p-8 sm:p-10 rounded-[36px] bg-white border-2 border-white shadow-xl relative overflow-hidden"
             >
-              <div className="w-14 h-14 rounded-2xl bg-[#DCE747]/30 border border-[#DCE747] text-[#091E3A] flex items-center justify-center mb-6 shadow-sm">
+              <div className="w-14 h-14 rounded-2xl bg-[#8ed727]/30 border border-[#8ed727] text-[#091E3A] flex items-center justify-center mb-6 shadow-sm">
                 <Heart className="w-7 h-7 text-[#091E3A]" />
               </div>
-              <span className="text-xs font-mono font-bold uppercase tracking-wider text-[#091E3A] bg-[#DCE747] px-3 py-1 rounded-full">
+              <span className="text-xs font-mono font-bold uppercase tracking-wider text-[#091E3A] bg-[#8ed727] px-3 py-1 rounded-full">
                 Core Purpose
               </span>
               <h3 className="text-2xl sm:text-3xl font-extrabold text-[#091E3A] mt-4 mb-3">
@@ -143,12 +143,12 @@ export default function AboutPage({ onOpenTourModal, onNavigate }) {
 
       {/* Our Triad Philosophy */}
       <section className="py-16 sm:py-24 px-4 sm:px-6 bg-[#091E3A] text-white relative overflow-hidden">
-        <div className="ambient-orb w-96 h-96 top-0 right-0 opacity-20" style={{ background: '#DCE747' }} />
+        <div className="ambient-orb w-96 h-96 top-0 right-0 opacity-20" style={{ background: '#8ed727' }} />
         <div className="ambient-orb w-96 h-96 bottom-0 left-0 opacity-20" style={{ background: '#60C8D4' }} />
 
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center max-w-3xl mx-auto mb-14">
-            <span className="px-4 py-1.5 rounded-full bg-[#DCE747] text-[#091E3A] text-xs font-black uppercase tracking-widest">
+            <span className="px-4 py-1.5 rounded-full bg-[#8ed727] text-[#091E3A] text-xs font-black uppercase tracking-widest">
               OUR PHILOSOPHICAL PILLARS
             </span>
             <h2 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight mt-3 mb-4">
@@ -166,10 +166,10 @@ export default function AboutPage({ onOpenTourModal, onNavigate }) {
               className="p-8 rounded-[36px] bg-white/10 backdrop-blur-xl border-2 border-white/20 shadow-2xl flex flex-col justify-between"
             >
               <div>
-                <div className="w-12 h-12 rounded-2xl bg-[#DCE747] text-[#091E3A] flex items-center justify-center font-black text-xl mb-6 shadow-md">
+                <div className="w-12 h-12 rounded-2xl bg-[#8ed727] text-[#091E3A] flex items-center justify-center font-black text-xl mb-6 shadow-md">
                   🇮🇳
                 </div>
-                <h3 className="text-2xl font-extrabold text-[#DCE747] mb-3">
+                <h3 className="text-2xl font-extrabold text-[#8ed727] mb-3">
                   Proudly Indian
                 </h3>
                 <p className="text-sm sm:text-base text-white/85 leading-relaxed font-medium">
@@ -197,7 +197,7 @@ export default function AboutPage({ onOpenTourModal, onNavigate }) {
                   We draw from global educational ideas, research-informed pedagogy, creative thinking and the skills children need in a rapidly evolving, connected world.
                 </p>
               </div>
-              <div className="mt-6 pt-4 border-t border-white/10 text-xs text-[#DCE747] font-bold">
+              <div className="mt-6 pt-4 border-t border-white/10 text-xs text-[#8ed727] font-bold">
                 21st-Century Scientific Inquiry & Tech Fluency
               </div>
             </motion.div>
@@ -226,7 +226,7 @@ export default function AboutPage({ onOpenTourModal, onNavigate }) {
         </div>
       </section>
 
-      <FlowyWaveDivider flip={true} fill="#FFFFFF" accentColor="#DCE747" />
+      <FlowyWaveDivider flip={true} fill="#FFFFFF" accentColor="#8ed727" />
 
       {/* PAGE 2: MESSAGE FROM THE FOUNDER */}
       <section id="founder-message" className="py-16 sm:py-24 px-4 sm:px-6 bg-white relative">
@@ -246,7 +246,7 @@ export default function AboutPage({ onOpenTourModal, onNavigate }) {
 
             {/* Founder Byline */}
             <div className="flex flex-col sm:flex-row items-center gap-6 pb-8 border-b border-slate-200 mb-8">
-              <div className="w-20 h-20 rounded-full border-4 border-[#DCE747] shadow-xl overflow-hidden bg-white p-1 flex-shrink-0">
+              <div className="w-20 h-20 rounded-full border-4 border-[#8ed727] shadow-xl overflow-hidden bg-white p-1 flex-shrink-0">
                 <img
                   src="/logo.jpeg"
                   alt="Dr. Masuda Yasmin"

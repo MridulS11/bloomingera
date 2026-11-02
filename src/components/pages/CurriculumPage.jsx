@@ -20,7 +20,7 @@ const EIGHT_DIMENSIONS = [
     title: "Experiential Foundational Numeracy",
     desc: "Counting, natural patterns, geometric shapes, hands-on measurement, logical thinking and mathematical problem-solving.",
     icon: Brain,
-    accent: "#DCE747"
+    accent: "#8ed727"
   },
   {
     num: "03",
@@ -34,7 +34,7 @@ const EIGHT_DIMENSIONS = [
     title: "Physical & Sensory Development",
     desc: "Gross motor coordination, fine-finger dexterity, practical-life skills, spatial navigation and rich multisensory exploration.",
     icon: Compass,
-    accent: "#DCE747"
+    accent: "#8ed727"
   },
   {
     num: "05",
@@ -48,7 +48,7 @@ const EIGHT_DIMENSIONS = [
     title: "Creative & Cultural Expression",
     desc: "Open-ended art, rhythm, music, drama, boundless imagination, living Indian heritage, and global cultural awareness.",
     icon: Palette,
-    accent: "#DCE747"
+    accent: "#8ed727"
   },
   {
     num: "07",
@@ -62,7 +62,7 @@ const EIGHT_DIMENSIONS = [
     title: "Future-Ready Capabilities",
     desc: "Human-centric design thinking, early scientific inquiry, logical sequencing, and collaborative problem-solving.",
     icon: Rocket,
-    accent: "#DCE747"
+    accent: "#8ed727"
   }
 ];
 
@@ -151,7 +151,7 @@ export default function CurriculumPage({ onOpenTourModal }) {
             onClick={() => setActiveTab('future-skills')}
             className={`px-5 py-2.5 rounded-2xl text-xs sm:text-sm font-black transition-all ${
               activeTab === 'future-skills'
-                ? 'bg-[#DCE747] text-[#091E3A] shadow-lg'
+                ? 'bg-[#8ed727] text-[#091E3A] shadow-lg'
                 : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
             }`}
           >
@@ -166,7 +166,7 @@ export default function CurriculumPage({ onOpenTourModal }) {
           <section className="py-16 sm:py-24 px-4 sm:px-6 bg-white relative">
             <div className="max-w-7xl mx-auto">
               <div className="text-center max-w-3xl mx-auto mb-14">
-                <span className="px-4 py-1.5 rounded-full bg-[#DCE747] text-[#091E3A] text-xs font-black uppercase tracking-widest">
+                <span className="px-4 py-1.5 rounded-full bg-[#8ed727] text-[#091E3A] text-xs font-black uppercase tracking-widest">
                   THE PEDAGOGICAL SHIFT
                 </span>
                 <h2 className="text-3xl sm:text-5xl font-extrabold text-[#091E3A] tracking-tight mt-3 mb-4">
@@ -184,7 +184,7 @@ export default function CurriculumPage({ onOpenTourModal }) {
                     instead: "Instead of only learning about plants...",
                     real: "Children grow them.",
                     desc: "Touching soil, measuring sprout heights, and noting sunlight changes with their own hands.",
-                    color: "#DCE747"
+                    color: "#8ed727"
                   },
                   {
                     instead: "Instead of only identifying shapes...",
@@ -196,7 +196,7 @@ export default function CurriculumPage({ onOpenTourModal }) {
                     instead: "Instead of only memorising numbers...",
                     real: "Children use them in meaningful situations.",
                     desc: "Running play grocery stalls, sorting bead quantities, and balancing scales.",
-                    color: "#DCE747"
+                    color: "#8ed727"
                   },
                   {
                     instead: "Instead of only reading about the world...",
@@ -237,11 +237,11 @@ export default function CurriculumPage({ onOpenTourModal }) {
           {/* Section: The Eight Learning Dimensions */}
           <section className="py-16 sm:py-24 px-4 sm:px-6 bg-[#091E3A] text-white relative overflow-hidden">
             <div className="ambient-orb w-96 h-96 top-0 left-0 opacity-20" style={{ background: '#60C8D4' }} />
-            <div className="ambient-orb w-96 h-96 bottom-0 right-0 opacity-20" style={{ background: '#DCE747' }} />
+            <div className="ambient-orb w-96 h-96 bottom-0 right-0 opacity-20" style={{ background: '#8ed727' }} />
 
             <div className="max-w-7xl mx-auto relative z-10">
               <div className="text-center max-w-3xl mx-auto mb-14">
-                <span className="px-4 py-1.5 rounded-full bg-[#DCE747] text-[#091E3A] text-xs font-black uppercase tracking-widest">
+                <span className="px-4 py-1.5 rounded-full bg-[#8ed727] text-[#091E3A] text-xs font-black uppercase tracking-widest">
                   360° DEVELOPMENTAL SPECTRUM
                 </span>
                 <h2 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight mt-3 mb-4">
@@ -263,7 +263,7 @@ export default function CurriculumPage({ onOpenTourModal }) {
                     >
                       <div>
                         <div className="flex items-center justify-between mb-4">
-                          <span className="text-xs font-mono font-bold text-[#DCE747]">
+                          <span className="text-xs font-mono font-bold text-[#8ed727]">
                             DIMENSION {dim.num}
                           </span>
                           <div className="w-10 h-10 rounded-2xl bg-white/10 flex items-center justify-center text-white">
@@ -287,7 +287,7 @@ export default function CurriculumPage({ onOpenTourModal }) {
             </div>
           </section>
 
-          <FlowyWaveDivider flip={true} fill="#FFFFFF" accentColor="#DCE747" />
+          <FlowyWaveDivider flip={true} fill="#FFFFFF" accentColor="#8ed727" />
 
           {/* Section: Experiential FLN & Worksheets With Purpose */}
           <section className="py-16 sm:py-24 px-4 sm:px-6 bg-white">
@@ -309,7 +309,7 @@ export default function CurriculumPage({ onOpenTourModal }) {
 
                 {/* 2. Numbers Beyond the Worksheet */}
                 <div className="p-8 rounded-[36px] bg-[#F4F9FB] border-2 border-slate-200/80 shadow-lg">
-                  <div className="w-12 h-12 rounded-2xl bg-[#DCE747]/30 border border-[#DCE747] text-[#091E3A] flex items-center justify-center font-black mb-6">
+                  <div className="w-12 h-12 rounded-2xl bg-[#8ed727]/30 border border-[#8ed727] text-[#091E3A] flex items-center justify-center font-black mb-6">
                     123
                   </div>
                   <h3 className="text-2xl font-black text-[#091E3A] mb-3">
@@ -322,7 +322,7 @@ export default function CurriculumPage({ onOpenTourModal }) {
 
                 {/* 3. Worksheets With Purpose */}
                 <div className="p-8 rounded-[36px] bg-[#F4F9FB] border-2 border-slate-200/80 shadow-lg">
-                  <div className="w-12 h-12 rounded-2xl bg-[#091E3A] text-[#DCE747] flex items-center justify-center font-black mb-6">
+                  <div className="w-12 h-12 rounded-2xl bg-[#091E3A] text-[#8ed727] flex items-center justify-center font-black mb-6">
                     ✍️
                   </div>
                   <h3 className="text-2xl font-black text-[#091E3A] mb-3">
@@ -400,7 +400,7 @@ export default function CurriculumPage({ onOpenTourModal }) {
         <section className="py-16 sm:py-24 px-4 sm:px-6 bg-white">
           <div className="max-w-7xl mx-auto">
             <div className="text-center max-w-3xl mx-auto mb-14">
-              <span className="px-4 py-1.5 rounded-full bg-[#DCE747] text-[#091E3A] text-xs font-black uppercase tracking-widest">
+              <span className="px-4 py-1.5 rounded-full bg-[#8ed727] text-[#091E3A] text-xs font-black uppercase tracking-widest">
                 FUTURE-READY LEARNING
               </span>
               <h2 className="text-3xl sm:text-5xl font-extrabold text-[#091E3A] tracking-tight mt-3 mb-4">
@@ -422,7 +422,7 @@ export default function CurriculumPage({ onOpenTourModal }) {
                     className="p-6 rounded-[32px] bg-[#F4F9FB] border-2 border-slate-200/80 shadow-md hover:border-[#60C8D4] transition-all"
                   >
                     <div className="flex items-center gap-4 mb-4">
-                      <div className="w-12 h-12 rounded-2xl bg-[#091E3A] text-[#DCE747] flex items-center justify-center flex-shrink-0 shadow-sm">
+                      <div className="w-12 h-12 rounded-2xl bg-[#091E3A] text-[#8ed727] flex items-center justify-center flex-shrink-0 shadow-sm">
                         <Icon className="w-6 h-6" />
                       </div>
                       <div>
@@ -443,8 +443,8 @@ export default function CurriculumPage({ onOpenTourModal }) {
             </div>
 
             {/* Closing Headline Callout */}
-            <div className="mt-16 p-8 sm:p-10 rounded-[36px] bg-[#091E3A] text-white border-2 border-[#DCE747] shadow-2xl text-center max-w-4xl mx-auto">
-              <span className="text-xs font-mono font-bold uppercase tracking-widest text-[#DCE747] mb-3 block">
+            <div className="mt-16 p-8 sm:p-10 rounded-[36px] bg-[#091E3A] text-white border-2 border-[#8ed727] shadow-2xl text-center max-w-4xl mx-auto">
+              <span className="text-xs font-mono font-bold uppercase tracking-widest text-[#8ed727] mb-3 block">
                 OUR CORE PROMISE TO PARENTS
               </span>
               <h3 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white leading-tight">

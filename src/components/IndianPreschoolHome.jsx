@@ -65,7 +65,7 @@ const HERO_SLIDES = [
     tertiaryImage: CHILD_PHOTOS.toddlerLaughingBook,
     badgeTitle: "Proudly Indian, Powerfully Global",
     badgeSub: "Futuristic by Design • Childhood First",
-    accent: "#DCE747"
+    accent: "#8ed727"
   },
   {
     id: 2,
@@ -88,7 +88,7 @@ const HERO_SLIDES = [
     tag: "Slide 03 • Franchise Opportunity",
     smallHeading: "FRANCHISE OPPORTUNITY",
     headline: "Build a Preschool. Shape a Generation.",
-    description: "Don’t Just Start a Preschool. Build a Legacy in Education. A distinctive, research-informed preschool model with future-ready learning, structured support and opportunities for sustainable business growth.",
+    description: "Build a legacy in education with our distinctive preschool franchise model, future-ready learning and structured 360° support.",
     primaryBtn: "Explore Franchise Opportunities",
     primaryHref: "#franchise-opportunity",
     secondaryBtn: "Enquire for Partnership",
@@ -97,7 +97,7 @@ const HERO_SLIDES = [
     tertiaryImage: CHILD_PHOTOS.playgroupFloorToddler,
     badgeTitle: "Franchise Starting at ₹2.50 Lakh",
     badgeSub: "360° Setup, Training & Admissions Support",
-    accent: "#DCE747"
+    accent: "#8ed727"
   }
 ];
 
@@ -110,7 +110,7 @@ const WHY_PARENTS_CARDS = [
     image: CHILD_PHOTOS.toddlerBeadMaze,
     icon: Sparkles,
     badge: "Experiential Discovery",
-    color: "#DCE747"
+    color: "#8ed727"
   },
   {
     id: 2,
@@ -128,7 +128,7 @@ const WHY_PARENTS_CARDS = [
     image: CHILD_PHOTOS.fingerPaintingGirl,
     icon: Heart,
     badge: "360° Whole Child",
-    color: "#DCE747"
+    color: "#8ed727"
   },
   {
     id: 4,
@@ -146,7 +146,7 @@ const WHY_PARENTS_CARDS = [
     image: CHILD_PHOTOS.toddlerLaughingBook,
     icon: Globe2,
     badge: "Sanskar + Global Vision",
-    color: "#DCE747"
+    color: "#8ed727"
   }
 ];
 
@@ -156,7 +156,7 @@ const STATS_ITEMS = [
     number: "5",
     label: "Foundational Learning Years",
     sub: "(Ages 3–8) NCF-FS Continuum",
-    color: "#DCE747",
+    color: "#8ed727",
     icon: GraduationCap
   },
   {
@@ -170,7 +170,7 @@ const STATS_ITEMS = [
     number: "12",
     label: "Future-Ready Learning Themes",
     sub: "Real-World Experiential Units",
-    color: "#DCE747",
+    color: "#8ed727",
     icon: Sparkles
   },
   {
@@ -200,7 +200,7 @@ const ACTIVITIES = [
     description: "Storytelling, phonics games, puppetry and role-play nurture communication, imagination and early literacy.",
     image: CHILD_PHOTOS.toddlerLaughingBook,
     icon: BookOpen,
-    accent: "#DCE747"
+    accent: "#8ed727"
   },
   {
     id: "maker-studio",
@@ -218,7 +218,7 @@ const ACTIVITIES = [
     description: "Music, dance, physical play and movement support coordination, expression, confidence and wellbeing.",
     image: CHILD_PHOTOS.outdoorBallPlayKids,
     icon: Music,
-    accent: "#DCE747"
+    accent: "#8ed727"
   },
   {
     id: "nature-explorers",
@@ -236,7 +236,7 @@ const ACTIVITIES = [
     description: "Stories, festivals, cultures and community experiences nurture belonging, empathy, respect and global awareness.",
     image: CHILD_PHOTOS.classroomDrawing,
     icon: Globe2,
-    accent: "#DCE747"
+    accent: "#8ed727"
   }
 ];
 
@@ -261,7 +261,7 @@ const PROGRAMMES_LIST = [
     description: "Language, early concepts, imagination and independence blossom through stories, exploration and purposeful play.",
     btnText: "Explore Nursery",
     image: CHILD_PHOTOS.fingerPaintingGirl,
-    color: "#DCE747",
+    color: "#8ed727",
     badge: "3+ Years"
   },
   {
@@ -283,7 +283,7 @@ const PROGRAMMES_LIST = [
     description: "Foundational skills grow through inquiry, collaboration, projects, communication and meaningful school-readiness experiences.",
     btnText: "Explore Senior KG",
     image: CHILD_PHOTOS.seniorKgFocusedChild,
-    color: "#DCE747",
+    color: "#8ed727",
     badge: "5+ Years"
   }
 ];
@@ -296,7 +296,7 @@ const PRIMEX_STEPS = [
     summary: "Discover ideas through hands-on experiences.",
     detail: "Children touch, manipulate and investigate real-world sensory materials, wooden blocks, magnifiers and story props to spark natural curiosity.",
     image: CHILD_PHOTOS.toddlerBeadMaze,
-    color: "#DCE747"
+    color: "#8ed727"
   },
   {
     step: "02",
@@ -312,7 +312,7 @@ const PRIMEX_STEPS = [
     summary: "Share ideas through language, art and play.",
     detail: "Story circles, puppet theatre, finger-painting and role-play empower every child to voice their discoveries with joyful confidence.",
     image: CHILD_PHOTOS.fingerPaintingGirl,
-    color: "#DCE747"
+    color: "#8ed727"
   },
   {
     step: "04",
@@ -328,7 +328,7 @@ const PRIMEX_STEPS = [
     summary: "Celebrate progress through holistic observation.",
     detail: "Teachers observe, guide and document each child's unique milestones across all 8 developmental dimensions without exam pressure.",
     image: CHILD_PHOTOS.toddlerLaughingBook,
-    color: "#DCE747"
+    color: "#8ed727"
   }
 ];
 
@@ -339,7 +339,7 @@ const FUTURE_SKILLS = [
     description: "Asking questions, observing, comparing and exploring solutions.",
     image: CHILD_PHOTOS.woodenBlocksChild,
     icon: Brain,
-    accent: "#DCE747"
+    accent: "#8ed727"
   },
   {
     title: "Creativity",
@@ -353,7 +353,7 @@ const FUTURE_SKILLS = [
     description: "Listening, speaking, storytelling and sharing ideas confidently.",
     image: CHILD_PHOTOS.toddlerLaughingBook,
     icon: MessageCircle,
-    accent: "#DCE747"
+    accent: "#8ed727"
   },
   {
     title: "Collaboration",
@@ -367,7 +367,7 @@ const FUTURE_SKILLS = [
     description: "Recognising emotions, building empathy and learning self-regulation.",
     image: CHILD_PHOTOS.toddlerAmazedBook,
     icon: Heart,
-    accent: "#DCE747"
+    accent: "#8ed727"
   },
   {
     title: "Future Awareness",
@@ -398,7 +398,7 @@ const LEADERSHIP_TEAM = [
     bio: "The vision behind Blooming Era's distinctive, child-centred and future-ready educational philosophy.",
     initials: "MY",
     badge: "Visionary Founder",
-    accent: "#DCE747"
+    accent: "#8ed727"
   },
   {
     name: "Dr. Shelly Bisht",
@@ -414,7 +414,7 @@ const LEADERSHIP_TEAM = [
     bio: "Part of the leadership team supporting Blooming Era's institutional vision and future development.",
     initials: "AH",
     badge: "Operational Scale",
-    accent: "#DCE747"
+    accent: "#8ed727"
   },
   {
     name: "Mohd. Neyaz Alam",
@@ -434,7 +434,7 @@ const PARENT_STORIES = [
     narrative: "From shy first mornings to eagerly sharing stories at home, parents celebrate how story circles, puppetry and warm encouragement nurture expressive, self-assured young communicators.",
     image: CHILD_PHOTOS.toddlerLaughingBook,
     tag: "Playgroup & Nursery Families",
-    color: "#DCE747"
+    color: "#8ed727"
   },
   {
     title: "Learning With Excitement",
@@ -450,7 +450,7 @@ const PARENT_STORIES = [
     narrative: "Parents value our warm educator-child bonds, transparent holistic progress observations and a nurturing campus that feels like a second home.",
     image: CHILD_PHOTOS.classroomDrawing,
     tag: "Junior & Senior KG Families",
-    color: "#DCE747"
+    color: "#8ed727"
   }
 ];
 
@@ -587,7 +587,7 @@ export default function IndianPreschoolHome({
     : GALLERY_ITEMS.filter((item) => item.category === galleryFilter);
 
   return (
-    <div className="min-h-screen bg-[#F3FAFC] text-[#091E3A] relative overflow-x-hidden selection:bg-[#DCE747] selection:text-[#091E3A]">
+    <div className="min-h-screen bg-[#F3FAFC] text-[#091E3A] relative overflow-x-hidden selection:bg-[#8ed727] selection:text-[#091E3A]">
 
       {/* ===================================================================== */}
       {/* TOP ANNOUNCEMENT BAR & GLASSMORPHIC FLOATING INDIAN PRESCHOOL NAVBAR  */}
@@ -597,7 +597,7 @@ export default function IndianPreschoolHome({
           <div className="bg-[#091E3A] text-white text-xs py-2.5 px-4 border-b border-white/10 relative z-50">
             <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
               <div className="flex items-center gap-2.5 flex-wrap">
-                <span className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-[#DCE747] text-[#091E3A] font-extrabold text-[11px] shadow-sm">
+                <span className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-[#8ed727] text-[#091E3A] font-extrabold text-[11px] shadow-sm">
                   <Flower2 className="w-3.5 h-3.5 text-[#091E3A] animate-spin" style={{ animationDuration: '10s' }} />
                   THE FUTURE BLOOMS HERE
                 </span>
@@ -612,7 +612,7 @@ export default function IndianPreschoolHome({
               <div className="flex items-center gap-3">
                 <a
                   href="tel:+919647974093"
-                  className="inline-flex items-center gap-1.5 text-white hover:text-[#DCE747] font-bold transition-colors"
+                  className="inline-flex items-center gap-1.5 text-white hover:text-[#8ed727] font-bold transition-colors"
                 >
                   <Phone className="w-3.5 h-3.5 text-[#60C8D4]" />
                   <span>+91 96479 74093</span>
@@ -621,7 +621,7 @@ export default function IndianPreschoolHome({
                 {onSwitchToSimulatorView && (
                   <button
                     onClick={onSwitchToSimulatorView}
-                    className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-[#60C8D4]/20 hover:bg-[#60C8D4]/35 text-[#DCE747] font-bold text-[11px] border border-[#60C8D4]/40 transition-all"
+                    className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-[#60C8D4]/20 hover:bg-[#60C8D4]/35 text-[#8ed727] font-bold text-[11px] border border-[#60C8D4]/40 transition-all"
                   >
                     <span>Switch to Interactive Lab View (Preview 7)</span>
                     <ArrowUpRight className="w-3 h-3" />
@@ -632,7 +632,7 @@ export default function IndianPreschoolHome({
                   className="hidden md:inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-white/10 hover:bg-white/20 text-white font-semibold text-[11px] border border-white/20 transition-all"
                 >
                   <span>All Design Previews (1–8)</span>
-                  <ArrowUpRight className="w-3 h-3 text-[#DCE747]" />
+                  <ArrowUpRight className="w-3 h-3 text-[#8ed727]" />
                 </a>
               </div>
             </div>
@@ -643,7 +643,7 @@ export default function IndianPreschoolHome({
             <div className="max-w-7xl mx-auto glass-panel-elevated rounded-full py-2.5 px-4 sm:px-7 border-2 border-white shadow-[0_20px_50px_rgba(9,30,58,0.1)] bg-white/85 backdrop-blur-2xl">
               <div className="flex items-center justify-between gap-4">
                 <a href="#" className="flex items-center gap-3 group">
-                  <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-full overflow-hidden border-2 border-[#DCE747] shadow-md bg-white p-0.5 group-hover:scale-105 transition-transform">
+                  <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-full overflow-hidden border-2 border-[#8ed727] shadow-md bg-white p-0.5 group-hover:scale-105 transition-transform">
                     <img
                       src="/logo.jpeg"
                       alt="Blooming Era Preschools"
@@ -655,7 +655,7 @@ export default function IndianPreschoolHome({
                       <span className="font-extrabold text-lg sm:text-xl text-[#091E3A] tracking-tight">
                         Blooming Era
                       </span>
-                      <span className="px-2 py-0.5 text-[10px] font-extrabold uppercase tracking-wider bg-[#DCE747] text-[#091E3A] rounded-full">
+                      <span className="px-2 py-0.5 text-[10px] font-extrabold uppercase tracking-wider bg-[#8ed727] text-[#091E3A] rounded-full">
                         Preschools
                       </span>
                     </div>
@@ -718,7 +718,7 @@ export default function IndianPreschoolHome({
         />
         <div
           className="ambient-orb w-[460px] h-[460px] top-12 -right-24 opacity-45"
-          style={{ background: 'radial-gradient(circle, #DCE747 0%, transparent 70%)', animationDelay: '-5s' }}
+          style={{ background: 'radial-gradient(circle, #8ed727 0%, transparent 70%)', animationDelay: '-5s' }}
         />
 
         {/* Floating Animated Preschool Badges (Cloud / Star / Flower) */}
@@ -738,9 +738,56 @@ export default function IndianPreschoolHome({
         </motion.div>
 
         <div className="max-w-7xl mx-auto relative z-10">
-          {/* Slide Selector Pills with Silky Sliding Layout Animation */}
-          <div className="flex flex-wrap items-center justify-between gap-3 mb-8">
-            <div className="flex flex-wrap items-center gap-2 p-1 rounded-full glass-panel-elevated border border-white/80">
+          {/* Mobile Slide Bar: Arrows on left, ONLY active slide in the free right space */}
+          <div className="flex sm:hidden items-center gap-2 mb-6 w-full">
+            <div className="flex items-center gap-1.5 flex-shrink-0">
+              <motion.button
+                whileTap={{ scale: 0.9 }}
+                onClick={() => setActiveSlide((prev) => (prev - 1 + HERO_SLIDES.length) % HERO_SLIDES.length)}
+                className="w-9 h-9 rounded-full glass-panel-elevated flex items-center justify-center text-[#091E3A] hover:bg-[#8ed727] transition-colors shadow-sm"
+                aria-label="Previous Hero Slide"
+              >
+                <ChevronLeft className="w-4 h-4" />
+              </motion.button>
+              <motion.button
+                whileTap={{ scale: 0.9 }}
+                onClick={() => setActiveSlide((prev) => (prev + 1) % HERO_SLIDES.length)}
+                className="w-9 h-9 rounded-full glass-panel-elevated flex items-center justify-center text-[#091E3A] hover:bg-[#8ed727] transition-colors shadow-sm"
+                aria-label="Next Hero Slide"
+              >
+                <ChevronRight className="w-4 h-4" />
+              </motion.button>
+            </div>
+
+            {/* Active slide pill in the free right space of the arrows */}
+            <div className="flex-1 min-w-0">
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={currentSlide.id}
+                  initial={{ opacity: 0, x: 6 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  exit={{ opacity: 0, x: -6 }}
+                  transition={{ duration: 0.2 }}
+                  className="px-3.5 py-2 rounded-full bg-[#091E3A] text-white text-xs font-extrabold flex items-center justify-between gap-2 shadow-md"
+                >
+                  <div className="flex items-center gap-2 min-w-0">
+                    <span
+                      className="w-2 h-2 rounded-full flex-shrink-0 transition-colors duration-300"
+                      style={{ backgroundColor: currentSlide.accent }}
+                    />
+                    <span className="truncate">{currentSlide.tag}</span>
+                  </div>
+                  <span className="text-[10px] text-[#8ed727] font-mono flex-shrink-0">
+                    0{activeSlide + 1}/03
+                  </span>
+                </motion.div>
+              </AnimatePresence>
+            </div>
+          </div>
+
+          {/* Desktop Slide Selector Pills with Silky Sliding Layout Animation */}
+          <div className="hidden sm:flex items-center justify-between gap-3 mb-8">
+            <div className="flex items-center gap-2 p-1 rounded-full glass-panel-elevated border border-white/80">
               {HERO_SLIDES.map((s, idx) => {
                 const isActive = activeSlide === idx;
                 return (
@@ -773,7 +820,7 @@ export default function IndianPreschoolHome({
                 whileHover={{ scale: 1.08 }}
                 whileTap={{ scale: 0.92 }}
                 onClick={() => setActiveSlide((prev) => (prev - 1 + HERO_SLIDES.length) % HERO_SLIDES.length)}
-                className="w-9 h-9 rounded-full glass-panel-elevated flex items-center justify-center text-[#091E3A] hover:bg-[#DCE747] transition-colors"
+                className="w-9 h-9 rounded-full glass-panel-elevated flex items-center justify-center text-[#091E3A] hover:bg-[#8ed727] transition-colors"
                 aria-label="Previous Hero Slide"
               >
                 <ChevronLeft className="w-4 h-4" />
@@ -782,7 +829,7 @@ export default function IndianPreschoolHome({
                 whileHover={{ scale: 1.08 }}
                 whileTap={{ scale: 0.92 }}
                 onClick={() => setActiveSlide((prev) => (prev + 1) % HERO_SLIDES.length)}
-                className="w-9 h-9 rounded-full glass-panel-elevated flex items-center justify-center text-[#091E3A] hover:bg-[#DCE747] transition-colors"
+                className="w-9 h-9 rounded-full glass-panel-elevated flex items-center justify-center text-[#091E3A] hover:bg-[#8ed727] transition-colors"
                 aria-label="Next Hero Slide"
               >
                 <ChevronRight className="w-4 h-4" />
@@ -791,104 +838,117 @@ export default function IndianPreschoolHome({
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
-            {/* Left Narrative Column with Cinematic Motion-Blur Dissolve */}
-            <div className="lg:col-span-6">
-              <AnimatePresence mode="wait">
-                <motion.div
-                  key={currentSlide.id}
-                  initial={{ opacity: 0, y: 14, filter: "blur(6px)" }}
-                  animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-                  exit={{ opacity: 0, y: -10, filter: "blur(4px)" }}
-                  transition={{ duration: 0.42, ease: [0.22, 1, 0.36, 1] }}
-                  className="space-y-6 will-change-transform"
-                >
-                  <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full glass-panel-elevated border-2 border-white shadow-md">
-                    <div className="relative flex items-center justify-center w-2.5 h-2.5">
-                      <motion.span
-                        animate={{ scale: [1, 2.2, 1], opacity: [0.8, 0, 0.8] }}
-                        transition={{ duration: 2.2, repeat: Infinity, ease: "easeInOut" }}
-                        className="absolute inset-0 rounded-full"
-                        style={{ backgroundColor: currentSlide.accent }}
-                      />
-                      <span
-                        className="relative w-2 h-2 rounded-full"
-                        style={{ backgroundColor: currentSlide.accent }}
-                      />
-                    </div>
-                    <span className="text-xs font-black uppercase tracking-widest text-[#091E3A]">
-                      {currentSlide.smallHeading}
-                    </span>
-                  </div>
-
-                  <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#091E3A] tracking-tight leading-[1.08]">
-                    {currentSlide.headline.split('. ').map((part, i, arr) => (
-                      <span key={i} className="block">
-                        {i === 1 ? (
-                          <span className="relative inline-block mt-1">
-                            <span className="relative z-10">{part}{i < arr.length - 1 ? '.' : ''}</span>
-                            <span
-                              className="absolute bottom-1.5 left-0 right-0 h-4 -z-0 rounded-full opacity-75"
-                              style={{ backgroundColor: currentSlide.accent }}
-                            />
-                          </span>
-                        ) : (
-                          <span>{part}{i < arr.length - 1 ? '.' : ''}</span>
-                        )}
-                      </span>
-                    ))}
-                  </h1>
-
-                  <p className="text-base sm:text-lg text-[#091E3A]/80 font-medium leading-relaxed max-w-xl">
-                    {currentSlide.description}
-                  </p>
-
-                  {/* CTA Buttons */}
-                  <div className="flex flex-wrap items-center gap-4 pt-2">
-                    <motion.a
-                      whileHover={{ scale: 1.03, y: -2 }}
-                      whileTap={{ scale: 0.97 }}
-                      href={currentSlide.primaryHref}
-                      className="btn-lime px-7 py-4 rounded-full text-sm font-extrabold flex items-center gap-2.5 border-2 border-white shadow-xl"
+            {/* Left Narrative Column - Locked Heights to completely eliminate vertical shift */}
+            <div className="lg:col-span-6 flex flex-col justify-between min-h-[440px] sm:min-h-[410px] lg:min-h-[460px]">
+              
+              <div className="space-y-4">
+                {/* Dynamic Slide Content (Badge + Headline + Description) */}
+                <div className="relative min-h-[220px] sm:min-h-[195px] lg:min-h-[225px]">
+                  <AnimatePresence mode="wait">
+                    <motion.div
+                      key={currentSlide.id}
+                      initial={{ opacity: 0, y: 8, filter: "blur(4px)" }}
+                      animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+                      exit={{ opacity: 0, y: -6, filter: "blur(4px)" }}
+                      transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
+                      className="space-y-4"
                     >
-                      <span>{currentSlide.primaryBtn}</span>
-                      <ArrowRight className="w-4 h-4 text-[#091E3A]" />
-                    </motion.a>
+                      {/* Small Heading Badge */}
+                      <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full glass-panel-elevated border-2 border-white shadow-md">
+                        <div className="relative flex items-center justify-center w-2.5 h-2.5">
+                          <motion.span
+                            animate={{ scale: [1, 2.2, 1], opacity: [0.8, 0, 0.8] }}
+                            transition={{ duration: 2.2, repeat: Infinity, ease: "easeInOut" }}
+                            className="absolute inset-0 rounded-full"
+                            style={{ backgroundColor: currentSlide.accent }}
+                          />
+                          <span
+                            className="relative w-2 h-2 rounded-full"
+                            style={{ backgroundColor: currentSlide.accent }}
+                          />
+                        </div>
+                        <span className="text-xs font-black uppercase tracking-widest text-[#091E3A]">
+                          {currentSlide.smallHeading}
+                        </span>
+                      </div>
 
-                    <motion.button
-                      whileHover={{ scale: 1.03, y: -2 }}
-                      whileTap={{ scale: 0.97 }}
-                      onClick={onOpenTourModal}
-                      className="btn-turquoise px-7 py-4 rounded-full text-sm font-extrabold flex items-center gap-2 border-2 border-white shadow-lg"
-                    >
-                      <Calendar className="w-4 h-4 text-[#091E3A]" />
-                      <span>{currentSlide.secondaryBtn}</span>
-                    </motion.button>
-                  </div>
+                      {/* Headline with locked min-height */}
+                      <div className="min-h-[76px] sm:min-h-[86px] lg:min-h-[118px] flex items-center">
+                        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#091E3A] tracking-tight leading-[1.08]">
+                          {currentSlide.headline.split('. ').map((part, i, arr) => (
+                            <span key={i} className="block">
+                              {i === 1 ? (
+                                <span className="relative inline-block mt-1">
+                                  <span className="relative z-10">{part}{i < arr.length - 1 ? '.' : ''}</span>
+                                  <span
+                                    className="absolute bottom-1.5 left-0 right-0 h-4 -z-0 rounded-full opacity-75"
+                                    style={{ backgroundColor: currentSlide.accent }}
+                                  />
+                                </span>
+                              ) : (
+                                <span>{part}{i < arr.length - 1 ? '.' : ''}</span>
+                              )}
+                            </span>
+                          ))}
+                        </h1>
+                      </div>
 
-                  {/* Indian Preschool Trust Highlights */}
-                  <div className="pt-4 grid grid-cols-3 gap-3 max-w-lg">
-                    <div className="glass-panel p-3.5 rounded-2xl border border-white/90 text-center">
-                      <p className="text-xs font-black text-[#091E3A]">No-Book Model</p>
-                      <p className="text-[11px] text-[#091E3A]/70 font-medium mt-0.5">Experiential FLN</p>
-                    </div>
-                    <div className="glass-panel p-3.5 rounded-2xl border border-white/90 text-center">
-                      <p className="text-xs font-black text-[#091E3A]">2+ to 5+ Years</p>
-                      <p className="text-[11px] text-[#091E3A]/70 font-medium mt-0.5">Playgroup to Sr. KG</p>
-                    </div>
-                    <div className="glass-panel p-3.5 rounded-2xl border border-white/90 text-center">
-                      <p className="text-xs font-black text-[#091E3A]">360° Growth</p>
-                      <p className="text-[11px] text-[#091E3A]/70 font-medium mt-0.5">8 Dimensions</p>
-                    </div>
-                  </div>
-                </motion.div>
-              </AnimatePresence>
+                      {/* Description with locked min-height */}
+                      <div className="min-h-[64px] sm:min-h-[50px] flex items-start">
+                        <p className="text-base sm:text-lg text-[#091E3A]/80 font-medium leading-relaxed max-w-xl">
+                          {currentSlide.description}
+                        </p>
+                      </div>
+                    </motion.div>
+                  </AnimatePresence>
+                </div>
+
+                {/* CTA Buttons - Stationary Position */}
+                <div className="flex flex-wrap items-center gap-4 pt-1">
+                  <motion.a
+                    whileHover={{ scale: 1.03, y: -2 }}
+                    whileTap={{ scale: 0.97 }}
+                    href={currentSlide.primaryHref}
+                    className="btn-lime px-7 py-4 rounded-full text-sm font-extrabold flex items-center gap-2.5 border-2 border-white shadow-xl"
+                  >
+                    <span>{currentSlide.primaryBtn}</span>
+                    <ArrowRight className="w-4 h-4 text-[#091E3A]" />
+                  </motion.a>
+
+                  <motion.button
+                    whileHover={{ scale: 1.03, y: -2 }}
+                    whileTap={{ scale: 0.97 }}
+                    onClick={onOpenTourModal}
+                    className="btn-turquoise px-7 py-4 rounded-full text-sm font-extrabold flex items-center gap-2 border-2 border-white shadow-lg"
+                  >
+                    <Calendar className="w-4 h-4 text-[#091E3A]" />
+                    <span>{currentSlide.secondaryBtn}</span>
+                  </motion.button>
+                </div>
+              </div>
+
+              {/* Indian Preschool Trust Highlights - Constant & Stationary */}
+              <div className="pt-6 grid grid-cols-3 gap-3 max-w-lg">
+                <div className="glass-panel p-3.5 rounded-2xl border border-white/90 text-center">
+                  <p className="text-xs font-black text-[#091E3A]">No-Book Model</p>
+                  <p className="text-[11px] text-[#091E3A]/70 font-medium mt-0.5">Experiential FLN</p>
+                </div>
+                <div className="glass-panel p-3.5 rounded-2xl border border-white/90 text-center">
+                  <p className="text-xs font-black text-[#091E3A]">2+ to 5+ Years</p>
+                  <p className="text-[11px] text-[#091E3A]/70 font-medium mt-0.5">Playgroup to Sr. KG</p>
+                </div>
+                <div className="glass-panel p-3.5 rounded-2xl border border-white/90 text-center">
+                  <p className="text-xs font-black text-[#091E3A]">360° Growth</p>
+                  <p className="text-[11px] text-[#091E3A]/70 font-medium mt-0.5">8 Dimensions</p>
+                </div>
+              </div>
             </div>
 
             {/* Right Organic Multi-Photo Preschool Collage - Silky Crossfade & Ambient Glow */}
             <div className="lg:col-span-6 relative">
               <div className="relative mx-auto max-w-lg lg:max-w-none">
                 {/* Ambient backlight glow */}
-                <div className="absolute -inset-4 rounded-[50px] bg-gradient-to-tr from-[#DCE747]/25 via-[#60C8D4]/25 to-[#DCE747]/15 blur-2xl opacity-75 -z-10 pointer-events-none" />
+                <div className="absolute -inset-4 rounded-[50px] bg-gradient-to-tr from-[#8ed727]/25 via-[#60C8D4]/25 to-[#8ed727]/15 blur-2xl opacity-75 -z-10 pointer-events-none" />
 
                 {/* Main Card Frame */}
                 <div className="relative rounded-[44px] p-3 sm:p-4 glass-panel-elevated border-4 border-white shadow-2xl">
@@ -941,7 +1001,7 @@ export default function IndianPreschoolHome({
                             <p className="text-xs font-semibold text-[#091E3A]/70">{currentSlide.badgeSub}</p>
                           </div>
                         </div>
-                        <span className="hidden sm:inline-block px-3 py-1 rounded-full text-[10px] font-black uppercase bg-[#091E3A] text-[#DCE747]">
+                        <span className="hidden sm:inline-block px-3 py-1 rounded-full text-[10px] font-black uppercase bg-[#091E3A] text-[#8ed727]">
                           Admissions Open
                         </span>
                       </motion.div>
@@ -953,7 +1013,7 @@ export default function IndianPreschoolHome({
                 <motion.div
                   animate={{ y: [0, -12, 0], rotate: [0, 2, 0] }}
                   transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
-                  className="hidden sm:block absolute -top-7 -left-7 w-28 h-28 sm:w-32 sm:h-32 rounded-full p-1.5 bg-white shadow-[0_16px_36px_rgba(9,30,58,0.22)] border-4 border-[#DCE747] z-20 overflow-hidden"
+                  className="hidden sm:block absolute -top-7 -left-7 w-28 h-28 sm:w-32 sm:h-32 rounded-full p-1.5 bg-white shadow-[0_16px_36px_rgba(9,30,58,0.22)] border-4 border-[#8ed727] z-20 overflow-hidden"
                   style={{
                     WebkitMaskImage: '-webkit-radial-gradient(white, black)',
                     transform: 'translateZ(0)',
@@ -1018,17 +1078,17 @@ export default function IndianPreschoolHome({
             className="rounded-[34px] p-6 sm:p-8 lg:px-12 bg-gradient-to-r from-[#091E3A] via-[#0F2C52] to-[#091E3A] text-white shadow-2xl border-2 border-[#60C8D4]/50 relative overflow-hidden"
           >
             {/* Decorative Glows */}
-            <div className="absolute -right-12 -top-12 w-56 h-56 rounded-full bg-[#DCE747]/20 blur-2xl pointer-events-none" />
+            <div className="absolute -right-12 -top-12 w-56 h-56 rounded-full bg-[#8ed727]/20 blur-2xl pointer-events-none" />
             <div className="absolute left-1/3 -bottom-16 w-64 h-64 rounded-full bg-[#60C8D4]/20 blur-2xl pointer-events-none" />
 
             <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-6 text-center lg:text-left">
               <div className="flex flex-col sm:flex-row items-center gap-4">
-                <div className="w-14 h-14 rounded-2xl bg-[#DCE747] text-[#091E3A] flex items-center justify-center font-black text-2xl shadow-lg flex-shrink-0">
+                <div className="w-14 h-14 rounded-2xl bg-[#8ed727] text-[#091E3A] flex items-center justify-center font-black text-2xl shadow-lg flex-shrink-0">
                   🌱
                 </div>
                 <div>
-                  <div className="inline-flex items-center gap-2 px-3 py-0.5 rounded-full bg-[#60C8D4]/25 text-[#DCE747] text-[11px] font-extrabold uppercase tracking-wider mb-1">
-                    <span className="w-2 h-2 rounded-full bg-[#DCE747] animate-ping" />
+                  <div className="inline-flex items-center gap-2 px-3 py-0.5 rounded-full bg-[#60C8D4]/25 text-[#8ed727] text-[11px] font-extrabold uppercase tracking-wider mb-1">
+                    <span className="w-2 h-2 rounded-full bg-[#8ed727] animate-ping" />
                     <span>2026–2027 Academic Session</span>
                   </div>
                   <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-white">
@@ -1052,7 +1112,7 @@ export default function IndianPreschoolHome({
                   href="tel:+919647974093"
                   className="px-5 py-3.5 rounded-full text-xs font-bold bg-white/10 hover:bg-white/20 text-white border border-white/25 transition-all flex items-center gap-2"
                 >
-                  <Phone className="w-3.5 h-3.5 text-[#DCE747]" />
+                  <Phone className="w-3.5 h-3.5 text-[#8ed727]" />
                   <span>+91 96479 74093</span>
                 </a>
               </div>
@@ -1075,7 +1135,7 @@ export default function IndianPreschoolHome({
               Not Just Different.{" "}
               <span className="relative inline-block">
                 <span className="relative z-10">Thoughtfully Different.</span>
-                <span className="absolute bottom-1 left-0 right-0 h-3.5 bg-[#DCE747] -z-0 rounded-full" />
+                <span className="absolute bottom-1 left-0 right-0 h-3.5 bg-[#8ed727] -z-0 rounded-full" />
               </span>
             </h2>
           </div>
@@ -1134,7 +1194,7 @@ export default function IndianPreschoolHome({
         </div>
       </section>
 
-      <FlowyWaveDivider fill="#FFFFFF" accentColor="#DCE747" />
+      <FlowyWaveDivider fill="#FFFFFF" accentColor="#8ed727" />
 
       {/* ===================================================================== */}
       {/* SECTION 04 — WELCOME TO BLOOMING ERA (CIRCULAR PHOTO + FOUNDER)       */}
@@ -1159,7 +1219,7 @@ export default function IndianPreschoolHome({
                 <motion.div
                   animate={{ rotate: -360 }}
                   transition={{ duration: 55, repeat: Infinity, ease: "linear" }}
-                  className="absolute -inset-10 rounded-full border-2 border-dashed border-[#DCE747] pointer-events-none hidden sm:block"
+                  className="absolute -inset-10 rounded-full border-2 border-dashed border-[#8ed727] pointer-events-none hidden sm:block"
                 />
 
                 {/* Main Circular Children's Photograph */}
@@ -1172,7 +1232,7 @@ export default function IndianPreschoolHome({
                 </div>
 
                 {/* Satellite Circular Child Photo 1 */}
-                <div className="absolute -top-4 -right-4 w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden border-4 border-[#DCE747] shadow-xl z-20 bg-white">
+                <div className="absolute -top-4 -right-4 w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden border-4 border-[#8ed727] shadow-xl z-20 bg-white">
                   <img
                     src={CHILD_PHOTOS.toddlerLaughingBook}
                     alt="Happy child reading"
@@ -1207,7 +1267,7 @@ export default function IndianPreschoolHome({
               className="lg:col-span-7 space-y-6"
             >
               <div>
-                <span className="inline-block px-4 py-1 rounded-full bg-[#DCE747]/40 text-[#091E3A] font-extrabold text-xs uppercase tracking-widest mb-2">
+                <span className="inline-block px-4 py-1 rounded-full bg-[#8ed727]/40 text-[#091E3A] font-extrabold text-xs uppercase tracking-widest mb-2">
                   Welcome to
                 </span>
                 <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#091E3A] tracking-tight">
@@ -1224,9 +1284,9 @@ export default function IndianPreschoolHome({
               </p>
 
               {/* Founder Signature Card */}
-              <div className="glass-panel rounded-3xl p-6 border-2 border-[#60C8D4]/30 bg-gradient-to-r from-[#F3FAFC] via-white to-[#DCE747]/15 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+              <div className="glass-panel rounded-3xl p-6 border-2 border-[#60C8D4]/30 bg-gradient-to-r from-[#F3FAFC] via-white to-[#8ed727]/15 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                 <div className="flex items-center gap-4">
-                  <div className="w-14 h-14 rounded-2xl bg-[#091E3A] text-[#DCE747] flex items-center justify-center font-extrabold text-lg shadow-md flex-shrink-0">
+                  <div className="w-14 h-14 rounded-2xl bg-[#091E3A] text-[#8ed727] flex items-center justify-center font-extrabold text-lg shadow-md flex-shrink-0">
                     MY
                   </div>
                   <div>
@@ -1239,7 +1299,7 @@ export default function IndianPreschoolHome({
                   </div>
                 </div>
                 <div className="sm:text-right">
-                  <span className="inline-block px-4 py-1.5 rounded-full bg-[#DCE747] text-[#091E3A] text-xs font-black shadow-xs">
+                  <span className="inline-block px-4 py-1.5 rounded-full bg-[#8ed727] text-[#091E3A] text-xs font-black shadow-xs">
                     Proudly Indian, Powerfully Global Preschool.
                   </span>
                 </div>
@@ -1388,7 +1448,7 @@ export default function IndianPreschoolHome({
       {/* ===================================================================== */}
       <section id="programmes-india" className="py-16 sm:py-24 px-4 sm:px-6 bg-[#091E3A] text-white relative overflow-hidden">
         <div className="ambient-orb w-96 h-96 top-10 left-10 opacity-20" style={{ background: '#60C8D4' }} />
-        <div className="ambient-orb w-96 h-96 bottom-10 right-10 opacity-20" style={{ background: '#DCE747' }} />
+        <div className="ambient-orb w-96 h-96 bottom-10 right-10 opacity-20" style={{ background: '#8ed727' }} />
 
         {/* Waving Stick Figure Child (STRICTLY HIDDEN ON MOBILE: hidden md:block) */}
         <div className="hidden md:block absolute right-4 sm:right-8 lg:right-16 top-28 sm:top-32 lg:top-36 z-30 pointer-events-auto">
@@ -1397,7 +1457,7 @@ export default function IndianPreschoolHome({
 
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center max-w-3xl mx-auto mb-14">
-            <span className="inline-block px-4 py-1.5 rounded-full bg-[#DCE747] text-[#091E3A] text-xs font-black uppercase tracking-widest mb-3">
+            <span className="inline-block px-4 py-1.5 rounded-full bg-[#8ed727] text-[#091E3A] text-xs font-black uppercase tracking-widest mb-3">
               EVERY AGE. A NEW ADVENTURE.
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mb-4">
@@ -1417,7 +1477,7 @@ export default function IndianPreschoolHome({
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1 }}
                 whileHover={{ y: -10 }}
-                className="rounded-[36px] bg-white/10 backdrop-blur-xl border-2 border-white/20 overflow-hidden flex flex-col justify-between p-4 shadow-2xl group hover:border-[#DCE747] transition-all"
+                className="rounded-[36px] bg-white/10 backdrop-blur-xl border-2 border-white/20 overflow-hidden flex flex-col justify-between p-4 shadow-2xl group hover:border-[#8ed727] transition-all"
               >
                 <div>
                   {/* Arch-Topped Child Image */}
@@ -1439,7 +1499,7 @@ export default function IndianPreschoolHome({
                     <h3 className="text-2xl font-extrabold text-white mb-1">
                       {prog.name}
                     </h3>
-                    <p className="text-xs font-extrabold uppercase tracking-wider text-[#DCE747] mb-3">
+                    <p className="text-xs font-extrabold uppercase tracking-wider text-[#8ed727] mb-3">
                       {prog.tagline}
                     </p>
                     <p className="text-sm text-white/80 font-medium leading-relaxed mb-6">
@@ -1474,7 +1534,7 @@ export default function IndianPreschoolHome({
         </div>
       </section>
 
-      <FlowyWaveDivider flip={true} fill="#091E3A" accentColor="#DCE747" />
+      <FlowyWaveDivider flip={true} fill="#091E3A" accentColor="#8ed727" />
 
       {/* ===================================================================== */}
       {/* SECTION 08 — OUR SIGNATURE LEARNING PHILOSOPHY (KINDERMAGIC PRIMEX)   */}
@@ -1482,7 +1542,7 @@ export default function IndianPreschoolHome({
       <section id="philosophy" className="py-16 sm:py-24 px-4 sm:px-6 relative">
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-14">
-            <span className="inline-block px-4 py-1.5 rounded-full bg-[#DCE747] text-[#091E3A] text-xs font-black uppercase tracking-widest mb-3">
+            <span className="inline-block px-4 py-1.5 rounded-full bg-[#8ed727] text-[#091E3A] text-xs font-black uppercase tracking-widest mb-3">
               THE KINDERMAGIC PRIMEX EXPERIENCE
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#091E3A] tracking-tight mb-4">
@@ -1512,7 +1572,7 @@ export default function IndianPreschoolHome({
                   >
                     Step {st.step}
                   </span>
-                  <ArrowRight className={`w-4 h-4 ${activePrimexStep === i ? 'text-[#DCE747]' : 'text-[#091E3A]/40'}`} />
+                  <ArrowRight className={`w-4 h-4 ${activePrimexStep === i ? 'text-[#8ed727]' : 'text-[#091E3A]/40'}`} />
                 </div>
                 <p className="text-base sm:text-lg font-extrabold tracking-tight">{st.name}</p>
                 <p className={`text-xs mt-1 line-clamp-2 ${activePrimexStep === i ? 'text-white/80' : 'text-[#091E3A]/70'}`}>
@@ -1637,7 +1697,7 @@ export default function IndianPreschoolHome({
       <section id="holistic" className="py-16 sm:py-24 px-4 sm:px-6 relative">
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-14">
-            <span className="inline-block px-4 py-1.5 rounded-full bg-[#DCE747] text-[#091E3A] text-xs font-black uppercase tracking-widest mb-3">
+            <span className="inline-block px-4 py-1.5 rounded-full bg-[#8ed727] text-[#091E3A] text-xs font-black uppercase tracking-widest mb-3">
               BEYOND ACADEMICS
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#091E3A] tracking-tight mb-4">
@@ -1663,7 +1723,7 @@ export default function IndianPreschoolHome({
                 >
                   <span
                     className="w-9 h-9 rounded-xl flex items-center justify-center font-black text-xs text-[#091E3A] flex-shrink-0"
-                    style={{ backgroundColor: idx % 2 === 0 ? '#DCE747' : '#60C8D4' }}
+                    style={{ backgroundColor: idx % 2 === 0 ? '#8ed727' : '#60C8D4' }}
                   >
                     0{dim.id}
                   </span>
@@ -1683,7 +1743,7 @@ export default function IndianPreschoolHome({
                     alt={HOLISTIC_DIMENSIONS[activeDimension].title}
                     className="w-full h-full object-cover"
                   />
-                  <div className="absolute top-3 left-3 px-3 py-1 rounded-full bg-[#DCE747] text-[#091E3A] text-xs font-black">
+                  <div className="absolute top-3 left-3 px-3 py-1 rounded-full bg-[#8ed727] text-[#091E3A] text-xs font-black">
                     Dimension 0{HOLISTIC_DIMENSIONS[activeDimension].id} of 08
                   </div>
                 </div>
@@ -1770,17 +1830,17 @@ export default function IndianPreschoolHome({
       <section id="franchise-opportunity" className="py-16 sm:py-24 px-4 sm:px-6 relative">
         <div className="max-w-7xl mx-auto">
           <div className="rounded-[40px] bg-gradient-to-br from-[#091E3A] via-[#0D2B52] to-[#091E3A] text-white p-8 sm:p-12 lg:p-16 shadow-2xl border-4 border-white relative overflow-hidden">
-            <div className="ambient-orb w-96 h-96 -top-20 -right-20 opacity-30" style={{ background: '#DCE747' }} />
+            <div className="ambient-orb w-96 h-96 -top-20 -right-20 opacity-30" style={{ background: '#8ed727' }} />
             <div className="ambient-orb w-96 h-96 -bottom-20 -left-20 opacity-25" style={{ background: '#60C8D4' }} />
 
             <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
               <div className="lg:col-span-7 space-y-6">
-                <span className="inline-block px-4 py-1.5 rounded-full bg-[#DCE747] text-[#091E3A] text-xs font-black uppercase tracking-widest">
+                <span className="inline-block px-4 py-1.5 rounded-full bg-[#8ed727] text-[#091E3A] text-xs font-black uppercase tracking-widest">
                   BUILD A BUSINESS THAT BUILDS THE FUTURE
                 </span>
                 <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight">
                   A Preschool With Purpose.{" "}
-                  <span className="text-[#DCE747]">A Business With Possibilities.</span>
+                  <span className="text-[#8ed727]">A Business With Possibilities.</span>
                 </h2>
                 <p className="text-base sm:text-lg text-white/85 font-medium leading-relaxed">
                   Why open just another preschool when you can introduce a distinctive learning experience to your city? Blooming Era brings together an innovative No-Book curriculum, strong academic foundations, structured franchise support and a cost-conscious school development model — helping entrepreneurs build meaningful educational enterprises.
@@ -1797,7 +1857,7 @@ export default function IndianPreschoolHome({
                     "Marketing & Admissions Assistance"
                   ].map((item) => (
                     <div key={item} className="flex items-center gap-2.5 bg-white/10 backdrop-blur-md px-4 py-2.5 rounded-2xl border border-white/15">
-                      <CheckCircle2 className="w-4 h-4 text-[#DCE747] flex-shrink-0" />
+                      <CheckCircle2 className="w-4 h-4 text-[#8ed727] flex-shrink-0" />
                       <span className="text-xs sm:text-sm font-bold text-white">{item}</span>
                     </div>
                   ))}
@@ -1824,7 +1884,7 @@ export default function IndianPreschoolHome({
                       className="w-full h-full object-cover"
                     />
                   </div>
-                  <div className="p-5 rounded-2xl bg-[#DCE747] text-[#091E3A]">
+                  <div className="p-5 rounded-2xl bg-[#8ed727] text-[#091E3A]">
                     <p className="text-xs font-extrabold uppercase tracking-wider opacity-80">
                       Investment Highlight
                     </p>
@@ -1856,7 +1916,7 @@ export default function IndianPreschoolHome({
       <section className="py-16 sm:py-20 px-4 sm:px-6 relative">
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-14">
-            <span className="inline-block px-4 py-1.5 rounded-full bg-[#DCE747] text-[#091E3A] text-xs font-black uppercase tracking-widest mb-3">
+            <span className="inline-block px-4 py-1.5 rounded-full bg-[#8ed727] text-[#091E3A] text-xs font-black uppercase tracking-widest mb-3">
               REAL VOICES. MEANINGFUL EXPERIENCES.
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#091E3A] tracking-tight mb-4">
@@ -1939,7 +1999,7 @@ export default function IndianPreschoolHome({
               >
                 <div className="h-48 overflow-hidden relative">
                   <img src={ev.image} alt={ev.title} className="w-full h-full object-cover" />
-                  <span className="absolute top-3 left-3 px-3 py-1 rounded-full bg-[#DCE747] text-[#091E3A] text-[10px] font-black">
+                  <span className="absolute top-3 left-3 px-3 py-1 rounded-full bg-[#8ed727] text-[#091E3A] text-[10px] font-black">
                     {ev.badge}
                   </span>
                 </div>
@@ -1964,7 +2024,7 @@ export default function IndianPreschoolHome({
       <section className="py-16 sm:py-20 px-4 sm:px-6 relative">
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-14">
-            <span className="inline-block px-4 py-1.5 rounded-full bg-[#DCE747] text-[#091E3A] text-xs font-black uppercase tracking-widest mb-3">
+            <span className="inline-block px-4 py-1.5 rounded-full bg-[#8ed727] text-[#091E3A] text-xs font-black uppercase tracking-widest mb-3">
               THE BLOOMING JOURNAL
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#091E3A] tracking-tight mb-4">
@@ -2040,8 +2100,8 @@ export default function IndianPreschoolHome({
                   onClick={() => setGalleryFilter(cat)}
                   className={`px-4 py-2 rounded-full text-xs font-extrabold transition-all ${
                     galleryFilter === cat
-                      ? 'bg-[#091E3A] text-[#DCE747] shadow-md'
-                      : 'glass-pill text-[#091E3A] hover:bg-[#DCE747]/30'
+                      ? 'bg-[#091E3A] text-[#8ed727] shadow-md'
+                      : 'glass-pill text-[#091E3A] hover:bg-[#8ed727]/30'
                   }`}
                 >
                   {cat}
@@ -2067,7 +2127,7 @@ export default function IndianPreschoolHome({
                 <div className="absolute inset-0 bg-gradient-to-t from-[#091E3A]/75 via-transparent to-transparent opacity-85 group-hover:opacity-100 transition-opacity" />
                 <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between text-white">
                   <div>
-                    <span className="text-[10px] font-black uppercase px-2.5 py-0.5 rounded-full bg-[#DCE747] text-[#091E3A]">
+                    <span className="text-[10px] font-black uppercase px-2.5 py-0.5 rounded-full bg-[#8ed727] text-[#091E3A]">
                       {item.category}
                     </span>
                     <p className="text-sm font-extrabold mt-1">{item.title}</p>
@@ -2088,7 +2148,7 @@ export default function IndianPreschoolHome({
       <section className="py-16 sm:py-24 px-4 sm:px-6 relative">
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-14">
-            <span className="inline-block px-4 py-1.5 rounded-full bg-[#DCE747] text-[#091E3A] text-xs font-black uppercase tracking-widest mb-3">
+            <span className="inline-block px-4 py-1.5 rounded-full bg-[#8ed727] text-[#091E3A] text-xs font-black uppercase tracking-widest mb-3">
               CHILDHOOD IN MOTION
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#091E3A] tracking-tight mb-4">
@@ -2114,7 +2174,7 @@ export default function IndianPreschoolHome({
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-[#091E3A]/35 group-hover:bg-[#091E3A]/20 transition-colors flex items-center justify-center">
-                    <div className="w-14 h-14 rounded-full bg-[#DCE747] text-[#091E3A] flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform border-2 border-white">
+                    <div className="w-14 h-14 rounded-full bg-[#8ed727] text-[#091E3A] flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform border-2 border-white">
                       <Play className="w-6 h-6 fill-[#091E3A] ml-0.5" />
                     </div>
                   </div>
@@ -2144,8 +2204,8 @@ export default function IndianPreschoolHome({
       {/* ===================================================================== */}
       <section className="py-14 sm:py-20 px-4 sm:px-6 relative">
         <div className="max-w-6xl mx-auto">
-          <div className="rounded-[44px] p-8 sm:p-14 bg-gradient-to-r from-[#DCE747] via-[#E8F26B] to-[#60C8D4] text-[#091E3A] shadow-2xl border-4 border-white relative overflow-hidden text-center">
-            <span className="inline-block px-4 py-1.5 rounded-full bg-[#091E3A] text-[#DCE747] text-xs font-black uppercase tracking-widest mb-4">
+          <div className="rounded-[44px] p-8 sm:p-14 bg-gradient-to-r from-[#8ed727] via-[#E8F26B] to-[#60C8D4] text-[#091E3A] shadow-2xl border-4 border-white relative overflow-hidden text-center">
+            <span className="inline-block px-4 py-1.5 rounded-full bg-[#091E3A] text-[#8ed727] text-xs font-black uppercase tracking-widest mb-4">
               THEIR FIRST SCHOOL. A BIG DECISION.
             </span>
             <h2 className="text-3xl sm:text-5xl font-black text-[#091E3A] tracking-tight mb-4">
@@ -2159,7 +2219,7 @@ export default function IndianPreschoolHome({
                 onClick={onOpenTourModal}
                 className="px-8 py-4 rounded-full bg-[#091E3A] text-white hover:bg-[#13325C] text-sm font-black inline-flex items-center gap-2 shadow-xl transition-all hover:scale-105"
               >
-                <Calendar className="w-4 h-4 text-[#DCE747]" />
+                <Calendar className="w-4 h-4 text-[#8ed727]" />
                 <span>Book a School Visit</span>
               </button>
               <button
@@ -2178,7 +2238,7 @@ export default function IndianPreschoolHome({
       {/* SECTION 19 — WEBSITE FOOTER                                           */}
       {/* ===================================================================== */}
       {showFooter && (
-        <footer className="bg-[#091E3A] text-white pt-16 pb-12 px-4 sm:px-6 border-t-4 border-[#DCE747]">
+        <footer className="bg-[#091E3A] text-white pt-16 pb-12 px-4 sm:px-6 border-t-4 border-[#8ed727]">
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-white/15">
               <div className="lg:col-span-5 space-y-4">
@@ -2188,13 +2248,13 @@ export default function IndianPreschoolHome({
                   </div>
                   <div>
                     <h3 className="text-xl font-extrabold text-white">Blooming Era Preschools</h3>
-                    <p className="text-xs font-bold text-[#DCE747]">Proudly Indian, Powerfully Global Preschool.</p>
+                    <p className="text-xs font-bold text-[#8ed727]">Proudly Indian, Powerfully Global Preschool.</p>
                   </div>
                 </div>
                 <p className="text-sm text-white/75 leading-relaxed max-w-md">
                   Where joyful childhood experiences meet meaningful learning, strong foundations and possibilities for the future.
                 </p>
-                <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 text-[#DCE747] text-xs font-black tracking-wider">
+                <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 text-[#8ed727] text-xs font-black tracking-wider">
                   <span>🌸 The Future Blooms Here.</span>
                 </div>
               </div>
@@ -2205,7 +2265,7 @@ export default function IndianPreschoolHome({
                 </h4>
                 <div className="grid grid-cols-2 gap-2.5 text-sm text-white/80 font-medium">
                   {["Home", "About Us", "Our Programmes", "Curriculum", "Admissions", "Gallery", "Franchise", "Blog", "Careers", "Contact"].map((link) => (
-                    <a key={link} href="#welcome" className="hover:text-[#DCE747] transition-colors">
+                    <a key={link} href="#welcome" className="hover:text-[#8ed727] transition-colors">
                       {link}
                     </a>
                   ))}
@@ -2216,11 +2276,11 @@ export default function IndianPreschoolHome({
                 <h4 className="text-xs font-black uppercase tracking-widest text-[#60C8D4] mb-4">
                   Connect With Us
                 </h4>
-                <a href="tel:+919647974093" className="flex items-center gap-2.5 text-sm text-white hover:text-[#DCE747] font-bold">
-                  <Phone className="w-4 h-4 text-[#DCE747]" />
+                <a href="tel:+919647974093" className="flex items-center gap-2.5 text-sm text-white hover:text-[#8ed727] font-bold">
+                  <Phone className="w-4 h-4 text-[#8ed727]" />
                   <span>+91 96479 74093</span>
                 </a>
-                <a href="mailto:info@bloomingera.com" className="flex items-center gap-2.5 text-sm text-white/80 hover:text-[#DCE747]">
+                <a href="mailto:info@bloomingera.com" className="flex items-center gap-2.5 text-sm text-white/80 hover:text-[#8ed727]">
                   <Mail className="w-4 h-4 text-[#60C8D4]" />
                   <span>info@bloomingera.com</span>
                 </a>
@@ -2232,7 +2292,7 @@ export default function IndianPreschoolHome({
 
             <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/60">
               <p>© 2026 Blooming Era Preschools. All rights reserved. • Proudly Indian, Powerfully Global.</p>
-              <p className="text-[#DCE747] font-bold">The Future Blooms Here.</p>
+              <p className="text-[#8ed727] font-bold">The Future Blooms Here.</p>
             </div>
           </div>
         </footer>
@@ -2266,7 +2326,7 @@ export default function IndianPreschoolHome({
               </div>
               <div className="p-6 flex items-center justify-between">
                 <div>
-                  <span className="text-xs font-black uppercase px-3 py-1 rounded-full bg-[#DCE747] text-[#091E3A]">
+                  <span className="text-xs font-black uppercase px-3 py-1 rounded-full bg-[#8ed727] text-[#091E3A]">
                     {lightboxImage.category}
                   </span>
                   <h4 className="text-xl font-extrabold text-[#091E3A] mt-2">{lightboxImage.title}</h4>
@@ -2306,7 +2366,7 @@ export default function IndianPreschoolHome({
               <div className="relative h-80 overflow-hidden">
                 <img src={activeVideoModal.image} alt={activeVideoModal.title} className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#091E3A] via-[#091E3A]/30 to-transparent flex flex-col justify-end p-6 text-white">
-                  <span className="inline-block w-fit px-3 py-1 rounded-full bg-[#DCE747] text-[#091E3A] text-xs font-black mb-2">
+                  <span className="inline-block w-fit px-3 py-1 rounded-full bg-[#8ed727] text-[#091E3A] text-xs font-black mb-2">
                     {activeVideoModal.tag} • {activeVideoModal.duration}
                   </span>
                   <h3 className="text-2xl font-extrabold">{activeVideoModal.title}</h3>

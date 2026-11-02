@@ -82,7 +82,7 @@ export default function FranchisePage({ onOpenTourModal }) {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             
             <div className="lg:col-span-6 space-y-6">
-              <span className="px-3.5 py-1 rounded-full bg-[#DCE747] text-[#091E3A] font-extrabold text-xs uppercase tracking-wider">
+              <span className="px-3.5 py-1 rounded-full bg-[#8ed727] text-[#091E3A] font-extrabold text-xs uppercase tracking-wider">
                 TRANSPARENT FRANCHISE INVESTMENT
               </span>
               <h2 className="text-3xl sm:text-5xl font-extrabold text-[#091E3A] tracking-tight">
@@ -112,26 +112,26 @@ export default function FranchisePage({ onOpenTourModal }) {
             </div>
 
             <div className="lg:col-span-6">
-              <div className="p-8 sm:p-10 rounded-[40px] bg-[#091E3A] text-white shadow-2xl border-2 border-[#DCE747] relative">
-                <Sparkles className="w-10 h-10 text-[#DCE747] mb-4" />
+              <div className="p-8 sm:p-10 rounded-[40px] bg-[#091E3A] text-white shadow-2xl border-2 border-[#8ed727] relative">
+                <Sparkles className="w-10 h-10 text-[#8ed727] mb-4" />
                 <h3 className="text-2xl sm:text-3xl font-extrabold text-white mb-4">
                   Why Entrepreneurs Choose Blooming Era
                 </h3>
                 <ul className="space-y-3.5 text-sm sm:text-base text-white/85 font-medium">
                   <li className="flex items-start gap-3">
-                    <CheckCircle2 className="w-5 h-5 text-[#DCE747] flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-[#8ed727] flex-shrink-0 mt-0.5" />
                     <span><b>Clear Market Differentiation:</b> India's standout No-Book experiential learning proposition.</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <CheckCircle2 className="w-5 h-5 text-[#DCE747] flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-[#8ed727] flex-shrink-0 mt-0.5" />
                     <span><b>Space-Optimised Setup:</b> Every square foot engineered for high learning utility.</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <CheckCircle2 className="w-5 h-5 text-[#DCE747] flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-[#8ed727] flex-shrink-0 mt-0.5" />
                     <span><b>Turnkey Educator Curriculum:</b> Day-by-day lesson roadmaps and multi-sensory kits.</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <CheckCircle2 className="w-5 h-5 text-[#DCE747] flex-shrink-0 mt-0.5" />
+                    <CheckCircle2 className="w-5 h-5 text-[#8ed727] flex-shrink-0 mt-0.5" />
                     <span><b>Continuous Central Marketing:</b> High-converting digital lead generation support.</span>
                   </li>
                 </ul>
@@ -166,7 +166,7 @@ export default function FranchisePage({ onOpenTourModal }) {
                 className="p-8 rounded-[36px] bg-white border-2 border-white shadow-xl flex flex-col justify-between"
               >
                 <div>
-                  <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-[#091E3A] bg-[#DCE747] px-3 py-1 rounded-full">
+                  <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-[#091E3A] bg-[#8ed727] px-3 py-1 rounded-full">
                     {p.tag}
                   </span>
                   <h3 className="text-2xl font-black text-[#091E3A] mt-4 mb-3">
@@ -184,12 +184,12 @@ export default function FranchisePage({ onOpenTourModal }) {
 
       {/* The 360° Support Ecosystem: 12 Pillars */}
       <section className="py-16 sm:py-24 px-4 sm:px-6 bg-[#091E3A] text-white relative overflow-hidden">
-        <div className="ambient-orb w-96 h-96 top-0 left-0 opacity-20" style={{ background: '#DCE747' }} />
+        <div className="ambient-orb w-96 h-96 top-0 left-0 opacity-20" style={{ background: '#8ed727' }} />
         <div className="ambient-orb w-96 h-96 bottom-0 right-0 opacity-20" style={{ background: '#60C8D4' }} />
 
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center max-w-3xl mx-auto mb-14">
-            <span className="px-4 py-1.5 rounded-full bg-[#DCE747] text-[#091E3A] text-xs font-black uppercase tracking-widest">
+            <span className="px-4 py-1.5 rounded-full bg-[#8ed727] text-[#091E3A] text-xs font-black uppercase tracking-widest">
               END-TO-END SUPPORT
             </span>
             <h2 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight mt-3 mb-4">
@@ -209,7 +209,7 @@ export default function FranchisePage({ onOpenTourModal }) {
               >
                 <div>
                   <div className="flex items-center justify-between mb-3">
-                    <span className="text-xl font-black font-mono text-[#DCE747]">
+                    <span className="text-xl font-black font-mono text-[#8ed727]">
                       {idx + 1 < 10 ? `0${idx + 1}` : idx + 1}
                     </span>
                     <span className="px-2 py-0.5 rounded text-[10px] font-bold uppercase bg-white/20 text-[#60C8D4]">
@@ -234,7 +234,7 @@ export default function FranchisePage({ onOpenTourModal }) {
         <div className="max-w-4xl mx-auto">
           
           <div className="text-center mb-10">
-            <span className="px-4 py-1.5 rounded-full bg-[#DCE747] text-[#091E3A] text-xs font-black uppercase tracking-widest">
+            <span className="px-4 py-1.5 rounded-full bg-[#8ed727] text-[#091E3A] text-xs font-black uppercase tracking-widest">
               BECOME A FRANCHISE PARTNER
             </span>
             <h2 className="text-3xl sm:text-5xl font-extrabold text-[#091E3A] tracking-tight mt-3 mb-3">

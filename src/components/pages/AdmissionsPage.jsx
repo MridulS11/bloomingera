@@ -19,7 +19,7 @@ const ADMISSION_STEPS = [
     title: "Visit",
     desc: "Experience the vibrant campus environment in person, observe active children, and meet our passionate educators.",
     icon: Calendar,
-    color: "#DCE747"
+    color: "#8ed727"
   },
   {
     step: "03",
@@ -33,7 +33,7 @@ const ADMISSION_STEPS = [
     title: "Begin",
     desc: "Complete the simple enrolment documentation, receive the Welcome Discovery Kit, and start your child's joyful journey.",
     icon: Sparkles,
-    color: "#DCE747"
+    color: "#8ed727"
   }
 ];
 
@@ -80,7 +80,7 @@ export default function AdmissionsPage({ onOpenTourModal }) {
       <section className="py-16 sm:py-24 px-4 sm:px-6 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-14">
-            <span className="px-4 py-1.5 rounded-full bg-[#DCE747] text-[#091E3A] text-xs font-black uppercase tracking-widest">
+            <span className="px-4 py-1.5 rounded-full bg-[#8ed727] text-[#091E3A] text-xs font-black uppercase tracking-widest">
               SIMPLE 4-STEP ADMISSION PROCESS
             </span>
             <h2 className="text-3xl sm:text-5xl font-extrabold text-[#091E3A] tracking-tight mt-3 mb-4">
@@ -105,7 +105,7 @@ export default function AdmissionsPage({ onOpenTourModal }) {
                       <span className="text-3xl font-black font-mono text-[#091E3A]">
                         {st.step}
                       </span>
-                      <div className="w-12 h-12 rounded-2xl bg-[#091E3A] text-[#DCE747] flex items-center justify-center shadow-md">
+                      <div className="w-12 h-12 rounded-2xl bg-[#091E3A] text-[#8ed727] flex items-center justify-center shadow-md">
                         <Icon className="w-6 h-6" style={{ color: st.color }} />
                       </div>
                     </div>
@@ -149,7 +149,7 @@ export default function AdmissionsPage({ onOpenTourModal }) {
                   <div className="h-44 rounded-2xl overflow-hidden mb-4">
                     <img src={p.photo} alt={p.name} className="w-full h-full object-cover" />
                   </div>
-                  <span className="px-3 py-1 rounded-full bg-[#091E3A] text-[#DCE747] text-xs font-black">
+                  <span className="px-3 py-1 rounded-full bg-[#091E3A] text-[#8ed727] text-xs font-black">
                     Age: {p.age}
                   </span>
                   <h3 className="text-xl font-extrabold text-[#091E3A] mt-2 mb-1">
@@ -170,21 +170,21 @@ export default function AdmissionsPage({ onOpenTourModal }) {
         <div className="max-w-4xl mx-auto">
           
           <div className="text-center mb-10">
-            <span className="px-4 py-1.5 rounded-full bg-[#DCE747] text-[#091E3A] text-xs font-black uppercase tracking-widest">
+            <span className="px-4 py-1.5 rounded-full bg-[#8ed727] text-[#091E3A] text-xs font-black uppercase tracking-widest">
               START THE CONVERSATION
             </span>
             <h2 className="text-3xl sm:text-5xl font-extrabold text-white mt-3 mb-2">
               Online Admission Enquiry
             </h2>
             <p className="text-sm sm:text-base text-white/80">
-              Submit your enquiry below or call our admissions desk directly at <a href="tel:+919647974093" className="text-[#DCE747] font-black underline">+91 96479 74093</a>
+              Submit your enquiry below or call our admissions desk directly at <a href="tel:+919647974093" className="text-[#8ed727] font-black underline">+91 96479 74093</a>
             </p>
           </div>
 
           <div className="p-8 sm:p-12 rounded-[40px] bg-white/10 backdrop-blur-2xl border-2 border-white/20 shadow-2xl">
             {submitted ? (
               <div className="text-center py-10 space-y-4">
-                <div className="w-16 h-16 rounded-full bg-[#DCE747] text-[#091E3A] flex items-center justify-center mx-auto text-2xl font-black">
+                <div className="w-16 h-16 rounded-full bg-[#8ed727] text-[#091E3A] flex items-center justify-center mx-auto text-2xl font-black">
                   ✓
                 </div>
                 <h3 className="text-2xl font-extrabold text-white">Thank You, {formData.parentName}!</h3>
@@ -209,7 +209,7 @@ export default function AdmissionsPage({ onOpenTourModal }) {
                       placeholder="e.g. Priya Sharma"
                       value={formData.parentName}
                       onChange={(e) => setFormData({ ...formData, parentName: e.target.value })}
-                      className="w-full px-4 py-3 rounded-2xl bg-white/90 text-[#091E3A] font-semibold text-sm focus:outline-none focus:ring-2 focus:ring-[#DCE747]"
+                      className="w-full px-4 py-3 rounded-2xl bg-white/90 text-[#091E3A] font-semibold text-sm focus:outline-none focus:ring-2 focus:ring-[#8ed727]"
                     />
                   </div>
                   <div>
@@ -220,7 +220,7 @@ export default function AdmissionsPage({ onOpenTourModal }) {
                       placeholder="e.g. +91 98765 43210"
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                      className="w-full px-4 py-3 rounded-2xl bg-white/90 text-[#091E3A] font-semibold text-sm focus:outline-none focus:ring-2 focus:ring-[#DCE747]"
+                      className="w-full px-4 py-3 rounded-2xl bg-white/90 text-[#091E3A] font-semibold text-sm focus:outline-none focus:ring-2 focus:ring-[#8ed727]"
                     />
                   </div>
                 </div>
@@ -233,7 +233,7 @@ export default function AdmissionsPage({ onOpenTourModal }) {
                       placeholder="name@example.com"
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                      className="w-full px-4 py-3 rounded-2xl bg-white/90 text-[#091E3A] font-semibold text-sm focus:outline-none focus:ring-2 focus:ring-[#DCE747]"
+                      className="w-full px-4 py-3 rounded-2xl bg-white/90 text-[#091E3A] font-semibold text-sm focus:outline-none focus:ring-2 focus:ring-[#8ed727]"
                     />
                   </div>
                   <div>
@@ -243,7 +243,7 @@ export default function AdmissionsPage({ onOpenTourModal }) {
                       placeholder="Child's first name"
                       value={formData.childName}
                       onChange={(e) => setFormData({ ...formData, childName: e.target.value })}
-                      className="w-full px-4 py-3 rounded-2xl bg-white/90 text-[#091E3A] font-semibold text-sm focus:outline-none focus:ring-2 focus:ring-[#DCE747]"
+                      className="w-full px-4 py-3 rounded-2xl bg-white/90 text-[#091E3A] font-semibold text-sm focus:outline-none focus:ring-2 focus:ring-[#8ed727]"
                     />
                   </div>
                   <div>
@@ -251,7 +251,7 @@ export default function AdmissionsPage({ onOpenTourModal }) {
                     <select
                       value={formData.programme}
                       onChange={(e) => setFormData({ ...formData, programme: e.target.value })}
-                      className="w-full px-4 py-3 rounded-2xl bg-white/90 text-[#091E3A] font-semibold text-sm focus:outline-none focus:ring-2 focus:ring-[#DCE747]"
+                      className="w-full px-4 py-3 rounded-2xl bg-white/90 text-[#091E3A] font-semibold text-sm focus:outline-none focus:ring-2 focus:ring-[#8ed727]"
                     >
                       <option>Playgroup (Ages 2–3)</option>
                       <option>Nursery (Ages 3–4)</option>
@@ -268,7 +268,7 @@ export default function AdmissionsPage({ onOpenTourModal }) {
                     placeholder="e.g. Bangalore, Mumbai, Delhi-NCR, Hyderabad"
                     value={formData.city}
                     onChange={(e) => setFormData({ ...formData, city: e.target.value })}
-                    className="w-full px-4 py-3 rounded-2xl bg-white/90 text-[#091E3A] font-semibold text-sm focus:outline-none focus:ring-2 focus:ring-[#DCE747]"
+                    className="w-full px-4 py-3 rounded-2xl bg-white/90 text-[#091E3A] font-semibold text-sm focus:outline-none focus:ring-2 focus:ring-[#8ed727]"
                   />
                 </div>
 

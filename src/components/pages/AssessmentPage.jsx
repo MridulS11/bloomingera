@@ -47,7 +47,7 @@ export default function AssessmentPage({ onOpenTourModal }) {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             
             <div className="lg:col-span-7 space-y-6">
-              <span className="px-3.5 py-1 rounded-full bg-[#DCE747]/30 text-[#091E3A] font-extrabold text-xs uppercase tracking-wider">
+              <span className="px-3.5 py-1 rounded-full bg-[#8ed727]/30 text-[#091E3A] font-extrabold text-xs uppercase tracking-wider">
                 NEP 2020 & PARAKH GUIDELINES
               </span>
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#091E3A] tracking-tight">
@@ -75,8 +75,8 @@ export default function AssessmentPage({ onOpenTourModal }) {
                   className="w-full h-[420px] object-cover"
                 />
               </div>
-              <div className="absolute -bottom-6 -right-6 p-5 rounded-3xl bg-[#091E3A] text-white shadow-xl max-w-xs border-2 border-[#DCE747]">
-                <div className="text-xs font-mono font-bold text-[#DCE747] uppercase">
+              <div className="absolute -bottom-6 -right-6 p-5 rounded-3xl bg-[#091E3A] text-white shadow-xl max-w-xs border-2 border-[#8ed727]">
+                <div className="text-xs font-mono font-bold text-[#8ed727] uppercase">
                   Our Philosophy
                 </div>
                 <div className="text-sm font-bold mt-1 text-white">
@@ -136,12 +136,12 @@ export default function AssessmentPage({ onOpenTourModal }) {
 
       {/* How We Document Learning: 6 Steps */}
       <section className="py-16 sm:py-24 px-4 sm:px-6 bg-[#091E3A] text-white relative overflow-hidden">
-        <div className="ambient-orb w-96 h-96 top-0 right-0 opacity-20" style={{ background: '#DCE747' }} />
+        <div className="ambient-orb w-96 h-96 top-0 right-0 opacity-20" style={{ background: '#8ed727' }} />
         <div className="ambient-orb w-96 h-96 bottom-0 left-0 opacity-20" style={{ background: '#60C8D4' }} />
 
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center max-w-3xl mx-auto mb-14">
-            <span className="px-4 py-1.5 rounded-full bg-[#DCE747] text-[#091E3A] text-xs font-black uppercase tracking-widest">
+            <span className="px-4 py-1.5 rounded-full bg-[#8ed727] text-[#091E3A] text-xs font-black uppercase tracking-widest">
               THE 6-STEP OBSERVATION CYCLE
             </span>
             <h2 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight mt-3 mb-4">
@@ -163,7 +163,7 @@ export default function AssessmentPage({ onOpenTourModal }) {
                 >
                   <div>
                     <div className="flex items-center justify-between mb-6">
-                      <span className="text-2xl font-black font-mono text-[#DCE747]">
+                      <span className="text-2xl font-black font-mono text-[#8ed727]">
                         {item.step}
                       </span>
                       <div className="w-12 h-12 rounded-2xl bg-white/15 text-[#60C8D4] flex items-center justify-center">

@@ -41,7 +41,7 @@ export default function IndianNavbar({ currentPage, onNavigate, onOpenTourModal 
       <div className="bg-[#091E3A] text-white text-xs py-2 px-3 sm:px-6 border-b border-white/10 relative z-50">
         <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
           <div className="flex items-center gap-2.5 flex-wrap">
-            <span className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-[#DCE747] text-[#091E3A] font-extrabold text-[11px] shadow-sm">
+            <span className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-[#8ed727] text-[#091E3A] font-extrabold text-[11px] shadow-sm">
               <motion.span
                 animate={{ rotate: 360 }}
                 transition={{ duration: 16, repeat: Infinity, ease: "linear" }}
@@ -62,7 +62,7 @@ export default function IndianNavbar({ currentPage, onNavigate, onOpenTourModal 
           <div className="flex items-center gap-3">
             <a
               href="tel:+919647974093"
-              className="inline-flex items-center gap-1.5 text-white hover:text-[#DCE747] font-bold transition-colors"
+              className="inline-flex items-center gap-1.5 text-white hover:text-[#8ed727] font-bold transition-colors"
             >
               <Phone className="w-3.5 h-3.5 text-[#60C8D4]" />
               <span>+91 96479 74093</span>
@@ -70,7 +70,7 @@ export default function IndianNavbar({ currentPage, onNavigate, onOpenTourModal 
             <span className="text-white/25 hidden sm:inline">|</span>
             <button
               onClick={() => handleNavClick('franchise')}
-              className="hidden md:inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-[#DCE747]/20 hover:bg-[#DCE747]/35 text-[#DCE747] font-bold text-[11px] border border-[#DCE747]/40 transition-all"
+              className="hidden md:inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-[#8ed727]/20 hover:bg-[#8ed727]/35 text-[#8ed727] font-bold text-[11px] border border-[#8ed727]/40 transition-all"
             >
               <span>Franchise Opportunity</span>
             </button>
@@ -88,7 +88,7 @@ export default function IndianNavbar({ currentPage, onNavigate, onOpenTourModal 
               onClick={() => handleNavClick('home')}
               className="flex items-center gap-3 text-left group"
             >
-              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full overflow-hidden border-2 border-[#DCE747] shadow-md bg-white p-0.5 group-hover:scale-105 transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] will-change-transform flex-shrink-0">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full overflow-hidden border-2 border-[#8ed727] shadow-md bg-white p-0.5 group-hover:scale-105 transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] will-change-transform flex-shrink-0">
                 <img
                   src="/logo.jpeg"
                   alt="Blooming Era Preschools"
@@ -100,7 +100,7 @@ export default function IndianNavbar({ currentPage, onNavigate, onOpenTourModal 
                   <span className="font-extrabold text-base sm:text-lg text-[#091E3A] tracking-tight">
                     Blooming Era
                   </span>
-                  <span className="px-2 py-0.5 text-[9px] sm:text-[10px] font-extrabold uppercase tracking-wider bg-[#DCE747] text-[#091E3A] rounded-full">
+                  <span className="px-2 py-0.5 text-[9px] sm:text-[10px] font-extrabold uppercase tracking-wider bg-[#8ed727] text-[#091E3A] rounded-full">
                     Preschools
                   </span>
                 </div>

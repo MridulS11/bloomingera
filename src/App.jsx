@@ -54,7 +54,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#F4F9FB] text-[#091E3A] relative selection:bg-[#DCE747] selection:text-[#091E3A] flex flex-col justify-between">
+    <div className="min-h-screen bg-[#F4F9FB] text-[#091E3A] relative selection:bg-[#8ed727] selection:text-[#091E3A] flex flex-col justify-between">
       
       {/* Top Scroll Progress Indicator */}
       <ScrollProgressBar />

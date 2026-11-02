@@ -48,7 +48,7 @@ export default function ContactPage({ onOpenTourModal }) {
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-14">
-            <span className="px-4 py-1.5 rounded-full bg-[#DCE747] text-[#091E3A] text-xs font-black uppercase tracking-widest">
+            <span className="px-4 py-1.5 rounded-full bg-[#8ed727] text-[#091E3A] text-xs font-black uppercase tracking-widest">
               HOW CAN WE HELP YOU TODAY?
             </span>
             <h2 className="text-3xl sm:text-5xl font-extrabold text-[#091E3A] tracking-tight mt-3 mb-4">
@@ -66,13 +66,13 @@ export default function ContactPage({ onOpenTourModal }) {
                   onClick={() => setInquiryType(type.id)}
                   className={`p-7 rounded-[32px] cursor-pointer transition-all border-2 flex flex-col justify-between ${
                     inquiryType === type.id
-                      ? 'bg-[#091E3A] text-white border-[#DCE747] shadow-xl scale-105'
+                      ? 'bg-[#091E3A] text-white border-[#8ed727] shadow-xl scale-105'
                       : 'bg-[#F4F9FB] text-[#091E3A] border-slate-200/80 hover:border-[#60C8D4]'
                   }`}
                 >
                   <div>
                     <div className={`w-12 h-12 rounded-2xl flex items-center justify-center mb-4 ${
-                      inquiryType === type.id ? 'bg-[#DCE747] text-[#091E3A]' : 'bg-[#091E3A] text-[#DCE747]'
+                      inquiryType === type.id ? 'bg-[#8ed727] text-[#091E3A]' : 'bg-[#091E3A] text-[#8ed727]'
                     }`}>
                       <Icon className="w-6 h-6" />
                     </div>
@@ -86,7 +86,7 @@ export default function ContactPage({ onOpenTourModal }) {
                     </p>
                   </div>
                   <div className={`mt-5 pt-3 border-t text-[11px] font-bold flex items-center gap-1 ${
-                    inquiryType === type.id ? 'border-white/20 text-[#DCE747]' : 'border-slate-300 text-[#091E3A]'
+                    inquiryType === type.id ? 'border-white/20 text-[#8ed727]' : 'border-slate-300 text-[#091E3A]'
                   }`}>
                     <span>{inquiryType === type.id ? 'Selected' : 'Select Channel'}</span>
                     <ArrowRight className="w-3 h-3" />
@@ -115,7 +115,7 @@ export default function ContactPage({ onOpenTourModal }) {
 
                 <div className="space-y-5 text-sm font-medium text-slate-700">
                   <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 rounded-2xl bg-[#091E3A] text-[#DCE747] flex items-center justify-center flex-shrink-0">
+                    <div className="w-10 h-10 rounded-2xl bg-[#091E3A] text-[#8ed727] flex items-center justify-center flex-shrink-0">
                       <Phone className="w-5 h-5" />
                     </div>
                     <div>
@@ -139,7 +139,7 @@ export default function ContactPage({ onOpenTourModal }) {
                   </div>
 
                   <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 rounded-2xl bg-[#091E3A] text-[#DCE747] flex items-center justify-center flex-shrink-0">
+                    <div className="w-10 h-10 rounded-2xl bg-[#091E3A] text-[#8ed727] flex items-center justify-center flex-shrink-0">
                       <Clock className="w-5 h-5" />
                     </div>
                     <div>
