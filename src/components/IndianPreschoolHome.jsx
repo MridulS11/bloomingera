@@ -11,19 +11,19 @@ import {
 
 // All 13 photos have been visually verified via read_file to depict ONLY preschool children / toys and ZERO adults
 const CHILD_PHOTOS = {
-  classroomDrawing: "https://images.unsplash.com/photo-1727473704274-3fbad0dbbd60?auto=format&fit=crop&w=1000&q=85",
-  toddlerLaughingBook: "https://images.unsplash.com/photo-1472162072942-cd5147eb3902?auto=format&fit=crop&w=900&q=85",
-  fingerPaintingGirl: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=900&q=85",
-  toddlerBeadMaze: "https://images.unsplash.com/photo-1485460535564-844461f37f77?auto=format&fit=crop&w=900&q=85",
-  toddlerAmazedBook: "https://images.unsplash.com/photo-1485546246426-74dc88dec4d9?auto=format&fit=crop&w=900&q=85",
-  natureExplorerChild: "https://images.unsplash.com/photo-1471342051519-9621d25323fc?auto=format&fit=crop&w=900&q=85",
-  woodenBlocksChild: "https://images.unsplash.com/photo-1489850846882-35ef10a4b480?auto=format&fit=crop&w=900&q=85",
-  playgroupFloorToddler: "https://images.unsplash.com/photo-1477511614005-61bd8b91d218?auto=format&fit=crop&w=900&q=85",
-  seniorKgFocusedChild: "https://images.unsplash.com/photo-1488254491307-10ca8fa174c8?auto=format&fit=crop&w=900&q=85",
-  woodenCameraToddler: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=900&q=85",
-  outdoorBallPlayKids: "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=900&q=85",
-  woodenTrainSet: "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=900&q=85",
-  coloredPencilsCraft: "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&w=900&q=85",
+  classroomDrawing: "https://images.unsplash.com/photo-1727473704274-3fbad0dbbd60?auto=format&fit=crop&w=1600&q=90",
+  toddlerLaughingBook: "https://images.unsplash.com/photo-1472162072942-cd5147eb3902?auto=format&fit=crop&w=1600&q=90",
+  fingerPaintingGirl: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=1200&q=90",
+  toddlerBeadMaze: "https://images.unsplash.com/photo-1485460535564-844461f37f77?auto=format&fit=crop&w=1600&q=90",
+  toddlerAmazedBook: "https://images.unsplash.com/photo-1485546246426-74dc88dec4d9?auto=format&fit=crop&w=1200&q=90",
+  natureExplorerChild: "https://images.unsplash.com/photo-1471342051519-9621d25323fc?auto=format&fit=crop&w=1200&q=90",
+  woodenBlocksChild: "https://images.unsplash.com/photo-1489850846882-35ef10a4b480?auto=format&fit=crop&w=1200&q=90",
+  playgroupFloorToddler: "https://images.unsplash.com/photo-1477511614005-61bd8b91d218?auto=format&fit=crop&w=1200&q=90",
+  seniorKgFocusedChild: "https://images.unsplash.com/photo-1488254491307-10ca8fa174c8?auto=format&fit=crop&w=1200&q=90",
+  woodenCameraToddler: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=1200&q=90",
+  outdoorBallPlayKids: "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=1200&q=90",
+  woodenTrainSet: "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=1200&q=90",
+  coloredPencilsCraft: "https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&w=1200&q=90",
 };
 
 // Flowy Wave SVG Divider Component
@@ -723,158 +723,215 @@ export default function IndianPreschoolHome({
 
         {/* Floating Animated Preschool Badges (Cloud / Star / Flower) */}
         <motion.div
-          animate={{ y: [0, -14, 0], rotate: [0, 6, 0] }}
-          transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-          className="hidden lg:flex absolute top-24 left-[7%] z-10 w-14 h-14 rounded-3xl glass-panel-elevated items-center justify-center text-2xl border-2 border-white shadow-lg"
+          animate={{ y: [0, -12, 0], rotate: [0, 4, 0] }}
+          transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}
+          className="hidden lg:flex absolute top-24 left-[7%] z-10 w-14 h-14 rounded-3xl glass-panel-elevated items-center justify-center text-2xl border-2 border-white shadow-lg will-change-transform select-none"
         >
           🌸
         </motion.div>
         <motion.div
-          animate={{ y: [0, 12, 0], rotate: [0, -8, 0] }}
-          transition={{ duration: 7, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-          className="hidden lg:flex absolute bottom-32 left-[45%] z-10 w-12 h-12 rounded-2xl glass-panel-elevated items-center justify-center text-xl border-2 border-white shadow-lg"
+          animate={{ y: [0, 12, 0], rotate: [0, -5, 0] }}
+          transition={{ duration: 8, repeat: Infinity, ease: "easeInOut", delay: 0.8 }}
+          className="hidden lg:flex absolute bottom-32 left-[45%] z-10 w-12 h-12 rounded-2xl glass-panel-elevated items-center justify-center text-xl border-2 border-white shadow-lg will-change-transform select-none"
         >
           🎨
         </motion.div>
 
         <div className="max-w-7xl mx-auto relative z-10">
-          {/* Slide Selector Pills */}
+          {/* Slide Selector Pills with Silky Sliding Layout Animation */}
           <div className="flex flex-wrap items-center justify-between gap-3 mb-8">
-            <div className="flex flex-wrap items-center gap-2">
-              {HERO_SLIDES.map((s, idx) => (
-                <button
-                  key={s.id}
-                  onClick={() => setActiveSlide(idx)}
-                  className={`px-4 py-2 rounded-full text-xs font-extrabold transition-all flex items-center gap-2 ${
-                    activeSlide === idx
-                      ? 'bg-[#091E3A] text-white shadow-lg scale-105'
-                      : 'glass-pill text-[#091E3A]/75 hover:text-[#091E3A] hover:bg-white'
-                  }`}
-                >
-                  <span
-                    className="w-2 h-2 rounded-full"
-                    style={{ backgroundColor: s.accent }}
-                  />
-                  <span>{s.tag}</span>
-                </button>
-              ))}
+            <div className="flex flex-wrap items-center gap-2 p-1 rounded-full glass-panel-elevated border border-white/80">
+              {HERO_SLIDES.map((s, idx) => {
+                const isActive = activeSlide === idx;
+                return (
+                  <button
+                    key={s.id}
+                    onClick={() => setActiveSlide(idx)}
+                    className={`relative px-4 py-2 rounded-full text-xs font-extrabold transition-colors duration-300 flex items-center gap-2 ${
+                      isActive ? 'text-white' : 'text-[#091E3A]/75 hover:text-[#091E3A]'
+                    }`}
+                  >
+                    {isActive && (
+                      <motion.div
+                        layoutId="activeHeroPill"
+                        transition={{ type: 'spring', stiffness: 350, damping: 30 }}
+                        className="absolute inset-0 bg-[#091E3A] rounded-full shadow-md"
+                      />
+                    )}
+                    <span
+                      className="relative z-10 w-2 h-2 rounded-full transition-transform duration-300"
+                      style={{ backgroundColor: s.accent }}
+                    />
+                    <span className="relative z-10">{s.tag}</span>
+                  </button>
+                );
+              })}
             </div>
 
             <div className="flex items-center gap-2">
-              <button
+              <motion.button
+                whileHover={{ scale: 1.08 }}
+                whileTap={{ scale: 0.92 }}
                 onClick={() => setActiveSlide((prev) => (prev - 1 + HERO_SLIDES.length) % HERO_SLIDES.length)}
                 className="w-9 h-9 rounded-full glass-panel-elevated flex items-center justify-center text-[#091E3A] hover:bg-[#DCE747] transition-colors"
                 aria-label="Previous Hero Slide"
               >
                 <ChevronLeft className="w-4 h-4" />
-              </button>
-              <button
+              </motion.button>
+              <motion.button
+                whileHover={{ scale: 1.08 }}
+                whileTap={{ scale: 0.92 }}
                 onClick={() => setActiveSlide((prev) => (prev + 1) % HERO_SLIDES.length)}
                 className="w-9 h-9 rounded-full glass-panel-elevated flex items-center justify-center text-[#091E3A] hover:bg-[#DCE747] transition-colors"
                 aria-label="Next Hero Slide"
               >
                 <ChevronRight className="w-4 h-4" />
-              </button>
+              </motion.button>
             </div>
           </div>
 
-          <AnimatePresence mode="wait">
-            <motion.div
-              key={currentSlide.id}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -20 }}
-              transition={{ duration: 0.55, ease: [0.16, 1, 0.3, 1] }}
-              className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center"
-            >
-              {/* Left Narrative Column */}
-              <div className="lg:col-span-6 space-y-6">
-                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-panel-elevated border-2 border-white shadow-md">
-                  <span
-                    className="w-2.5 h-2.5 rounded-full animate-ping"
-                    style={{ backgroundColor: currentSlide.accent }}
-                  />
-                  <span className="text-xs font-black uppercase tracking-widest text-[#091E3A]">
-                    {currentSlide.smallHeading}
-                  </span>
-                </div>
-
-                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#091E3A] tracking-tight leading-[1.08]">
-                  {currentSlide.headline.split('. ').map((part, i, arr) => (
-                    <span key={i} className="block">
-                      {i === 1 ? (
-                        <span className="relative inline-block mt-1">
-                          <span className="relative z-10">{part}{i < arr.length - 1 ? '.' : ''}</span>
-                          <span
-                            className="absolute bottom-1.5 left-0 right-0 h-4 -z-0 rounded-full opacity-75"
-                            style={{ backgroundColor: currentSlide.accent }}
-                          />
-                        </span>
-                      ) : (
-                        <span>{part}{i < arr.length - 1 ? '.' : ''}</span>
-                      )}
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+            {/* Left Narrative Column with Cinematic Motion-Blur Dissolve */}
+            <div className="lg:col-span-6">
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={currentSlide.id}
+                  initial={{ opacity: 0, y: 14, filter: "blur(6px)" }}
+                  animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+                  exit={{ opacity: 0, y: -10, filter: "blur(4px)" }}
+                  transition={{ duration: 0.42, ease: [0.22, 1, 0.36, 1] }}
+                  className="space-y-6 will-change-transform"
+                >
+                  <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full glass-panel-elevated border-2 border-white shadow-md">
+                    <div className="relative flex items-center justify-center w-2.5 h-2.5">
+                      <motion.span
+                        animate={{ scale: [1, 2.2, 1], opacity: [0.8, 0, 0.8] }}
+                        transition={{ duration: 2.2, repeat: Infinity, ease: "easeInOut" }}
+                        className="absolute inset-0 rounded-full"
+                        style={{ backgroundColor: currentSlide.accent }}
+                      />
+                      <span
+                        className="relative w-2 h-2 rounded-full"
+                        style={{ backgroundColor: currentSlide.accent }}
+                      />
+                    </div>
+                    <span className="text-xs font-black uppercase tracking-widest text-[#091E3A]">
+                      {currentSlide.smallHeading}
                     </span>
-                  ))}
-                </h1>
+                  </div>
 
-                <p className="text-base sm:text-lg text-[#091E3A]/80 font-medium leading-relaxed max-w-xl">
-                  {currentSlide.description}
-                </p>
+                  <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#091E3A] tracking-tight leading-[1.08]">
+                    {currentSlide.headline.split('. ').map((part, i, arr) => (
+                      <span key={i} className="block">
+                        {i === 1 ? (
+                          <span className="relative inline-block mt-1">
+                            <span className="relative z-10">{part}{i < arr.length - 1 ? '.' : ''}</span>
+                            <span
+                              className="absolute bottom-1.5 left-0 right-0 h-4 -z-0 rounded-full opacity-75"
+                              style={{ backgroundColor: currentSlide.accent }}
+                            />
+                          </span>
+                        ) : (
+                          <span>{part}{i < arr.length - 1 ? '.' : ''}</span>
+                        )}
+                      </span>
+                    ))}
+                  </h1>
 
-                {/* CTA Buttons */}
-                <div className="flex flex-wrap items-center gap-4 pt-2">
-                  <a
-                    href={currentSlide.primaryHref}
-                    className="btn-lime px-7 py-4 rounded-full text-sm font-extrabold flex items-center gap-2.5 border-2 border-white shadow-xl"
+                  <p className="text-base sm:text-lg text-[#091E3A]/80 font-medium leading-relaxed max-w-xl">
+                    {currentSlide.description}
+                  </p>
+
+                  {/* CTA Buttons */}
+                  <div className="flex flex-wrap items-center gap-4 pt-2">
+                    <motion.a
+                      whileHover={{ scale: 1.03, y: -2 }}
+                      whileTap={{ scale: 0.97 }}
+                      href={currentSlide.primaryHref}
+                      className="btn-lime px-7 py-4 rounded-full text-sm font-extrabold flex items-center gap-2.5 border-2 border-white shadow-xl"
+                    >
+                      <span>{currentSlide.primaryBtn}</span>
+                      <ArrowRight className="w-4 h-4 text-[#091E3A]" />
+                    </motion.a>
+
+                    <motion.button
+                      whileHover={{ scale: 1.03, y: -2 }}
+                      whileTap={{ scale: 0.97 }}
+                      onClick={onOpenTourModal}
+                      className="btn-turquoise px-7 py-4 rounded-full text-sm font-extrabold flex items-center gap-2 border-2 border-white shadow-lg"
+                    >
+                      <Calendar className="w-4 h-4 text-[#091E3A]" />
+                      <span>{currentSlide.secondaryBtn}</span>
+                    </motion.button>
+                  </div>
+
+                  {/* Indian Preschool Trust Highlights */}
+                  <div className="pt-4 grid grid-cols-3 gap-3 max-w-lg">
+                    <div className="glass-panel p-3.5 rounded-2xl border border-white/90 text-center">
+                      <p className="text-xs font-black text-[#091E3A]">No-Book Model</p>
+                      <p className="text-[11px] text-[#091E3A]/70 font-medium mt-0.5">Experiential FLN</p>
+                    </div>
+                    <div className="glass-panel p-3.5 rounded-2xl border border-white/90 text-center">
+                      <p className="text-xs font-black text-[#091E3A]">2+ to 5+ Years</p>
+                      <p className="text-[11px] text-[#091E3A]/70 font-medium mt-0.5">Playgroup to Sr. KG</p>
+                    </div>
+                    <div className="glass-panel p-3.5 rounded-2xl border border-white/90 text-center">
+                      <p className="text-xs font-black text-[#091E3A]">360° Growth</p>
+                      <p className="text-[11px] text-[#091E3A]/70 font-medium mt-0.5">8 Dimensions</p>
+                    </div>
+                  </div>
+                </motion.div>
+              </AnimatePresence>
+            </div>
+
+            {/* Right Organic Multi-Photo Preschool Collage - Silky Crossfade & Ambient Glow */}
+            <div className="lg:col-span-6 relative">
+              <div className="relative mx-auto max-w-lg lg:max-w-none">
+                {/* Ambient backlight glow */}
+                <div className="absolute -inset-4 rounded-[50px] bg-gradient-to-tr from-[#DCE747]/25 via-[#60C8D4]/25 to-[#DCE747]/15 blur-2xl opacity-75 -z-10 pointer-events-none" />
+
+                {/* Main Card Frame */}
+                <div className="relative rounded-[44px] p-3 sm:p-4 glass-panel-elevated border-4 border-white shadow-2xl">
+                  <div
+                    className="relative rounded-[34px] overflow-hidden h-[380px] sm:h-[450px] bg-[#091E3A]/10"
+                    style={{
+                      WebkitMaskImage: '-webkit-radial-gradient(white, black)',
+                      transform: 'translateZ(0)',
+                    }}
                   >
-                    <span>{currentSlide.primaryBtn}</span>
-                    <ArrowRight className="w-4 h-4 text-[#091E3A]" />
-                  </a>
-
-                  <button
-                    onClick={onOpenTourModal}
-                    className="btn-turquoise px-7 py-4 rounded-full text-sm font-extrabold flex items-center gap-2 border-2 border-white shadow-lg"
-                  >
-                    <Calendar className="w-4 h-4 text-[#091E3A]" />
-                    <span>{currentSlide.secondaryBtn}</span>
-                  </button>
-                </div>
-
-                {/* Indian Preschool Trust Highlights */}
-                <div className="pt-4 grid grid-cols-3 gap-3 max-w-lg">
-                  <div className="glass-panel p-3.5 rounded-2xl border border-white/90 text-center">
-                    <p className="text-xs font-black text-[#091E3A]">No-Book Model</p>
-                    <p className="text-[11px] text-[#091E3A]/70 font-medium mt-0.5">Experiential FLN</p>
-                  </div>
-                  <div className="glass-panel p-3.5 rounded-2xl border border-white/90 text-center">
-                    <p className="text-xs font-black text-[#091E3A]">2+ to 5+ Years</p>
-                    <p className="text-[11px] text-[#091E3A]/70 font-medium mt-0.5">Playgroup to Sr. KG</p>
-                  </div>
-                  <div className="glass-panel p-3.5 rounded-2xl border border-white/90 text-center">
-                    <p className="text-xs font-black text-[#091E3A]">360° Growth</p>
-                    <p className="text-[11px] text-[#091E3A]/70 font-medium mt-0.5">8 Dimensions</p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Right Organic Multi-Photo Preschool Collage */}
-              <div className="lg:col-span-6 relative">
-                {/* Animated Dashed Orbit Ring */}
-                <div className="relative mx-auto max-w-lg lg:max-w-none">
-                  <div className="relative rounded-[44px] p-3 sm:p-4 glass-panel-elevated border-4 border-white shadow-2xl">
-                    <div className="relative rounded-[34px] overflow-hidden h-[380px] sm:h-[450px]">
-                      <img
+                    {/* Silky Image Crossfade */}
+                    <AnimatePresence initial={false}>
+                      <motion.img
+                        key={currentSlide.mainImage}
                         src={currentSlide.mainImage}
                         alt={currentSlide.headline}
-                        className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                        initial={{ opacity: 0, scale: 1.05 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        exit={{ opacity: 0 }}
+                        transition={{ duration: 0.85, ease: [0.22, 1, 0.36, 1] }}
+                        className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 ease-out will-change-transform"
+                        loading="eager"
+                        decoding="async"
                       />
-                      <div className="absolute inset-0 bg-gradient-to-t from-[#091E3A]/65 via-transparent to-transparent" />
+                    </AnimatePresence>
 
-                      {/* Bottom Floating Glass Caption inside Hero Image */}
-                      <div className="absolute bottom-4 left-4 right-4 glass-panel-elevated p-4 rounded-3xl border border-white/95 bg-white/90 backdrop-blur-xl flex items-center justify-between gap-3">
+                    {/* Smooth multi-stop lighting gradient & subtle inner border */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#091E3A]/85 via-[#091E3A]/30 via-35% to-transparent pointer-events-none" />
+                    <div className="absolute inset-0 rounded-[34px] ring-1 ring-inset ring-white/30 pointer-events-none shadow-[inset_0_0_40px_rgba(9,30,58,0.15)]" />
+
+                    {/* Bottom Floating Glass Caption inside Hero Image */}
+                    <AnimatePresence mode="wait">
+                      <motion.div
+                        key={currentSlide.badgeTitle}
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -8 }}
+                        transition={{ duration: 0.35, ease: 'easeOut' }}
+                        className="absolute bottom-4 left-4 right-4 glass-panel-elevated p-4 rounded-3xl border border-white/95 bg-white/90 backdrop-blur-xl flex items-center justify-between gap-3 shadow-lg z-10"
+                      >
                         <div className="flex items-center gap-3">
                           <div
-                            className="w-11 h-11 rounded-2xl flex items-center justify-center text-[#091E3A] font-black shadow-sm"
+                            className="w-11 h-11 rounded-2xl flex items-center justify-center text-[#091E3A] font-black shadow-sm transition-colors duration-500"
                             style={{ backgroundColor: currentSlide.accent }}
                           >
                             <Sparkles className="w-5 h-5" />
@@ -887,39 +944,65 @@ export default function IndianPreschoolHome({
                         <span className="hidden sm:inline-block px-3 py-1 rounded-full text-[10px] font-black uppercase bg-[#091E3A] text-[#DCE747]">
                           Admissions Open
                         </span>
-                      </div>
-                    </div>
+                      </motion.div>
+                    </AnimatePresence>
                   </div>
+                </div>
 
-                  {/* Secondary Floating Circular Child Bubble (Top-Left) */}
-                  <motion.div
-                    animate={{ y: [0, -10, 0] }}
-                    transition={{ duration: 4.5, repeat: Infinity, ease: "easeInOut" }}
-                    className="hidden sm:block absolute -top-7 -left-7 w-28 h-28 sm:w-32 sm:h-32 rounded-full p-1.5 bg-white shadow-2xl border-4 border-[#DCE747] z-20"
-                  >
-                    <img
+                {/* Secondary Floating Circular Child Bubble (Top-Left) */}
+                <motion.div
+                  animate={{ y: [0, -12, 0], rotate: [0, 2, 0] }}
+                  transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
+                  className="hidden sm:block absolute -top-7 -left-7 w-28 h-28 sm:w-32 sm:h-32 rounded-full p-1.5 bg-white shadow-[0_16px_36px_rgba(9,30,58,0.22)] border-4 border-[#DCE747] z-20 overflow-hidden"
+                  style={{
+                    WebkitMaskImage: '-webkit-radial-gradient(white, black)',
+                    transform: 'translateZ(0)',
+                  }}
+                >
+                  <AnimatePresence initial={false}>
+                    <motion.img
+                      key={currentSlide.secondaryImage}
                       src={currentSlide.secondaryImage}
                       alt="Preschool child creative activity"
-                      className="w-full h-full object-cover rounded-full"
+                      initial={{ opacity: 0, scale: 1.08 }}
+                      animate={{ opacity: 1, scale: 1 }}
+                      exit={{ opacity: 0 }}
+                      transition={{ duration: 0.75, ease: [0.22, 1, 0.36, 1] }}
+                      className="absolute inset-1.5 w-[calc(100%-12px)] h-[calc(100%-12px)] object-cover rounded-full will-change-transform"
+                      loading="eager"
+                      decoding="async"
                     />
-                  </motion.div>
+                  </AnimatePresence>
+                </motion.div>
 
-                  {/* Tertiary Floating Circular Child Bubble (Bottom-Right) */}
-                  <motion.div
-                    animate={{ y: [0, 10, 0] }}
-                    transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 0.8 }}
-                    className="hidden sm:block absolute -bottom-7 -right-5 w-28 h-28 sm:w-32 sm:h-32 rounded-full p-1.5 bg-white shadow-2xl border-4 border-[#60C8D4] z-20"
-                  >
-                    <img
+                {/* Tertiary Floating Circular Child Bubble (Bottom-Right) */}
+                <motion.div
+                  animate={{ y: [0, 12, 0], rotate: [0, -2, 0] }}
+                  transition={{ duration: 6.5, repeat: Infinity, ease: 'easeInOut', delay: 0.6 }}
+                  className="hidden sm:block absolute -bottom-7 -right-5 w-28 h-28 sm:w-32 sm:h-32 rounded-full p-1.5 bg-white shadow-[0_16px_36px_rgba(9,30,58,0.22)] border-4 border-[#60C8D4] z-20 overflow-hidden"
+                  style={{
+                    WebkitMaskImage: '-webkit-radial-gradient(white, black)',
+                    transform: 'translateZ(0)',
+                  }}
+                >
+                  <AnimatePresence initial={false}>
+                    <motion.img
+                      key={currentSlide.tertiaryImage}
                       src={currentSlide.tertiaryImage}
                       alt="Preschool joyful child"
-                      className="w-full h-full object-cover rounded-full"
+                      initial={{ opacity: 0, scale: 1.08 }}
+                      animate={{ opacity: 1, scale: 1 }}
+                      exit={{ opacity: 0 }}
+                      transition={{ duration: 0.75, ease: [0.22, 1, 0.36, 1] }}
+                      className="absolute inset-1.5 w-[calc(100%-12px)] h-[calc(100%-12px)] object-cover rounded-full will-change-transform"
+                      loading="eager"
+                      decoding="async"
                     />
-                  </motion.div>
-                </div>
+                  </AnimatePresence>
+                </motion.div>
               </div>
-            </motion.div>
-          </AnimatePresence>
+            </div>
+          </div>
         </div>
       </section>
 

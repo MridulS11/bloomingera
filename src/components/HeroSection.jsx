@@ -115,17 +115,26 @@ export default function HeroSection({ onOpenTourModal }) {
           {/* Right Column: Spacious High-Resolution Preschool Photo Showcase */}
           <div className="lg:col-span-5 relative mt-6 lg:mt-0">
             <ScrollReveal variant="scaleUp" delay={0.15}>
-              <div className="relative rounded-[36px] overflow-hidden shadow-2xl border-4 border-white bg-white">
+              <div 
+                className="relative rounded-[36px] overflow-hidden shadow-2xl border-4 border-white bg-white"
+                style={{
+                  WebkitMaskImage: '-webkit-radial-gradient(white, black)',
+                  transform: 'translateZ(0)',
+                }}
+              >
                 
                 {/* Main Hero Preschool Children Photo (Genuine Preschool Children In Classroom Drawing, Zero Adults) */}
                 <img 
-                  src="https://images.unsplash.com/photo-1727473704274-3fbad0dbbd60?auto=format&fit=crop&w=800&q=80" 
+                  src="https://images.unsplash.com/photo-1727473704274-3fbad0dbbd60?auto=format&fit=crop&w=1600&q=90" 
                   alt="Joyful preschool children drawing with colored pencils in preschool classroom" 
-                  className="w-full h-[420px] sm:h-[480px] lg:h-[530px] object-cover hover:scale-105 transition-transform duration-700"
+                  className="w-full h-[420px] sm:h-[480px] lg:h-[530px] object-cover hover:scale-105 transition-transform duration-1000 ease-[cubic-bezier(0.25,1,0.5,1)] will-change-transform"
+                  loading="eager"
+                  decoding="async"
                 />
 
                 {/* Subtle gradient overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-brand-navy/70 via-transparent to-transparent pointer-events-none" />
+                <div className="absolute inset-0 bg-gradient-to-t from-brand-navy/85 via-brand-navy/30 via-35% to-transparent pointer-events-none" />
+                <div className="absolute inset-0 rounded-[36px] ring-1 ring-inset ring-white/30 pointer-events-none shadow-[inset_0_0_40px_rgba(9,30,58,0.15)]" />
 
                 {/* Overlaid Bottom Glass Banner */}
                 <div className="absolute bottom-5 left-5 right-5 glass-panel-elevated p-4 sm:p-5 rounded-2xl border border-white/90 shadow-xl bg-white/95">

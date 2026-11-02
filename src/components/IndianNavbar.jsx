@@ -42,7 +42,13 @@ export default function IndianNavbar({ currentPage, onNavigate, onOpenTourModal 
         <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
           <div className="flex items-center gap-2.5 flex-wrap">
             <span className="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-[#DCE747] text-[#091E3A] font-extrabold text-[11px] shadow-sm">
-              <Flower2 className="w-3.5 h-3.5 text-[#091E3A] animate-spin" style={{ animationDuration: '10s' }} />
+              <motion.span
+                animate={{ rotate: 360 }}
+                transition={{ duration: 16, repeat: Infinity, ease: "linear" }}
+                className="inline-flex items-center justify-center will-change-transform"
+              >
+                <Flower2 className="w-3.5 h-3.5 text-[#091E3A]" />
+              </motion.span>
               THE FUTURE BLOOMS HERE
             </span>
             <span className="text-white/90 font-semibold hidden sm:inline">
@@ -82,7 +88,7 @@ export default function IndianNavbar({ currentPage, onNavigate, onOpenTourModal 
               onClick={() => handleNavClick('home')}
               className="flex items-center gap-3 text-left group"
             >
-              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full overflow-hidden border-2 border-[#DCE747] shadow-md bg-white p-0.5 group-hover:scale-105 transition-transform flex-shrink-0">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full overflow-hidden border-2 border-[#DCE747] shadow-md bg-white p-0.5 group-hover:scale-105 transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] will-change-transform flex-shrink-0">
                 <img
                   src="/logo.jpeg"
                   alt="Blooming Era Preschools"
@@ -112,7 +118,7 @@ export default function IndianNavbar({ currentPage, onNavigate, onOpenTourModal 
                   <button
                     key={item.id}
                     onClick={() => handleNavClick(item.id)}
-                    className={`px-3 py-1.5 rounded-full text-xs font-bold transition-all ${
+                    className={`px-3 py-1.5 rounded-full text-xs font-bold transition-all duration-300 ease-out ${
                       isActive
                         ? 'bg-[#091E3A] text-white shadow-sm'
                         : 'text-[#091E3A]/80 hover:text-[#091E3A] hover:bg-[#60C8D4]/20'
@@ -126,29 +132,35 @@ export default function IndianNavbar({ currentPage, onNavigate, onOpenTourModal 
 
             {/* Actions & Mobile Hamburger */}
             <div className="flex items-center gap-2">
-              <button
+              <motion.button
+                whileHover={{ scale: 1.04, y: -1 }}
+                whileTap={{ scale: 0.96 }}
                 onClick={() => handleNavClick('franchise')}
-                className="hidden lg:inline-flex px-3.5 py-1.5 rounded-full text-xs font-extrabold text-[#091E3A] bg-[#60C8D4]/20 hover:bg-[#60C8D4]/35 border border-[#60C8D4]/50 transition-all"
+                className="hidden lg:inline-flex px-3.5 py-1.5 rounded-full text-xs font-extrabold text-[#091E3A] bg-[#60C8D4]/20 hover:bg-[#60C8D4]/35 border border-[#60C8D4]/50 transition-colors"
               >
                 Franchise @ ₹2.5L
-              </button>
+              </motion.button>
 
-              <button
+              <motion.button
+                whileHover={{ scale: 1.04, y: -1 }}
+                whileTap={{ scale: 0.96 }}
                 onClick={onOpenTourModal}
                 className="btn-lime px-3 sm:px-4 py-2 rounded-full text-xs font-black flex items-center gap-1.5 border-2 border-white shadow-md"
               >
                 <span>Book Visit</span>
                 <Sparkles className="w-3.5 h-3.5 text-[#091E3A]" />
-              </button>
+              </motion.button>
 
               {/* Hamburger Button on Tablet & Mobile */}
-              <button
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                 className="xl:hidden w-9 h-9 rounded-full bg-[#091E3A] text-white flex items-center justify-center shadow-md"
                 aria-label="Toggle navigation menu"
               >
                 {isMobileMenuOpen ? <X className="w-4 h-4" /> : <Menu className="w-4 h-4" />}
-              </button>
+              </motion.button>
             </div>
 
           </div>
@@ -158,9 +170,10 @@ export default function IndianNavbar({ currentPage, onNavigate, onOpenTourModal 
         <AnimatePresence>
           {isMobileMenuOpen && (
             <motion.div
-              initial={{ opacity: 0, y: -10 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -10 }}
+              initial={{ opacity: 0, y: -12, scale: 0.98 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              exit={{ opacity: 0, y: -8, scale: 0.98 }}
+              transition={{ duration: 0.28, ease: [0.16, 1, 0.3, 1] }}
               className="xl:hidden mt-2 max-w-7xl mx-auto rounded-3xl bg-white/95 backdrop-blur-2xl border-2 border-[#60C8D4]/40 shadow-2xl p-5"
             >
               <div className="grid grid-cols-2 gap-2">
